@@ -1,7 +1,7 @@
-Screen3 As screen:
+Screen4 As screen:
     ContentLanguage: ="Bajo"
 
-    Label1_10 As label:
+    Label1_16 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen3 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_11 As label:
+    Label1_15 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen3 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_12 As label:
+    Label1_17 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -33,7 +33,7 @@ Screen3 As screen:
         Y: =253
         ZIndex: =5
 
-    Label1_13 As label:
+    Label1_18 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -44,7 +44,7 @@ Screen3 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_7 As rectangle:
+    Rectangle2_9 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -54,13 +54,13 @@ Screen3 As screen:
         Y: =346
         ZIndex: =8
 
-    Arrow1_2 As arrow:
+    Arrow1_3 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_14 As label:
+    Label1_19 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -71,7 +71,7 @@ Screen3 As screen:
         Y: =471
         ZIndex: =10
 
-    Dropdown1_2 As dropdown:
+    Dropdown1_3 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -86,31 +86,29 @@ Screen3 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3_2 As label:
+    Label3_3 As label:
         Height: =68
-        Text: ="Trabajo deslocalizado"
+        Text: ="Disponibilidad del equipo técnico"
         Width: =208
         X: =207
         Y: =142
         ZIndex: =14
 
-    Label2_2 As label:
-        Text: ="RT-03"
+    Label2_3 As label:
+        Text: ="RT-04"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4_2 As label:
-        Height: =99
-        Text: |-
-            ="· El contrato es en consorcio con otras empresas con distinta metodologías de trabajo, o requiere de trabajo colaborativo entre varios centros de produccion con distintos horarios.
-            "
+    Label4_3 As label:
+        Height: =66
+        Text: ="· El equipo técnico necesario estará dispoible cuando y donde se le precise (incluidos los del socio, si lo hay)."
         Width: =513
         X: =54
         Y: =344
         ZIndex: =17
 
-    Rectangle2_8 As rectangle:
+    Rectangle2_10 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -120,12 +118,12 @@ Screen3 As screen:
         Y: =562
         ZIndex: =18
 
-    Image1_2 As image:
+    Image1_3 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    TextInput1_4 As text:
+    TextInput1_6 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -134,7 +132,7 @@ Screen3 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_5 As text:
+    TextInput1_7 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85

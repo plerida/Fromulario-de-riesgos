@@ -95,7 +95,7 @@ Screen2 As screen:
         ZIndex: =14
 
     Label2_1 As label:
-        Text: ="RT-01"
+        Text: ="RT-02"
         X: =51
         Y: =148
         ZIndex: =16
