@@ -1085,18 +1085,18 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen9_1"
+                  "fullyQualifiedName": "Screen10"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen9_1",
+                  "fullyQualifiedName": "Screen10",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "module": "Screen9_1",
-                "type": "Screen9_1"
+                "module": "Screen10",
+                "type": "Screen10"
               }
             }
           ],
@@ -1114,19 +1114,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen9_1.Dropdown1_9.AccessibleLabel"
+                  "fullyQualifiedName": "Screen10.Dropdown1_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen9_1.Dropdown1_9.AccessibleLabel",
+                  "fullyQualifiedName": "Screen10.Dropdown1_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen9_1",
-                "type": "Screen9_1.Dropdown1_9"
+                "module": "Screen10",
+                "type": "Screen10.Dropdown1_9"
               }
             }
           ],
@@ -1144,19 +1144,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen9_1.TextInput1_18.AccessibleLabel"
+                  "fullyQualifiedName": "Screen10.TextInput1_18.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen9_1.TextInput1_18.AccessibleLabel",
+                  "fullyQualifiedName": "Screen10.TextInput1_18.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen9_1",
-                "type": "Screen9_1.TextInput1_18"
+                "module": "Screen10",
+                "type": "Screen10.TextInput1_18"
               }
             }
           ],
@@ -1174,19 +1174,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen9_1.TextInput1_19.AccessibleLabel"
+                  "fullyQualifiedName": "Screen10.TextInput1_19.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen9_1.TextInput1_19.AccessibleLabel",
+                  "fullyQualifiedName": "Screen10.TextInput1_19.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen9_1",
-                "type": "Screen9_1.TextInput1_19"
+                "module": "Screen10",
+                "type": "Screen10.TextInput1_19"
               }
             }
           ],
