@@ -132,6 +132,7 @@ Screen1 As screen:
         ZIndex: =19
 
     TextInput1 As text:
+        Align: =Align.Center
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
