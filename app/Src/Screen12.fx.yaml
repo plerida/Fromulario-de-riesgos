@@ -15,7 +15,7 @@ Screen12 As screen:
         DisabledFill: =RGBA(191, 21, 37, 1)
         Fill: =RGBA(191, 21, 37, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
-        OnSelect: =If(project.Text = "1", Navigate(Screen1))
+        OnSelect: =If(money.Text = "1", Navigate(Screen1))
         Text: ="Botón"
         X: =607
         Y: =523
