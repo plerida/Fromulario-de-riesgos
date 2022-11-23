@@ -88,7 +88,7 @@ Screen3 As screen:
 
     Label3_2 As label:
         Height: =68
-        Text: ="Estimación del coste de nuestros servicios"
+        Text: ="Trabajo deslocalizado"
         Width: =208
         X: =207
         Y: =142
