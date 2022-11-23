@@ -88,24 +88,31 @@ Screen7 As screen:
 
     Label3_6 As label:
         Height: =68
-        Text: ="Seguridad"
+        Text: ="Recursos técnicos"
         Width: =208
         X: =207
         Y: =142
         ZIndex: =14
 
     Label2_6 As label:
-        Text: ="RT-06"
+        Text: ="RT-07"
         X: =51
         Y: =148
         ZIndex: =16
 
     Label4_6 As label:
-        Height: =99
-        Text: ="· Hay riesgos físicos en el emplazamiento que deban ser tenidos en cuenta?- Hay riesgos o especiales medidas a tener en cuenta en relacion con la seguridad de la información?"
+        Height: =295
+        Text: |-
+            ="· Disponemos de los medios y equipos adecuados para la realizacion del trabajo (software, comunicaciones, licencias, etc.). 
+            
+            En proyectos BIM. Existen requisitos de software ( versión y release) y hardware.
+            
+             En proyectos BIM. Existen requisitos en cunato a las condiciones de las infraestructuras IT.
+            
+            En proyectos BIM. Existen requisitos de seguridad e integridad de la información del proyecto."
         Width: =513
         X: =54
-        Y: =344
+        Y: =336
         ZIndex: =17
 
     Rectangle2_16 As rectangle:
