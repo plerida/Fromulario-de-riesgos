@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "systemform",
+    "MaxGetRowsCount": 500,
     "Name": "Formularios del sistema",
     "NativeCDSDataSourceInfoNameMapping": {
       "ancestorformid": "Formulario primario",
