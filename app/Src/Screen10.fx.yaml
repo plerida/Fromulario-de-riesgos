@@ -1,7 +1,7 @@
-Screen1 As screen:
+Screen10 As screen:
     ContentLanguage: ="Bajo"
 
-    Label1 As label:
+    Label1_46 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen1 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_1 As label:
+    Label1_45 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen1 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_2 As label:
+    Label1_47 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -33,7 +33,7 @@ Screen1 As screen:
         Y: =253
         ZIndex: =5
 
-    Label1_3 As label:
+    Label1_48 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -44,7 +44,7 @@ Screen1 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_3 As rectangle:
+    Rectangle2_21 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -54,13 +54,13 @@ Screen1 As screen:
         Y: =346
         ZIndex: =8
 
-    Arrow1 As arrow:
+    Arrow1_9 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_4 As label:
+    Label1_49 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -71,7 +71,7 @@ Screen1 As screen:
         Y: =471
         ZIndex: =10
 
-    Dropdown1 As dropdown:
+    Dropdown1_9 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -86,38 +86,38 @@ Screen1 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3 As label:
+    Label3_9 As label:
         Height: =68
-        Text: ="Claridad en el alcance de los trabajos"
+        Text: ="Planificación"
         Width: =208
         X: =207
-        Y: =142
+        Y: =134
         ZIndex: =14
 
-    Label2 As label:
-        Text: ="RT-01"
+    Label2_9 As label:
+        Text: ="RT-10"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4 As label:
-        Height: =393
+    Label4_9 As label:
+        Height: =383
         Text: |-
-            ="· Las expectativas del cliente están claras.· El alcance esta suficientemente definido para determinar el trabajo a realizar.
+            ="· Podemos cumplir los hitos de entrega establecidos, que son razonables.
             
-            · En nivel de detalle de los entregables está claro.. En proyectos BIM. Se ha definido el nivel de detalle LOD y LOI en función de las diferentes etapas de proyecto ( matriz de responsabilidades LOD/MEA).
+            · Se dispone de una planificacion a partir de la cual el motivo de los retrasos no imputables anosotros puede identificarse.
             
-            . En proyectos BIM. Existe lista de estandares y documentos para definir procesos y protocolos BIM que se han de aplicar al proyecto.
+            . En proyectos BIM:
             
-            · Existe responsabilidad de aprobación en seguridad frente a incendio (fire safety) ante Autoridad local y/o aclaración sobre necesidad de simulaciones o análisis de evacuación/humos (CFD)· 
+            - Existen los objetivos estrategicos del cliente en cuanto al uso de la información de los modelos (Objetivos BIM/Usos BIM).
             
-            Otros."
-        Width: =513
-        X: =56
-        Y: =343
+            - Existen requisitos en cuanto a la organización y la estructura de los modelos, implementación y  la gestión del CDE, colaboración, flujos de trabajo y  tipos de intercambios de información, etapas de trabajo, propósito y formatos requeridos."
+        Width: =550
+        X: =51
+        Y: =325
         ZIndex: =17
 
-    Rectangle2_4 As rectangle:
+    Rectangle2_22 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -127,13 +127,12 @@ Screen1 As screen:
         Y: =562
         ZIndex: =18
 
-    Image1 As image:
+    Image1_9 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    TextInput1 As text:
-        Align: =Align.Center
+    TextInput1_18 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -142,7 +141,7 @@ Screen1 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_1 As text:
+    TextInput1_19 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
