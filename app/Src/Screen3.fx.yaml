@@ -1,7 +1,7 @@
-Screen2 As screen:
+Screen3 As screen:
     ContentLanguage: ="Bajo"
 
-    Label1_5 As label:
+    Label1_10 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen2 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_6 As label:
+    Label1_11 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen2 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_7 As label:
+    Label1_12 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -33,7 +33,7 @@ Screen2 As screen:
         Y: =253
         ZIndex: =5
 
-    Label1_8 As label:
+    Label1_13 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -44,7 +44,7 @@ Screen2 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_5 As rectangle:
+    Rectangle2_7 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -54,13 +54,13 @@ Screen2 As screen:
         Y: =346
         ZIndex: =8
 
-    Arrow1_1 As arrow:
+    Arrow1_2 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_9 As label:
+    Label1_14 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -71,7 +71,7 @@ Screen2 As screen:
         Y: =471
         ZIndex: =10
 
-    Dropdown1_1 As dropdown:
+    Dropdown1_2 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -86,7 +86,7 @@ Screen2 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3_1 As label:
+    Label3_2 As label:
         Height: =68
         Text: ="Estimación del coste de nuestros servicios"
         Width: =208
@@ -94,24 +94,23 @@ Screen2 As screen:
         Y: =142
         ZIndex: =14
 
-    Label2_1 As label:
+    Label2_2 As label:
         Text: ="RT-01"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4_1 As label:
-        Height: =149
+    Label4_2 As label:
+        Height: =99
         Text: |-
-            ="· Se ha dispuesto de la informacion necesaria para realizar una estimacion del coste afinada.· Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.
-            
-            · Otros."
+            ="· El contrato es en consorcio con otras empresas con distinta metodologías de trabajo, o requiere de trabajo colaborativo entre varios centros de produccion con distintos horarios.
+            "
         Width: =513
         X: =54
         Y: =344
         ZIndex: =17
 
-    Rectangle2_6 As rectangle:
+    Rectangle2_8 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -121,12 +120,12 @@ Screen2 As screen:
         Y: =562
         ZIndex: =18
 
-    Image1_1 As image:
+    Image1_2 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    TextInput1_2 As text:
+    TextInput1_4 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -135,7 +134,7 @@ Screen2 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_3 As text:
+    TextInput1_5 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
