@@ -936,19 +936,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen12.money.AccessibleLabel"
+                  "fullyQualifiedName": "Screen12.project.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen12.money.AccessibleLabel",
+                  "fullyQualifiedName": "Screen12.project.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen12",
-                "type": "Screen12.money"
+                "type": "Screen12.project"
               }
             }
           ],
@@ -966,19 +966,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen12.project.AccessibleLabel"
+                  "fullyQualifiedName": "Screen12.money.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen12.project.AccessibleLabel",
+                  "fullyQualifiedName": "Screen12.money.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen12",
-                "type": "Screen12.project"
+                "type": "Screen12.money"
               }
             }
           ],
