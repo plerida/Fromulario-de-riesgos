@@ -1,0 +1,61 @@
+Screen12 As screen:
+
+    Rectangle1_1 As rectangle:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =497
+        Width: =477
+        X: =448
+        Y: =132
+        ZIndex: =7
+
+    Button1_1 As button:
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(191, 21, 37, 1)
+        Fill: =RGBA(191, 21, 37, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        Text: ="Botón"
+        X: =607
+        Y: =523
+        ZIndex: =8
+
+    Label5_2 As label:
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =20
+        Text: ="ID Proyecto"
+        Width: =176
+        X: =591
+        Y: =213
+        ZIndex: =9
+
+    TextInput2_2 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Default: ="Entrada de texto"
+        X: =519
+        Y: =263
+        ZIndex: =10
+
+    Label5_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =20
+        Text: ="Presupuesto"
+        Width: =176
+        X: =591
+        Y: =356
+        ZIndex: =11
+
+    TextInput2_3 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Default: ="Entrada de texto"
+        Fill: =RGBA(191, 21, 37, 0)
+        X: =519
+        Y: =406
+        ZIndex: =12
+
