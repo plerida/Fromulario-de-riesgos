@@ -15,8 +15,8 @@ Screen1 As screen:
         FontWeight: =FontWeight.Bold
         Size: =16
         Text: ="Riesgo"
-        X: =436
-        Y: =106
+        X: =207
+        Y: =100
         ZIndex: =4
 
     Label1_2 As label:
@@ -32,16 +32,6 @@ Screen1 As screen:
         X: =51
         Y: =253
         ZIndex: =5
-
-    Rectangle2_2 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =393
-        Width: =546
-        X: =40
-        Y: =343
-        ZIndex: =6
 
     Label1_3 As label:
         Color: =RGBA(33, 32, 32, 1)
@@ -92,41 +82,21 @@ Screen1 As screen:
         Tooltip: |
             =
         Width: =220
-        X: =829
-        Y: =146
-        ZIndex: =12
-
-    Rectangle2_1 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =68
-        Width: =219
-        X: =436
+        X: =619
         Y: =148
-        ZIndex: =13
+        ZIndex: =12
 
     Label3 As label:
         Height: =68
         Text: ="Claridad en el alcance de los trabajos"
         Width: =208
-        X: =441
-        Y: =210
+        X: =207
+        Y: =142
         ZIndex: =14
-
-    Rectangle2_5 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =68
-        Width: =219
-        X: =51
-        Y: =148
-        ZIndex: =15
 
     Label2 As label:
         Text: ="RT-01"
-        X: =62
+        X: =51
         Y: =148
         ZIndex: =16
 
