@@ -15,6 +15,7 @@ Screen13 As screen:
         DisabledColor: =RGBA(230, 230, 230, 1)
         Fill: =RGBA(255, 255, 255, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
+        OnSelect: =If(money.Text = "1", Navigate(Screen1))
         Text: ="Botón"
         X: =281
         Y: =553
@@ -50,12 +51,4 @@ Screen13 As screen:
         X: =265
         Y: =386
         ZIndex: =5
-
-    TextInput2_1 As text:
-        Align: =Align.Center
-        BorderColor: =RGBA(255, 255, 255, 1)
-        Default: ="Entrada de texto"
-        X: =193
-        Y: =436
-        ZIndex: =6
 
