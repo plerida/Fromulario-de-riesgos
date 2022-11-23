@@ -15,8 +15,8 @@ Screen2 As screen:
         FontWeight: =FontWeight.Bold
         Size: =16
         Text: ="Riesgo"
-        X: =436
-        Y: =106
+        X: =207
+        Y: =100
         ZIndex: =4
 
     Label1_7 As label:
@@ -33,16 +33,6 @@ Screen2 As screen:
         Y: =253
         ZIndex: =5
 
-    Rectangle2_8 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =145
-        Width: =546
-        X: =40
-        Y: =343
-        ZIndex: =6
-
     Label1_8 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
@@ -54,7 +44,7 @@ Screen2 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_9 As rectangle:
+    Rectangle2_5 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -92,53 +82,36 @@ Screen2 As screen:
         Tooltip: |
             =
         Width: =220
-        X: =829
-        Y: =146
-        ZIndex: =12
-
-    Rectangle2_7 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =68
-        Width: =219
-        X: =436
+        X: =619
         Y: =148
-        ZIndex: =13
+        ZIndex: =12
 
     Label3_1 As label:
         Height: =68
-        Text: ="Estimación del coste de nuestros servicios"
+        Text: ="Claridad en el alcance de los trabajos"
         Width: =208
-        X: =447
-        Y: =148
+        X: =207
+        Y: =142
         ZIndex: =14
 
-    Rectangle2_6 As rectangle:
-        BorderColor: =RGBA(251, 21, 37, 1)
-        BorderThickness: =1
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =68
-        Width: =219
-        X: =51
-        Y: =148
-        ZIndex: =15
-
     Label2_1 As label:
-        Text: ="RT-02"
-        X: =62
+        Text: ="RT-01"
+        X: =51
         Y: =148
         ZIndex: =16
 
     Label4_1 As label:
-        Height: =128
-        Text: ="· Se ha dispuesto de la informacion necesaria para realizar una estimacion del coste afinada.· Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.· Otros."
+        Height: =149
+        Text: |-
+            ="· Se ha dispuesto de la informacion necesaria para realizar una estimacion del coste afinada.· Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.
+            
+            · Otros."
         Width: =513
-        X: =56
-        Y: =360
+        X: =54
+        Y: =344
         ZIndex: =17
 
-    Rectangle2_10 As rectangle:
+    Rectangle2_6 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
