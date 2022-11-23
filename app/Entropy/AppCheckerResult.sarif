@@ -1055,19 +1055,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen13.TextInput2_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen13.money.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen13.TextInput2_1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen13.money.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen13",
-                "type": "Screen13.TextInput2_1"
+                "type": "Screen13.money"
               }
             }
           ],
