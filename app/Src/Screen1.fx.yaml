@@ -111,7 +111,7 @@ Screen1 As screen:
         Text: ="Claridad en el alcance de los trabajos"
         Width: =208
         X: =441
-        Y: =231
+        Y: =210
         ZIndex: =14
 
     Rectangle2_5 As rectangle:
