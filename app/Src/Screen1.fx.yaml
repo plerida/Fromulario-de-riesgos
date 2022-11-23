@@ -1,0 +1,181 @@
+Screen1 As screen:
+    ContentLanguage: ="Bajo"
+
+    Label1 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =16
+        Text: ="ID"
+        X: =51
+        Y: =106
+        ZIndex: =1
+
+    Label1_1 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =16
+        Text: ="Riesgo"
+        X: =436
+        Y: =106
+        ZIndex: =4
+
+    Label1_2 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =16
+        Text: |-
+            ="Consideraciones
+            (Aspectos a considerar a titulo orientativo)
+            "
+        Width: =498
+        X: =51
+        Y: =253
+        ZIndex: =5
+
+    Rectangle2_2 As rectangle:
+        BorderColor: =RGBA(251, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =393
+        Width: =546
+        X: =40
+        Y: =343
+        ZIndex: =6
+
+    Label1_3 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =57
+        Size: =16
+        Text: ="Comentarios"
+        Width: =182
+        X: =638
+        Y: =279
+        ZIndex: =7
+
+    Rectangle2_3 As rectangle:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =109
+        Width: =648
+        X: =627
+        Y: =346
+        ZIndex: =8
+
+    Arrow1 As arrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        X: =1224
+        Y: =702
+        ZIndex: =9
+
+    Label1_4 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =16
+        Text: ="Acciones de mitigación a trasladar al equipo de gestión"
+        Width: =658
+        X: =638
+        Y: =471
+        ZIndex: =10
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        ChevronBackground: =RGBA(191, 21, 37, 1)
+        Default: ="Bajo"
+        Height: =42
+        Items: =["Bajo", "Medio", "Alto"]
+        SelectionFill: =RGBA(191, 21, 37, 1)
+        Tooltip: |
+            =
+        Width: =220
+        X: =829
+        Y: =146
+        ZIndex: =12
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(251, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =68
+        Width: =219
+        X: =436
+        Y: =148
+        ZIndex: =13
+
+    Label3 As label:
+        Height: =68
+        Text: ="Claridad en el alcance de los trabajos"
+        Width: =208
+        X: =447
+        Y: =148
+        ZIndex: =14
+
+    Rectangle2_5 As rectangle:
+        BorderColor: =RGBA(251, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =68
+        Width: =219
+        X: =51
+        Y: =148
+        ZIndex: =15
+
+    Label2 As label:
+        Text: ="RT-01"
+        X: =62
+        Y: =148
+        ZIndex: =16
+
+    Label4 As label:
+        Height: =393
+        Text: |-
+            ="· Las expectativas del cliente están claras.· El alcance esta suficientemente definido para determinar el trabajo a realizar.
+            
+            · En nivel de detalle de los entregables está claro.. En proyectos BIM. Se ha definido el nivel de detalle LOD y LOI en función de las diferentes etapas de proyecto ( matriz de responsabilidades LOD/MEA).
+            
+            . En proyectos BIM. Existe lista de estandares y documentos para definir procesos y protocolos BIM que se han de aplicar al proyecto.
+            
+            · Existe responsabilidad de aprobación en seguridad frente a incendio (fire safety) ante Autoridad local y/o aclaración sobre necesidad de simulaciones o análisis de evacuación/humos (CFD)· 
+            Otros."
+        Width: =513
+        X: =56
+        Y: =343
+        ZIndex: =17
+
+    Rectangle2_4 As rectangle:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =109
+        Width: =648
+        X: =627
+        Y: =562
+        ZIndex: =18
+
+    Image1 As image:
+        Image: ='MicrosoftTeams-image'
+        X: =1175
+        ZIndex: =19
+
+    TextInput1 As text:
+        BorderThickness: =0
+        Default: ="Entrada de texto"
+        Height: =85
+        Width: =625
+        X: =638
+        Y: =358
+        ZIndex: =20
+
+    TextInput1_1 As text:
+        BorderThickness: =0
+        Default: ="Entrada de texto"
+        Height: =85
+        Width: =625
+        X: =638
+        Y: =574
+        ZIndex: =21
+
