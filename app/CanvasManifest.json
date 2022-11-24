@@ -109,6 +109,7 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
+    "Screen12",
     "Screen1",
     "Screen2",
     "Screen3",
@@ -118,8 +119,6 @@
     "Screen7",
     "Screen8",
     "Screen9",
-    "Screen10",
-    "Screen12",
-    "Screen13"
+    "Screen10"
   ]
 }

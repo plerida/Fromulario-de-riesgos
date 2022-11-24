@@ -36,7 +36,9 @@ Screen12 As screen:
     project As text:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
+        Color: =RGBA(149, 149, 149, 1)
         Default: ="Entrada de texto"
+        FontWeight: =FontWeight.Lighter
         X: =519
         Y: =263
         ZIndex: =10
