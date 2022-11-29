@@ -175,12 +175,12 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/29/2022 14:31:33",
+  "HeaderLastSavedDateTimeUTC": "11/29/2022 16:14:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "12ad71b8-3dae-4c99-ad8a-dca2fc367575": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/shared-onedriveforbu-2eed013e-5336-4576-bfab-d18b24ae56e5\"",
     "80f2ee1a-b212-47c2-97a2-913d0d719cac": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-7758f23a-e364-46a2-aee6-9a476dbc15fa\"",
-    "84aa5388-3f45-477a-ad5c-5c65c9fec5cf": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/BB2ADDB2AEB44FD396C121831962FC33-9D5D5782235ED132\"",
+    "84aa5388-3f45-477a-ad5c-5c65c9fec5cf": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/bb2addb2aeb44fd396c121831962fc33-9d5d5782235ed132\"",
     "8e832c73-4ca3-4017-b10a-02f98f71943f": "\"/providers/microsoft.powerapps/apis/shared_wordonlinebusiness/connections/shared-wordonlinebus-0b40817d-a532-4460-8dc2-18a1b376ae55\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
