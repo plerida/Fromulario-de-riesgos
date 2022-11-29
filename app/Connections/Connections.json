@@ -1,1 +1,59 @@
-{}
+{
+  "d1a47ac8-85fb-4f58-8c9e-2dc8e0be4cfc": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-87.westeurope.logic.azure.com:443/workflows/cb6513be3f924d59b4d7a52cfa134f62/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=FtwIWNzeJB0_1lBP_1tO1B6en6uTOAh5GpHPXBcRqxw",
+      "workflowEndpoint": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/d4954c547b6b4277af60e533bafcd02c-8b1e0f5ebf694aee84fcdea1098ad4f9/providers/Microsoft.Logic/workflows/bb2addb2-aeb4-4fd3-96c1-21831962fc33",
+      "workflowName": "bb2addb2-aeb4-4fd3-96c1-21831962fc33",
+      "workflowPath": "/subscriptions/34eedfbf-3e33-475d-b510-23537fba3dc9/resourceGroups/d4954c547b6b4277af60e533bafcd02c-8b1e0f5ebf694aee84fcdea1098ad4f9/providers/Microsoft.Logic/workflows/bb2addb2-aeb4-4fd3-96c1-21831962fc33"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "f0def665-f1b2-419e-8aaa-ac976441ce65": {
+          "value": "shared_sendmail"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "bb2addb2-aeb4-4fd3-96c1-21831962fc33"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sendmail": {
+          "value": "f0def665-f1b2-419e-8aaa-ac976441ce65"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "bb2addb2-aeb4-4fd3-96c1-21831962fc33"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "xxxxxxxx"
+    ],
+    "dependencies": {
+      "shared_sendmail": "f0def665-f1b2-419e-8aaa-ac976441ce65"
+    },
+    "dependents": [],
+    "id": "d1a47ac8-85fb-4f58-8c9e-2dc8e0be4cfc"
+  },
+  "f0def665-f1b2-419e-8aaa-ac976441ce65": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Correo",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/fixes/sendmail-fix-build/1.0.1613.3110/sendmail/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sendmail"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "d1a47ac8-85fb-4f58-8c9e-2dc8e0be4cfc"
+    ],
+    "id": "f0def665-f1b2-419e-8aaa-ac976441ce65"
+  }
+}
