@@ -1,7 +1,7 @@
 Screen11 As screen:
 
     Button2 As button:
-        OnSelect: =newFlow.Run()
+        OnSelect: =newFlow.Run(project.Text, money.Text)
         Text: ="Botón"
         X: =602
         Y: =332

@@ -175,12 +175,9 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/29/2022 12:17:59",
+  "HeaderLastSavedDateTimeUTC": "11/29/2022 12:32:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "3267dee9-2d9f-4306-aa55-97d0be4a0cd9": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/BB2ADDB2AEB44FD396C121831962FC33-9D5D5782235ED132\"",
-    "de98fa4b-2288-4964-987f-d0ed507ed758": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-7758f23a-e364-46a2-aee6-9a476dbc15fa\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "MicrosoftTeams-image": "0001.png"
@@ -191,21 +188,20 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "ComboBoxSample": 12,
-    "DropDownSample": 13,
-    "Formularios del sistema": 14,
-    "Formularios del sistema\\componentstate": 9,
-    "Formularios del sistema\\default.cds_systemform_views": 11,
-    "Formularios del sistema\\ismanaged": 2,
-    "Formularios del sistema\\systemform_formactivationstate": 7,
-    "Formularios del sistema\\systemform_formpresentation": 8,
-    "Formularios del sistema\\systemform_isairmerged": 4,
-    "Formularios del sistema\\systemform_isdefault": 3,
-    "Formularios del sistema\\systemform_isdesktopenabled": 5,
-    "Formularios del sistema\\systemform_istabletenabled": 1,
-    "Formularios del sistema\\systemform_objecttypecode": 6,
-    "Formularios del sistema\\systemform_type": 10,
-    "newFlow": 0
+    "ComboBoxSample": 11,
+    "DropDownSample": 12,
+    "Formularios del sistema": 13,
+    "Formularios del sistema\\componentstate": 8,
+    "Formularios del sistema\\default.cds_systemform_views": 10,
+    "Formularios del sistema\\ismanaged": 1,
+    "Formularios del sistema\\systemform_formactivationstate": 6,
+    "Formularios del sistema\\systemform_formpresentation": 7,
+    "Formularios del sistema\\systemform_isairmerged": 3,
+    "Formularios del sistema\\systemform_isdefault": 2,
+    "Formularios del sistema\\systemform_isdesktopenabled": 4,
+    "Formularios del sistema\\systemform_istabletenabled": 0,
+    "Formularios del sistema\\systemform_objecttypecode": 5,
+    "Formularios del sistema\\systemform_type": 9
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -232,7 +228,7 @@
     "Arrow1_8": 140,
     "Arrow1_9": 155,
     "Button1_1": 5,
-    "Button2": 0,
+    "Button2": 156,
     "Dropdown1": 11,
     "Dropdown1_1": 26,
     "Dropdown1_2": 41,
@@ -410,7 +406,7 @@
       "text": 22
     },
     "DeserializationLoadTime": 3.9529993,
-    "ErrorCount": 0
+    "ErrorCount": 4
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
