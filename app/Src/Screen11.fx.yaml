@@ -1,0 +1,9 @@
+Screen11 As screen:
+
+    Button2 As button:
+        OnSelect: =newFlow.Run()
+        Text: ="Botón"
+        X: =602
+        Y: =332
+        ZIndex: =1
+

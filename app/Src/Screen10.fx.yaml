@@ -56,7 +56,7 @@ Screen10 As screen:
 
     Arrow1_9 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =xxxxxxxx.Run()
+        OnSelect: =newFlow.Run()
         X: =1224
         Y: =702
         ZIndex: =9
