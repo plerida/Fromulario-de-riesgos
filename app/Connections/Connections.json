@@ -50,38 +50,6 @@
     ],
     "id": "ebd13fcf-68d9-4eca-bde1-29cb70103774"
   },
-  "f1a274d8-0b5a-48dd-beda-4be5cd062fc2": {
-    "connectionParameters": {
-      "workFlowCallbackUri": "https://prod-28.westeurope.logic.azure.com:443/workflows/45f33daaf1f54488807e8f4106233d31/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=q7uI62LwH66At_W90LbUbwDPDvKrPp_EUrfLPE9yKxI",
-      "workflowEndpoint": "/subscriptions/742257b5-f53c-4533-82d4-84ab3c24009d/resourceGroups/d4954c547b6b4277af60e533bafcd02c-c4bfc4f9248b492d9959c7ae01e5fc62/providers/Microsoft.Logic/workflows/b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb",
-      "workflowName": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb",
-      "workflowPath": "/subscriptions/742257b5-f53c-4533-82d4-84ab3c24009d/resourceGroups/d4954c547b6b4277af60e533bafcd02c-c4bfc4f9248b492d9959c7ae01e5fc62/providers/Microsoft.Logic/workflows/b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
-    },
-    "connectionRef": {
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
-        }
-      },
-      "parameterHintsV2": {
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "dataFlow"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "f1a274d8-0b5a-48dd-beda-4be5cd062fc2"
-  },
   "f39b9498-9b2a-4047-9d7f-6125dc05e432": {
     "connectionParameters": {
       "workFlowCallbackUri": "https://prod-87.westeurope.logic.azure.com:443/workflows/cb6513be3f924d59b4d7a52cfa134f62/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=FtwIWNzeJB0_1lBP_1tO1B6en6uTOAh5GpHPXBcRqxw",
