@@ -11,34 +11,21 @@ Screen11 As screen:
     Button1 As button:
         Height: =92
         OnSelect: |+
-            =Collect(colData, {
+            =ClearCollect(colData, {
                 money: money.Text, 
                 project: project.Text
                 }
-            )
+            );
             
-        Text: ="crear colección"
-        X: =291
-        Y: =247
+            Set(data, JSON(colData));
+            dataFlow.Run(data)
+            
+            
+            
+        Text: |-
+            ="Recoger datos (JSON)
+            "
+        X: =594
+        Y: =307
         ZIndex: =2
-
-    Button1_2 As button:
-        Height: =92
-        OnSelect: |+
-            = Set(data, JSON(colData))
-            
-        Text: ="convertir a JSON"
-        X: =548
-        Y: =247
-        ZIndex: =3
-
-    Button1_3 As button:
-        Height: =92
-        OnSelect: |+
-            =dataFlow.Run(data)
-            
-        Text: ="ejecutar flujo recogida de datos"
-        X: =802
-        Y: =247
-        ZIndex: =4
 
