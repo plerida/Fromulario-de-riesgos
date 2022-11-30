@@ -12,7 +12,8 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "f39b9498-9b2a-4047-9d7f-6125dc05e432"
+      "f39b9498-9b2a-4047-9d7f-6125dc05e432",
+      "d1fc6681-f9ee-4597-ae87-af08af85ae9c"
     ],
     "id": "6b8af1fe-1593-4f10-9e7e-7d6d9b7ec9f1"
   },
@@ -32,6 +33,46 @@
       "f39b9498-9b2a-4047-9d7f-6125dc05e432"
     ],
     "id": "cd41516b-fa7d-49ca-b644-22d7d37d2623"
+  },
+  "d1fc6681-f9ee-4597-ae87-af08af85ae9c": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-28.westeurope.logic.azure.com:443/workflows/45f33daaf1f54488807e8f4106233d31/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=q7uI62LwH66At_W90LbUbwDPDvKrPp_EUrfLPE9yKxI",
+      "workflowEndpoint": "/subscriptions/742257b5-f53c-4533-82d4-84ab3c24009d/resourceGroups/d4954c547b6b4277af60e533bafcd02c-c4bfc4f9248b492d9959c7ae01e5fc62/providers/Microsoft.Logic/workflows/b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb",
+      "workflowName": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb",
+      "workflowPath": "/subscriptions/742257b5-f53c-4533-82d4-84ab3c24009d/resourceGroups/d4954c547b6b4277af60e533bafcd02c-c4bfc4f9248b492d9959c7ae01e5fc62/providers/Microsoft.Logic/workflows/b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "6b8af1fe-1593-4f10-9e7e-7d6d9b7ec9f1": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "6b8af1fe-1593-4f10-9e7e-7d6d9b7ec9f1"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "b9d95fa0-a565-411b-bc4b-dbbd97fe1dfb"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "dataFlow"
+    ],
+    "dependencies": {
+      "shared_office365": "6b8af1fe-1593-4f10-9e7e-7d6d9b7ec9f1"
+    },
+    "dependents": [],
+    "id": "d1fc6681-f9ee-4597-ae87-af08af85ae9c"
   },
   "ebd13fcf-68d9-4eca-bde1-29cb70103774": {
     "connectionParameters": {
