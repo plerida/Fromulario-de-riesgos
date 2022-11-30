@@ -1,7 +1,15 @@
 Screen11 As screen:
 
     Button2 As button:
-        OnSelect: =newFlow.Run(money.Text, project.Text)
+        OnSelect: |+
+            =Collect(
+                ProductList,
+                {
+                    Product: money.Text,
+                    Color: project.Selected.Value
+                }
+            ),
+            
         Text: ="Botón"
         X: =602
         Y: =332
