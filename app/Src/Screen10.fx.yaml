@@ -133,7 +133,7 @@ Screen10 As screen:
         X: =1175
         ZIndex: =19
 
-    TextInput1_18 As text:
+    comments_10 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -142,7 +142,7 @@ Screen10 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_19 As text:
+    actions_10 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85

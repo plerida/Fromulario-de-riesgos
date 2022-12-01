@@ -1,24 +1,20 @@
 Screen11 As screen:
 
-    Button2 As button:
-        OnSelect: |
-            =newFlow.Run(money.Text, project.Text)
-        Text: ="mandar correo"
-        X: =594
-        Y: =615
-        ZIndex: =1
-
     Button1 As button:
         Height: =92
         OnSelect: |+
             =ClearCollect(colData, {
                 money: money.Text, 
-                project: project.Text
+                project: project.Text,
+                comments: [comments_1.Text, comments_2.Text, comments_3.Text, comments_4.Text, comments_5.Text, comments_6.Text, comments_7.Text, comments_8.Text, comments_9.Text, comments_10.Text]
                 }
             );
             
             Set(data, JSON(colData));
             dataFlow.Run(data)
+            
+            
+            
             
             
             

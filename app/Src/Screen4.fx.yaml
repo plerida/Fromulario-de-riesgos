@@ -123,7 +123,7 @@ Screen4 As screen:
         X: =1175
         ZIndex: =19
 
-    TextInput1_6 As text:
+    comments_4 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -132,7 +132,7 @@ Screen4 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_7 As text:
+    actions_4 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85

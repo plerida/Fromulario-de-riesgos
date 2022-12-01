@@ -130,7 +130,7 @@ Screen7 As screen:
         X: =1175
         ZIndex: =19
 
-    TextInput1_12 As text:
+    comments_7 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
@@ -139,7 +139,7 @@ Screen7 As screen:
         Y: =358
         ZIndex: =20
 
-    TextInput1_13 As text:
+    actions_7 As text:
         BorderThickness: =0
         Default: ="Entrada de texto"
         Height: =85
