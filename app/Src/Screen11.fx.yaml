@@ -6,7 +6,8 @@ Screen11 As screen:
             =ClearCollect(colData, {
                 money: money.Text, 
                 project: project.Text,
-                comments: [comments_1.Text, comments_2.Text, comments_3.Text, comments_4.Text, comments_5.Text, comments_6.Text, comments_7.Text, comments_8.Text, comments_9.Text, comments_10.Text]
+                comments: [comments_1.Text, comments_2.Text, comments_3.Text, comments_4.Text, comments_5.Text, comments_6.Text, comments_7.Text, comments_8.Text, comments_9.Text, comments_10.Text],
+                   actions: [actions_1.Text, actions_2.Text, actions_3.Text, actions_4.Text, actions_5.Text,actions_6.Text, actions_7.Text, actions_8.Text, actions_9.Text, actions_10.Text]
                 }
             );
             
