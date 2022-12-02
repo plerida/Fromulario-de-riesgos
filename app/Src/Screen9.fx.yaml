@@ -71,7 +71,7 @@ Screen9 As screen:
         Y: =471
         ZIndex: =10
 
-    Dropdown1_8 As dropdown:
+    risk_9 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)

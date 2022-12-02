@@ -5,9 +5,67 @@ Screen11 As screen:
         OnSelect: |+
             =ClearCollect(colData, {
                 money: money.Text, 
-                project: project.Text,
-                comments: [comments_1.Text, comments_2.Text, comments_3.Text, comments_4.Text, comments_5.Text, comments_6.Text, comments_7.Text, comments_8.Text, comments_9.Text, comments_10.Text],
-                   actions: [actions_1.Text, actions_2.Text, actions_3.Text, actions_4.Text, actions_5.Text,actions_6.Text, actions_7.Text, actions_8.Text, actions_9.Text, actions_10.Text]
+                project: project.Text, 
+                form1: {
+                    id: "RT-01",
+                    risk: risk_1.Selected.Value,
+                    comment: comments_1.Text,
+                    actions: actions_1.Text
+                    },
+                form2: {
+                    id: "RT-02",
+                    risk: risk_2.Selected.Value,
+                    comment: comments_2.Text,
+                    actions: actions_2.Text
+                    },
+                form3: {
+                    id: "RT-03",
+                    risk: risk_3.Selected.Value,
+                    comment: comments_3.Text,
+                    actions: actions_3.Text
+                    },
+                form4: {
+                    id: "RT-04",
+                    risk: risk_4.Selected.Value,
+                    comment: comments_4.Text,
+                    actions: actions_4.Text
+                    },
+                form5: {
+                    id: "RT-05",
+                    risk: risk_5.Selected.Value,
+                    comment: comments_5.Text,
+                    actions: actions_5.Text
+                    },
+                form6: {
+                    id: "RT-06",
+                    risk: risk_6.Selected.Value,
+                    comment: comments_6.Text,
+                    actions: actions_6.Text
+                    },
+                form7: {
+                    id: "RT-07",
+                    risk: risk_7.Selected.Value,
+                    comment: comments_7.Text,
+                    actions: actions_7.Text
+                    },
+                form8: {
+                    id: "RT-08",
+                    risk: risk_8.Selected.Value,
+                    comment: comments_8.Text,
+                    actions: actions_8.Text
+                    },
+                form9: {
+                    id: "RT-09",
+                    risk: risk_9.Selected.Value,
+                    comment: comments_9.Text,
+                    actions: actions_9.Text
+                    },
+                form10: {
+                    id: "RT-010",
+                    risk: risk_10.Selected.Value,
+                    comment: comments_10.Text,
+                    actions: actions_10.Text
+                    }
                 }
             );
             
