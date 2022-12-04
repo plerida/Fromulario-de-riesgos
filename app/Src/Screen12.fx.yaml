@@ -1,4 +1,6 @@
 Screen12 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
 
     Rectangle1_1 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
