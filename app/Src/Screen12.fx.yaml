@@ -3,11 +3,11 @@ Screen12 As screen:
     Rectangle1_1 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =2
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =497
+        Fill: =RGBA(242, 242, 242, 1)
+        Height: =572
         Width: =477
-        X: =448
-        Y: =132
+        X: =455
+        Y: =161
         ZIndex: =7
 
     Button1_1 As button:
@@ -16,21 +16,24 @@ Screen12 As screen:
         Fill: =RGBA(191, 21, 37, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
         OnSelect: =If(Value(money.Text) >= 500000, Navigate(Screen1), If(Value(money.Text) < 500000, Navigate(Screen3)))
-        Text: ="Botón"
-        X: =607
-        Y: =523
+        Text: |-
+            ="Aceptar
+            "
+        X: =614
+        Y: =628
         ZIndex: =8
 
     Label5_2 As label:
+        Align: =Align.Center
         DisabledBorderColor: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =50
         Size: =20
-        Text: ="ID Proyecto"
-        Width: =176
-        X: =591
-        Y: =213
+        Text: ="Código de la oferta"
+        Width: =320
+        X: =526
+        Y: =192
         ZIndex: =9
 
     project As text:
@@ -39,8 +42,8 @@ Screen12 As screen:
         Color: =RGBA(149, 149, 149, 1)
         Default: ="Entrada de texto"
         FontWeight: =FontWeight.Lighter
-        X: =519
-        Y: =263
+        X: =526
+        Y: =249
         ZIndex: =10
 
     Label5_3 As label:
@@ -49,17 +52,59 @@ Screen12 As screen:
         Size: =20
         Text: ="Presupuesto"
         Width: =176
-        X: =591
-        Y: =356
+        X: =598
+        Y: =321
         ZIndex: =11
 
     money As text:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: ="Entrada de texto"
-        Fill: =RGBA(191, 21, 37, 0)
         Format: =TextFormat.Number
-        X: =519
-        Y: =406
+        X: =526
+        Y: =378
         ZIndex: =12
+
+    Label5_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =20
+        Text: ="Email del DG"
+        Width: =176
+        X: =598
+        Y: =449
+        ZIndex: =13
+
+    email_dg As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Default: ="Entrada de texto"
+        Format: =TextFormat.Number
+        X: =526
+        Y: =505
+        ZIndex: =14
+
+    Label6 As label:
+        Align: =Align.Center
+        Color: =RGBA(191, 21, 37, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =161
+        Size: =26
+        Text: ="Generación del TPG-01-FX para Análisis de Riesgos"
+        Width: =477
+        X: =455
+        ZIndex: =15
+
+    Image2 As image:
+        Image: ='adt-logo'
+        X: =1104
+        Y: =633
+        ZIndex: =16
+
+    Image3 As image:
+        Image: =logotypsa
+        X: =1232
+        Y: =633
+        ZIndex: =17
 
