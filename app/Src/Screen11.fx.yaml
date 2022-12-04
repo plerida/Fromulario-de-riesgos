@@ -78,7 +78,7 @@ Screen11 As screen:
             
             
         Text: |-
-            ="Recoger datos (JSON)
+            ="ENVIAR
             "
         X: =594
         Y: =307
