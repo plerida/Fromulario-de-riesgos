@@ -56,6 +56,7 @@ Screen5 As screen:
 
     Arrow1_4 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(Screen6)
         X: =1224
         Y: =702
         ZIndex: =9
