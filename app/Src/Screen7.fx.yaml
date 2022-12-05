@@ -149,3 +149,10 @@ Screen7 As screen:
         Y: =574
         ZIndex: =21
 
+    Arrow2_6 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(Screen4)
+        X: =1147
+        Y: =702
+        ZIndex: =22
+
