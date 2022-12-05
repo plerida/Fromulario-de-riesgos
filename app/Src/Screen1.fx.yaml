@@ -30,7 +30,7 @@ Screen1 As screen:
             "
         Width: =498
         X: =51
-        Y: =253
+        Y: =232
         ZIndex: =5
 
     Label1_3 As label:
@@ -41,7 +41,7 @@ Screen1 As screen:
         Text: ="Comentarios"
         Width: =182
         X: =638
-        Y: =279
+        Y: =258
         ZIndex: =7
 
     Rectangle2_3 As rectangle:
@@ -51,7 +51,7 @@ Screen1 As screen:
         Height: =109
         Width: =648
         X: =627
-        Y: =346
+        Y: =325
         ZIndex: =8
 
     Arrow1 As arrow:
@@ -69,7 +69,7 @@ Screen1 As screen:
         Text: ="Acciones de mitigación a trasladar al equipo de gestión"
         Width: =658
         X: =638
-        Y: =471
+        Y: =450
         ZIndex: =10
 
     risk_1 As dropdown:
@@ -115,7 +115,7 @@ Screen1 As screen:
             Otros."
         Width: =513
         X: =56
-        Y: =343
+        Y: =322
         ZIndex: =17
 
     Rectangle2_4 As rectangle:
@@ -125,7 +125,7 @@ Screen1 As screen:
         Height: =109
         Width: =648
         X: =627
-        Y: =562
+        Y: =541
         ZIndex: =18
 
     Image1 As image:
@@ -139,7 +139,7 @@ Screen1 As screen:
         Height: =85
         Width: =625
         X: =638
-        Y: =358
+        Y: =337
         ZIndex: =20
 
     actions_1 As text:
@@ -148,6 +148,6 @@ Screen1 As screen:
         Height: =85
         Width: =625
         X: =638
-        Y: =574
+        Y: =553
         ZIndex: =21
 

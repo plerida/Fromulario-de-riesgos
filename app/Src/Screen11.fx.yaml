@@ -82,8 +82,8 @@ Screen11 As screen:
         Text: |-
             ="Enviar
             "
-        X: =596
-        Y: =320
+        X: =595
+        Y: =476
         ZIndex: =2
 
     Image2_1 As image:
@@ -97,4 +97,29 @@ Screen11 As screen:
         X: =1232
         Y: =633
         ZIndex: =4
+
+    Label6_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(191, 21, 37, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =161
+        Size: =26
+        Text: ="Generación del TPG-01-FX para Análisis de Riesgos"
+        Width: =477
+        X: =437
+        Y: =36
+        ZIndex: =5
+
+    Label5 As label:
+        Align: =Align.Center
+        Height: =229
+        Size: =20
+        Text: |-
+            ="Al pulsar el botón de enviar, se enviará un correo al Director General que ha indicado con el documento de Análisis de Riesgos para su verificación. También se enviará a su correo personal una copia del mismo.
+            Muchas gracias y cualquier duda puedes consultar a adt@typsa.es"
+        Width: =727
+        X: =312
+        Y: =197
+        ZIndex: =6
 
