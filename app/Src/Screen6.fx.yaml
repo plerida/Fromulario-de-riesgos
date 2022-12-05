@@ -125,7 +125,7 @@ Screen6 As screen:
 
     comments_6 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638
@@ -134,7 +134,7 @@ Screen6 As screen:
 
     actions_6 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638

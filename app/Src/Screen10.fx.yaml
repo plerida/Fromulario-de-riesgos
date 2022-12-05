@@ -135,7 +135,7 @@ Screen10 As screen:
 
     comments_10 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638
@@ -144,7 +144,7 @@ Screen10 As screen:
 
     actions_10 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638

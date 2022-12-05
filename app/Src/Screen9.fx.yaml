@@ -129,7 +129,7 @@ Screen9 As screen:
 
     comments_9 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638
@@ -138,7 +138,7 @@ Screen9 As screen:
 
     actions_9 As text:
         BorderThickness: =0
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =85
         Width: =625
         X: =638

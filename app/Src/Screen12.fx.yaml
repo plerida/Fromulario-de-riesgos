@@ -42,7 +42,7 @@ Screen12 As screen:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Color: =RGBA(149, 149, 149, 1)
-        Default: ="Entrada de texto"
+        Default: =""
         FontWeight: =FontWeight.Lighter
         X: =526
         Y: =249
@@ -61,7 +61,7 @@ Screen12 As screen:
     money As text:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
-        Default: ="Entrada de texto"
+        Default: =""
         Format: =TextFormat.Number
         X: =526
         Y: =378
@@ -80,8 +80,8 @@ Screen12 As screen:
     email_dg As text:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
-        Default: ="Entrada de texto"
-        Format: =TextFormat.Number
+        Default: =""
+        HintText: =""
         X: =526
         Y: =505
         ZIndex: =14
