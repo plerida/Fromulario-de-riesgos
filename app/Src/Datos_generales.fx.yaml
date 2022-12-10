@@ -110,12 +110,12 @@ Datos_generales As screen:
         Y: =20
         ZIndex: =17
 
-    Radio1 As radio:
-        Height: =547
-        OnChange: |-
+    ListBox1 As listbox:
+        Height: =572
+        Items: |-
             =Office365Users.SearchUser({searchTerm : email_dg.Text})
-        Width: =700
-        X: =612
+        Width: =746
+        X: =581
         Y: =161
-        ZIndex: =18
+        ZIndex: =19
 
