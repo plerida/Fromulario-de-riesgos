@@ -111,9 +111,11 @@ Datos_generales As screen:
         ZIndex: =17
 
     Radio1 As radio:
-        Items: |-
-            =Office365Users.SearchUser({searchTerm : "CEBRIÁN GARCÍA RICARDO"})
-        X: =926
-        Y: =345
+        Height: =547
+        OnChange: |-
+            =Office365Users.SearchUser({searchTerm : email_dg.Text})
+        Width: =700
+        X: =612
+        Y: =161
         ZIndex: =18
 
