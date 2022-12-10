@@ -7,7 +7,7 @@ Enviar_formulario As screen:
             =ClearCollect(colData, {
                 money: money.Text, 
                 project: project.Text, 
-                email: email_dg.Text,
+                email: First(ListBox1.SelectedItems).Mail,
                 RT01: {
                     id1: "RT-01",
                     risk1: risk_1.Selected.Value,
