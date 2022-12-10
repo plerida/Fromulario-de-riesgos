@@ -126,7 +126,7 @@ Datos_generales As screen:
         HoverFill: =RGBA(238, 204, 204, 1)
         Items: |-
             =Office365Users.SearchUser({searchTerm : email_dg.Text})
-        OnSelect: =email_dg.Text = First(ListBox1.SelectedItems).DisplayName
+        OnChange: =email_dg.Text = First(ListBox1.SelectedItems).DisplayName
         PressedFill: =RGBA(184, 0, 0, 1)
         SelectionFill: =RGBA(184, 0, 0, 1)
         SelectMultiple: =false
