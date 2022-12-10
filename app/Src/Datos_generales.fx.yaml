@@ -7,7 +7,7 @@ Datos_generales As screen:
         BorderThickness: =2
         Fill: =RGBA(242, 242, 242, 1)
         Height: =572
-        Width: =477
+        Width: =1254
         X: =59
         Y: =161
         ZIndex: =7
@@ -21,8 +21,8 @@ Datos_generales As screen:
         Text: |-
             ="Aceptar
             "
-        X: =218
-        Y: =628
+        X: =613
+        Y: =640
         ZIndex: =8
 
     Label5_2 As label:
@@ -34,7 +34,7 @@ Datos_generales As screen:
         Size: =20
         Text: ="Código de la oferta"
         Width: =320
-        X: =130
+        X: =135
         Y: =192
         ZIndex: =9
 
@@ -44,7 +44,7 @@ Datos_generales As screen:
         Color: =RGBA(149, 149, 149, 1)
         Default: =""
         FontWeight: =FontWeight.Lighter
-        X: =130
+        X: =135
         Y: =249
         ZIndex: =10
 
@@ -54,7 +54,7 @@ Datos_generales As screen:
         Size: =20
         Text: ="Presupuesto"
         Width: =176
-        X: =202
+        X: =207
         Y: =321
         ZIndex: =11
 
@@ -63,27 +63,36 @@ Datos_generales As screen:
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
         Format: =TextFormat.Number
-        X: =130
+        X: =135
         Y: =378
         ZIndex: =12
 
     Label5_4 As label:
+        Align: =Align.Center
         FontWeight: =FontWeight.Semibold
         Height: =50
         Size: =20
-        Text: ="Email del DG"
-        Width: =176
-        X: =202
-        Y: =449
+        Text: |-
+            ="Nombre del DG
+            "
+        Width: =492
+        X: =773
+        Y: =192
         ZIndex: =13
 
     email_dg As text:
         Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
+        Height: =49
         HintText: =""
-        X: =130
-        Y: =505
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =492
+        X: =773
+        Y: =249
         ZIndex: =14
 
     Label6 As label:
@@ -111,11 +120,14 @@ Datos_generales As screen:
         ZIndex: =17
 
     ListBox1 As listbox:
-        Height: =491
+        BorderColor: =RGBA(184, 0, 0, 1)
+        Height: =277
         Items: |-
             =Office365Users.SearchUser({searchTerm : email_dg.Text})
-        Width: =746
-        X: =589
-        Y: =242
+        SelectionFill: =RGBA(184, 0, 0, 1)
+        SelectMultiple: =false
+        Width: =492
+        X: =773
+        Y: =298
         ZIndex: =19
 
