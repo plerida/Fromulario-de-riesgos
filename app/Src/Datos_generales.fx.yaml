@@ -111,11 +111,11 @@ Datos_generales As screen:
         ZIndex: =17
 
     ListBox1 As listbox:
-        Height: =572
+        Height: =491
         Items: |-
             =Office365Users.SearchUser({searchTerm : email_dg.Text})
         Width: =746
-        X: =581
-        Y: =161
+        X: =589
+        Y: =242
         ZIndex: =19
 
