@@ -112,7 +112,7 @@ Datos_generales As screen:
 
     Radio1 As radio:
         Items: |-
-            =Office365Users.SearchUser({searchTerm : "CEBRIAN"})
+            =Office365Users.SearchUser({searchTerm : "CEBRIÁN GARCÍA RICARDO"})
         X: =926
         Y: =345
         ZIndex: =18
