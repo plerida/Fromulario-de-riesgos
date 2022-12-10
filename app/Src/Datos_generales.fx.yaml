@@ -1,4 +1,4 @@
-Screen12 As screen:
+Datos_generales As screen:
     BackgroundImage: =
     Fill: =RGBA(255, 255, 255, 1)
 
@@ -8,7 +8,7 @@ Screen12 As screen:
         Fill: =RGBA(242, 242, 242, 1)
         Height: =572
         Width: =477
-        X: =455
+        X: =59
         Y: =161
         ZIndex: =7
 
@@ -17,11 +17,11 @@ Screen12 As screen:
         DisabledFill: =RGBA(191, 21, 37, 1)
         Fill: =RGBA(191, 21, 37, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
-        OnSelect: =If(Value(money.Text) >= 500000, Navigate(Screen1), If(Value(money.Text) < 500000, Navigate(Screen3)))
+        OnSelect: =If(Value(money.Text) >= 500000, Navigate('RT-01'), If(Value(money.Text) < 500000, Navigate('RT-03')))
         Text: |-
             ="Aceptar
             "
-        X: =614
+        X: =218
         Y: =628
         ZIndex: =8
 
@@ -34,7 +34,7 @@ Screen12 As screen:
         Size: =20
         Text: ="Código de la oferta"
         Width: =320
-        X: =526
+        X: =130
         Y: =192
         ZIndex: =9
 
@@ -44,7 +44,7 @@ Screen12 As screen:
         Color: =RGBA(149, 149, 149, 1)
         Default: =""
         FontWeight: =FontWeight.Lighter
-        X: =526
+        X: =130
         Y: =249
         ZIndex: =10
 
@@ -54,7 +54,7 @@ Screen12 As screen:
         Size: =20
         Text: ="Presupuesto"
         Width: =176
-        X: =598
+        X: =202
         Y: =321
         ZIndex: =11
 
@@ -63,7 +63,7 @@ Screen12 As screen:
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
         Format: =TextFormat.Number
-        X: =526
+        X: =130
         Y: =378
         ZIndex: =12
 
@@ -73,7 +73,7 @@ Screen12 As screen:
         Size: =20
         Text: ="Email del DG"
         Width: =176
-        X: =598
+        X: =202
         Y: =449
         ZIndex: =13
 
@@ -82,7 +82,7 @@ Screen12 As screen:
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
         HintText: =""
-        X: =526
+        X: =130
         Y: =505
         ZIndex: =14
 
@@ -100,13 +100,20 @@ Screen12 As screen:
 
     Image2 As image:
         Image: ='adt-logo'
-        X: =1104
-        Y: =633
+        X: =59
+        Y: =20
         ZIndex: =16
 
     Image3 As image:
         Image: =logotypsa
-        X: =1232
-        Y: =633
+        X: =183
+        Y: =20
         ZIndex: =17
+
+    Radio1 As radio:
+        Items: |-
+            =Office365Users.SearchUser({searchTerm : "CEBRIAN"})
+        X: =926
+        Y: =345
+        ZIndex: =18
 

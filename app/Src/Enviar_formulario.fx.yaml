@@ -1,4 +1,4 @@
-Screen11 As screen:
+Enviar_formulario As screen:
 
     Button1 As button:
         Fill: =RGBA(191, 21, 37, 1)

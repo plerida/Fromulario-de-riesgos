@@ -1,7 +1,7 @@
-Screen6 As screen:
+"'RT-01' As screen":
     ContentLanguage: ="Bajo"
 
-    Label1_26 As label:
+    Label1 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen6 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_25 As label:
+    Label1_1 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen6 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_27 As label:
+    Label1_2 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -30,10 +30,10 @@ Screen6 As screen:
             "
         Width: =498
         X: =51
-        Y: =253
+        Y: =232
         ZIndex: =5
 
-    Label1_28 As label:
+    Label1_3 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -41,27 +41,27 @@ Screen6 As screen:
         Text: ="Comentarios"
         Width: =182
         X: =638
-        Y: =279
+        Y: =258
         ZIndex: =7
 
-    Rectangle2_13 As rectangle:
+    Rectangle2_3 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =109
         Width: =648
         X: =627
-        Y: =346
+        Y: =325
         ZIndex: =8
 
-    Arrow1_5 As arrow:
+    Arrow1 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen8)
+        OnSelect: =Navigate('RT-02')
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_29 As label:
+    Label1_4 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -69,10 +69,10 @@ Screen6 As screen:
         Text: ="Acciones de mitigación a trasladar al equipo de gestión"
         Width: =658
         X: =638
-        Y: =471
+        Y: =450
         ZIndex: =10
 
-    risk_6 As dropdown:
+    risk_1 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -87,64 +87,73 @@ Screen6 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3_5 As label:
+    Label3 As label:
         Height: =68
-        Text: ="Seguridad"
+        Text: ="Claridad en el alcance de los trabajos"
         Width: =208
         X: =207
         Y: =142
         ZIndex: =14
 
-    Label2_5 As label:
-        Text: ="RT-06"
+    Label2 As label:
+        Text: ="RT-01"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4_5 As label:
-        Height: =99
-        Text: ="· Hay riesgos físicos en el emplazamiento que deban ser tenidos en cuenta?- Hay riesgos o especiales medidas a tener en cuenta en relacion con la seguridad de la información?"
+    Label4 As label:
+        Height: =393
+        Text: |-
+            ="· Las expectativas del cliente están claras.· El alcance esta suficientemente definido para determinar el trabajo a realizar.
+            
+            · En nivel de detalle de los entregables está claro.. En proyectos BIM. Se ha definido el nivel de detalle LOD y LOI en función de las diferentes etapas de proyecto ( matriz de responsabilidades LOD/MEA).
+            
+            . En proyectos BIM. Existe lista de estandares y documentos para definir procesos y protocolos BIM que se han de aplicar al proyecto.
+            
+            · Existe responsabilidad de aprobación en seguridad frente a incendio (fire safety) ante Autoridad local y/o aclaración sobre necesidad de simulaciones o análisis de evacuación/humos (CFD)· 
+            
+            Otros."
         Width: =513
-        X: =54
-        Y: =344
+        X: =56
+        Y: =322
         ZIndex: =17
 
-    Rectangle2_14 As rectangle:
+    Rectangle2_4 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =109
         Width: =648
         X: =627
-        Y: =562
+        Y: =541
         ZIndex: =18
 
-    Image1_5 As image:
+    Image1 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    comments_6 As text:
+    comments_1 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
         Width: =625
         X: =638
-        Y: =358
+        Y: =337
         ZIndex: =20
 
-    actions_6 As text:
+    actions_1 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
         Width: =625
         X: =638
-        Y: =574
+        Y: =553
         ZIndex: =21
 
-    Arrow2_5 As arrow.backArrow:
+    Arrow2_10 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen5)
+        OnSelect: =Navigate(Datos_generales)
         X: =1137
         Y: =702
         ZIndex: =22

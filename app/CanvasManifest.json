@@ -109,17 +109,17 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
-    "Screen12",
-    "Screen1",
-    "Screen2",
-    "Screen3",
-    "Screen4",
-    "Screen5",
-    "Screen6",
-    "Screen7",
-    "Screen8",
-    "Screen9",
-    "Screen10",
-    "Screen11"
+    "Datos_generales",
+    "RT-01",
+    "RT-02",
+    "RT-03",
+    "RT-04",
+    "RT-05",
+    "RT-06",
+    "RT-07",
+    "RT-08",
+    "RT-09",
+    "RT-10",
+    "Enviar_formulario"
   ]
 }

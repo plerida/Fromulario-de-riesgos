@@ -1,7 +1,7 @@
-Screen7 As screen:
+"'RT-09' As screen":
     ContentLanguage: ="Bajo"
 
-    Label1_31 As label:
+    Label1_41 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen7 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_30 As label:
+    Label1_40 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen7 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_32 As label:
+    Label1_42 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -33,7 +33,7 @@ Screen7 As screen:
         Y: =253
         ZIndex: =5
 
-    Label1_33 As label:
+    Label1_43 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -44,7 +44,7 @@ Screen7 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_15 As rectangle:
+    Rectangle2_19 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -54,14 +54,14 @@ Screen7 As screen:
         Y: =346
         ZIndex: =8
 
-    Arrow1_6 As arrow:
+    Arrow1_8 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen9)
+        OnSelect: =Navigate(Enviar_formulario)
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_34 As label:
+    Label1_44 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -72,7 +72,7 @@ Screen7 As screen:
         Y: =471
         ZIndex: =10
 
-    risk_7 As dropdown:
+    risk_9 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -87,36 +87,32 @@ Screen7 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3_6 As label:
+    Label3_8 As label:
         Height: =68
-        Text: ="Recursos técnicos"
+        Text: ="Sub contratistas"
         Width: =208
         X: =207
-        Y: =142
+        Y: =134
         ZIndex: =14
 
-    Label2_6 As label:
-        Text: ="RT-07"
+    Label2_8 As label:
+        Text: ="RT-09"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4_6 As label:
-        Height: =295
+    Label4_8 As label:
+        Height: =167
         Text: |-
-            ="· Disponemos de los medios y equipos adecuados para la realizacion del trabajo (software, comunicaciones, licencias, etc.). 
+            ="· Dispondremos de los subcontratistas adecuados. Serán subcontratistas de confianza con los que ya hemos trabajado antes.
             
-            En proyectos BIM. Existen requisitos de software ( versión y release) y hardware.
-            
-             En proyectos BIM. Existen requisitos en cunato a las condiciones de las infraestructuras IT.
-            
-            En proyectos BIM. Existen requisitos de seguridad e integridad de la información del proyecto."
-        Width: =513
+            . En proyectos BIM. Se ha demostrado que la madurez BIM que poseen es la adecuada para abordar el proyecto. (cuestionarios de precalificación)."
+        Width: =525
         X: =54
         Y: =336
         ZIndex: =17
 
-    Rectangle2_16 As rectangle:
+    Rectangle2_20 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -126,12 +122,12 @@ Screen7 As screen:
         Y: =562
         ZIndex: =18
 
-    Image1_6 As image:
+    Image1_8 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    comments_7 As text:
+    comments_9 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
@@ -140,7 +136,7 @@ Screen7 As screen:
         Y: =358
         ZIndex: =20
 
-    actions_7 As text:
+    actions_9 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
@@ -149,10 +145,10 @@ Screen7 As screen:
         Y: =574
         ZIndex: =21
 
-    Arrow2_6 As arrow.backArrow:
+    Arrow2_8 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen4)
-        X: =1147
+        OnSelect: =Navigate('RT-07')
+        X: =1141
         Y: =702
         ZIndex: =22
 

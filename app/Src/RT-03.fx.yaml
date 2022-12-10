@@ -1,4 +1,4 @@
-Screen3 As screen:
+"'RT-03' As screen":
     ContentLanguage: ="Bajo"
 
     Label1_10 As label:
@@ -56,7 +56,7 @@ Screen3 As screen:
 
     Arrow1_2 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen5)
+        OnSelect: =Navigate('RT-05')
         X: =1224
         Y: =702
         ZIndex: =9
@@ -146,7 +146,7 @@ Screen3 As screen:
 
     Arrow2_11 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen12)
+        OnSelect: =Navigate(Datos_generales)
         X: =1137
         Y: =702
         ZIndex: =22

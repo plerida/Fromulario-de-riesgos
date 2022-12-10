@@ -1,7 +1,7 @@
-Screen4 As screen:
+"'RT-02' As screen":
     ContentLanguage: ="Bajo"
 
-    Label1_16 As label:
+    Label1_5 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -10,7 +10,7 @@ Screen4 As screen:
         Y: =106
         ZIndex: =1
 
-    Label1_15 As label:
+    Label1_6 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Size: =16
@@ -19,7 +19,7 @@ Screen4 As screen:
         Y: =100
         ZIndex: =4
 
-    Label1_17 As label:
+    Label1_7 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -33,7 +33,7 @@ Screen4 As screen:
         Y: =253
         ZIndex: =5
 
-    Label1_18 As label:
+    Label1_8 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
@@ -44,7 +44,7 @@ Screen4 As screen:
         Y: =279
         ZIndex: =7
 
-    Rectangle2_9 As rectangle:
+    Rectangle2_5 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -54,14 +54,14 @@ Screen4 As screen:
         Y: =346
         ZIndex: =8
 
-    Arrow1_3 As arrow:
+    Arrow1_1 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen7)
+        OnSelect: =Navigate('RT-04')
         X: =1224
         Y: =702
         ZIndex: =9
 
-    Label1_19 As label:
+    Label1_9 As label:
         Color: =RGBA(33, 32, 32, 1)
         FontWeight: =FontWeight.Bold
         Height: =91
@@ -72,7 +72,7 @@ Screen4 As screen:
         Y: =471
         ZIndex: =10
 
-    risk_4 As dropdown:
+    risk_2 As dropdown:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -87,29 +87,32 @@ Screen4 As screen:
         Y: =148
         ZIndex: =12
 
-    Label3_3 As label:
+    Label3_1 As label:
         Height: =68
-        Text: ="Disponibilidad del equipo técnico"
+        Text: ="Estimación del coste de nuestros servicios"
         Width: =208
         X: =207
         Y: =142
         ZIndex: =14
 
-    Label2_3 As label:
-        Text: ="RT-04"
+    Label2_1 As label:
+        Text: ="RT-02"
         X: =51
         Y: =148
         ZIndex: =16
 
-    Label4_3 As label:
-        Height: =66
-        Text: ="· El equipo técnico necesario estará dispoible cuando y donde se le precise (incluidos los del socio, si lo hay)."
+    Label4_1 As label:
+        Height: =149
+        Text: |-
+            ="· Se ha dispuesto de la informacion necesaria para realizar una estimacion del coste afinada.· Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.
+            
+            · Otros."
         Width: =513
         X: =54
         Y: =344
         ZIndex: =17
 
-    Rectangle2_10 As rectangle:
+    Rectangle2_6 As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
@@ -119,12 +122,12 @@ Screen4 As screen:
         Y: =562
         ZIndex: =18
 
-    Image1_3 As image:
+    Image1_1 As image:
         Image: ='MicrosoftTeams-image'
         X: =1175
         ZIndex: =19
 
-    comments_4 As text:
+    comments_2 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
@@ -133,7 +136,7 @@ Screen4 As screen:
         Y: =358
         ZIndex: =20
 
-    actions_4 As text:
+    actions_2 As text:
         BorderThickness: =0
         Default: =""
         Height: =85
@@ -142,9 +145,9 @@ Screen4 As screen:
         Y: =574
         ZIndex: =21
 
-    Arrow2_3 As arrow.backArrow:
+    Arrow2_2 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Screen2)
+        OnSelect: =Navigate('RT-01')
         X: =1137
         Y: =702
         ZIndex: =22
