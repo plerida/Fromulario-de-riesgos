@@ -6,7 +6,7 @@ Enviar_formulario As screen:
         OnSelect: |+
             =ClearCollect(colData, {
                 money: money.Text, 
-                project: project.Text, 
+                project: First(project.SelectedItems).Nombre, 
                 email: First(dg_results.SelectedItems).Mail,
                 RT01: {
                     id1: "RT-01",

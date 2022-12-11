@@ -55,33 +55,23 @@ Datos_generales As screen:
         DisabledBorderColor: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
-        Height: =50
+        Height: =54
         Size: =20
-        Text: ="Código de la oferta"
-        Width: =320
-        X: =135
-        Y: =192
+        Text: ="Indique su oferta"
+        Width: =403
+        X: =119
+        Y: =195
         ZIndex: =6
 
-    project As text:
-        BorderColor: =RGBA(191, 21, 37, 1)
-        Color: =RGBA(149, 149, 149, 1)
-        Default: =""
-        FontWeight: =FontWeight.Lighter
-        HoverBorderColor: =RGBA(184, 0, 0, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        X: =135
-        Y: =249
-        ZIndex: =7
-
     money_label As label:
+        Align: =Align.Center
         FontWeight: =FontWeight.Semibold
-        Height: =50
+        Height: =57
         Size: =20
         Text: ="Presupuesto"
-        Width: =176
-        X: =207
-        Y: =321
+        Width: =403
+        X: =119
+        Y: =477
         ZIndex: =8
 
     money As text:
@@ -90,20 +80,22 @@ Datos_generales As screen:
         Format: =TextFormat.Number
         HoverBorderColor: =RGBA(184, 0, 0, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
-        X: =135
-        Y: =378
+        Width: =403
+        X: =119
+        Y: =534
         ZIndex: =9
 
     dg_label As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Semibold
-        Height: =50
+        Height: =57
         Size: =20
         Text: |-
             ="Nombre del DG
             "
-        Width: =492
-        X: =773
+        Tooltip: ="Nombre del Director General que debe verificar el Análisis de Riesgos que va a ser generado"
+        Width: =405
+        X: =860
         Y: =192
         ZIndex: =10
 
@@ -119,8 +111,8 @@ Datos_generales As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =492
-        X: =773
+        Width: =405
+        X: =860
         Y: =249
         ZIndex: =11
 
@@ -135,8 +127,8 @@ Datos_generales As screen:
         PressedFill: =RGBA(184, 0, 0, 1)
         SelectionFill: =RGBA(184, 0, 0, 1)
         SelectMultiple: =false
-        Width: =492
-        X: =773
+        Width: =405
+        X: =860
         Y: =298
         ZIndex: =12
 
@@ -156,10 +148,11 @@ Datos_generales As screen:
         Y: =640
         ZIndex: =14
 
-    ListBox1 As listbox:
+    project As listbox:
+        Height: =175
         Items: =Filter(Ofertas,'Responsable de la oferta'.Email = User().Email)
         Width: =403
-        X: =135
-        Y: =484
+        X: =119
+        Y: =249
         ZIndex: =15
 
