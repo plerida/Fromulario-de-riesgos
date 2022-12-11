@@ -330,7 +330,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:43:25",
+  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:47:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0c07a5b4-d0a2-47f2-b9d6-d55d38055230": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/shared-office365user-fb127bc8-31f8-4039-ad05-7dd5694cf316\"",
@@ -351,6 +351,7 @@
     "logotypsa": "https://docserverpwaprodneu.blob.core.windows.net/1202a8af-b9a1-4225-9fb7-be2dc6079ff3-1/resource/Assets0Images0e0e74b81-15a6-4642-8f89-bc5bce94fb41.jpg?sv=2017-04-17&sr=b&sig=UdWdr4ve9zSDClCvNJ73xgfcZecHKlZdAFyp2j5JtSY%3D&spr=https&se=2022-12-12T18%3A21%3A48Z&sp=r",
     "MicrosoftTeams-image": "https://docserverpwaprodneu.blob.core.windows.net/1202a8af-b9a1-4225-9fb7-be2dc6079ff3-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=gxMx6eTWvgcsLmeDbjm6Vpu438aCY33QY0bHlFjnWwE%3D&spr=https&se=2022-12-12T18%3A21%3A48Z&sp=r"
   },
+  "OldLogoFileName": "vhdlqu0k.jpg",
   "OrderComponentMetadata": {
     "9a2cdb3fc7a544989aee29638c960d8a": 0
   },

@@ -99,10 +99,10 @@
   },
   "PublishInfo": {
     "AppName": "DES-121",
-    "BackgroundColor": "rgba(191, 21, 37, 1)",
+    "BackgroundColor": "rgba(0, 0, 0, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "Edit",
-    "LogoFileName": "",
+    "IconName": "",
+    "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
