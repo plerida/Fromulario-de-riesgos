@@ -33,13 +33,6 @@
         Y: =245
         ZIndex: =5
 
-    Arrow1_10 As arrow:
-        Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate('RT-09')
-        X: =1224
-        Y: =702
-        ZIndex: =9
-
     Label3_10 As label:
         Height: =68
         Text: ="Recursos técnicos"
@@ -69,8 +62,8 @@
 
     Arrow2_12 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate('RT-04')
-        X: =1147
-        Y: =702
+        OnSelect: =Navigate('TPG-01-F6')
+        X: =1275
+        Y: =699
         ZIndex: =22
 

@@ -2564,36 +2564,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow2_12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow2_12.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Info_TPG-01-F6",
-                "type": "'Info_TPG-01-F6'.Arrow2_12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow2_12.TabIndex"
                 }
               ],
@@ -2624,19 +2594,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow1_10.AccessibleLabel"
+                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow2_12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow1_10.AccessibleLabel",
+                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow2_12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Info_TPG-01-F6",
-                "type": "'Info_TPG-01-F6'.Arrow1_10"
+                "type": "'Info_TPG-01-F6'.Arrow2_12"
               }
             }
           ],
@@ -2648,36 +2618,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow1_10.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Info_TPG-01-F6'.Arrow1_10.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Info_TPG-01-F6",
-                "type": "'Info_TPG-01-F6'.Arrow1_10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
         },
         {
           "locations": [
