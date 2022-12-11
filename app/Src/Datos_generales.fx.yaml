@@ -149,3 +149,10 @@ Datos_generales As screen:
         Y: =257
         ZIndex: =13
 
+    Button2 As button:
+        OnSelect: =Navigate('TPG-01-F6')
+        Text: ="IR"
+        X: =1105
+        Y: =640
+        ZIndex: =14
+

@@ -49,7 +49,7 @@
 
     paragraph_info As label:
         Height: =295
-        Text: =""
+        Text: =
         Width: =1237
         X: =54
         Y: =336
