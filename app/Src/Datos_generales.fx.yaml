@@ -42,7 +42,7 @@ Datos_generales As screen:
         DisabledFill: =RGBA(191, 21, 37, 1)
         Fill: =RGBA(191, 21, 37, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
-        OnSelect: =If(Value(money.Text) >= 500000, Navigate('RT-01'), If(Value(money.Text) < 500000, Navigate('RT-03')))
+        OnSelect: =If(Value(money.Text) >= 200000, Navigate('TPG01-F5'), If(Value(money.Text) < 500000, Navigate('TPG01-F5')))
         Text: |-
             ="Aceptar
             "
@@ -140,13 +140,6 @@ Datos_generales As screen:
         X: =1215
         Y: =257
         ZIndex: =13
-
-    Button2 As button:
-        OnSelect: =Navigate('TPG01-F6')
-        Text: ="IR"
-        X: =1105
-        Y: =640
-        ZIndex: =14
 
     project As listbox:
         BorderColor: =RGBA(184, 0, 0, 1)

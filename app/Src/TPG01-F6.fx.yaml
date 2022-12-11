@@ -1,5 +1,6 @@
 "'TPG01-F6' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
-    OnVisible: =Set(actualInfo, 'TPG01-F6')
+    OnVisible: |-
+        =Set(actualInfo, 'TPG01-F6');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
@@ -106,7 +107,7 @@
                             · Otros");
                             Set(idLabel, "RM-01");
                             Set(nameLabel, "Equipo de Gestión");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -167,7 +168,7 @@
                             · ¿Hay penalizaciones por cambio de staff?");
                             Set(idLabel, "RM-02");
                             Set(nameLabel, "Cláusulas contractuales");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -227,7 +228,7 @@
                             · Otros");
                             Set(idLabel, "RM-03");
                             Set(nameLabel, "Socios");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -286,7 +287,7 @@
                             · ¿El proceso de aprobación final es claro?");
                             Set(idLabel, "RM-04");
                             Set(nameLabel, "Aprobaciones");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -346,7 +347,7 @@
                             ");
                             Set(idLabel, "RM-05");
                             Set(nameLabel, "Financieros");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -407,7 +408,7 @@
                             );
                             Set(idLabel, "RM-06");
                             Set(nameLabel, "Pagos");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -465,7 +466,7 @@
                             · Otros");
                             Set(idLabel, "RM-07");
                             Set(nameLabel, "Cashflow");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -526,7 +527,7 @@
                             · Otros");
                             Set(idLabel, "RM-08");
                             Set(nameLabel, "Riesgos fiscales o de fluctuación de moneda");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -538,6 +539,31 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
+
+                DataCard6 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =11
+
+                    Arrow1_10 As arrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate(Enviar_formulario)
+                        X: =699
+                        Y: =32
+                        ZIndex: =1
+
+                    Arrow2_12 As arrow.backArrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate('TPG01-F5')
+                        X: =612
+                        Y: =32
+                        ZIndex: =2
 
         FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
             FillPortions: =0

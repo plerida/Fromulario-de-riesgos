@@ -1,5 +1,6 @@
 "'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
-    OnVisible: =Set(actualInfo, 'TPG01-F5')
+    OnVisible: |-
+        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS")
 
     ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
@@ -107,7 +108,7 @@
                             · Existe responsabilidad de aprobación en seguridad frente a incendio (fire safety) ante Autoridad local y/o aclaración sobre necesidad de simulaciones o análisis de evacuación/humos (CFD) ");
                             Set(idLabel, "RT-01");
                             Set(nameLabel, "Claridad en el alcance de los trabajos");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -165,7 +166,7 @@
                             · Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.");
                             Set(idLabel, "RT-02");
                             Set(nameLabel, "Estimación del coste de nuestros servicios");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -222,7 +223,7 @@
                             =Set(infoVar, "· El contrato es en consorcio con otras empresas con distinta metodología de trabajo, o requiere de trabajo colaborativo entre varios centros de producción con distintos horarios.");
                             Set(idLabel, "RT-03");
                             Set(nameLabel, "Trabajo deslocalizado");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -279,7 +280,7 @@
                             =Set(infoVar, "· El equipo técnico necesario estará disponible cuando y donde se le precise (incluidos los del socio, si lo hay).  ");
                             Set(idLabel, "RT-04");
                             Set(nameLabel, "Disponibilidad del equipo técnico");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -339,7 +340,7 @@
                             ");
                             Set(idLabel, "RT-05");
                             Set(nameLabel, "Capacidad y experiencia del equipo de trabajo");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -398,7 +399,7 @@
                             );
                             Set(idLabel, "RT-06");
                             Set(nameLabel, "Seguridad");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -458,7 +459,7 @@
                             · En proyectos BIM: Existen requisitos de seguridad e integridad de la información del proyecto. ");
                             Set(idLabel, "RT-07");
                             Set(nameLabel, "Recursos técnicos");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -523,7 +524,7 @@
                             · Coordinación necesaria con otras empresas / agentes externos en justificación seguridad frente a incendio (Fire Safety)  ");
                             Set(idLabel, "RT-08");
                             Set(nameLabel, "Datos de partida y aspectos relacionados con la coordinación");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -566,7 +567,7 @@
                             · En proyectos BIM. Se ha demostrado que la madurez BIM que poseen es la adecuada para abordar el proyecto. (cuestionarios de precalificación).  ");
                             Set(idLabel, "RT-09");
                             Set(nameLabel, "Subcontratistas");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -619,7 +620,7 @@
                             · Existen requisitos en cuanto a la organización y la estructura de los modelos, implementación y la gestión del CDE, colaboración, flujos de trabajo y tipos de intercambios de información, etapas de trabajo, propósito y formatos requeridos.");
                             Set(idLabel, "RT-10");
                             Set(nameLabel, "Planificación");
-                            Navigate('Info_TPG01-F6')
+                            Navigate('Info_TPG01-FX')
                         Width: =42
                         X: =1021
                         Y: =15
@@ -639,6 +640,31 @@
                         X: =1102
                         Y: =15
                         ZIndex: =3
+
+                DataCard7 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =10
+                    ZIndex: =13
+
+                    Arrow1_11 As arrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate('TPG01-F6')
+                        X: =699
+                        Y: =32
+                        ZIndex: =1
+
+                    Arrow2_13 As arrow.backArrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate(Datos_generales)
+                        X: =612
+                        Y: =32
+                        ZIndex: =2
 
         FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
             FillPortions: =0

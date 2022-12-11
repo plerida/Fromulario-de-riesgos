@@ -1,4 +1,4 @@
-"'Info_TPG01-F6' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+"'Info_TPG01-FX' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
     Label8_1 As label:
         Align: =Align.Center
@@ -27,8 +27,7 @@
             FontWeight: =FontWeight.Bold
             PaddingLeft: =15
             Size: =24
-            Text: |-
-                ="TPG-01-F6: RIESGOS DE GESTIÓN"
+            Text: =infoTitle
             Width: =600
             ZIndex: =1
 
