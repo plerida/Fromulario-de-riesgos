@@ -1,0 +1,107 @@
+"'Info_TPG01-F6' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    Label8_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(184, 0, 0, 1)
+        Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
+        Width: =1366
+        Y: =728
+        ZIndex: =1
+
+    HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =75
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingRight: =30
+        Width: =1366
+        ZIndex: =2
+
+        Label9_1 As label:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            PaddingLeft: =15
+            Size: =24
+            Text: |-
+                ="TPG-01-F6: RIESGOS DE GESTIÓN"
+            Width: =600
+            ZIndex: =1
+
+        Image2_1 As image:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =1
+            Height: =65
+            Image: =logotypsa
+            Width: =65
+            ZIndex: =2
+
+    Label1_53 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="ID"
+        X: =51
+        Y: =106
+        ZIndex: =3
+
+    Label1_54 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =24
+        Text: ="Riesgo"
+        X: =552
+        Y: =106
+        ZIndex: =4
+
+    Label1_55 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =20
+        Text: |-
+            ="Consideraciones (Aspectos a considerar a titulo orientativo)
+            "
+        Width: =1210
+        X: =51
+        Y: =245
+        ZIndex: =5
+
+    Label3_11 As label:
+        Height: =68
+        Size: =24
+        Text: ="Recursos técnicos"
+        Width: =814
+        X: =552
+        Y: =147
+        ZIndex: =6
+
+    Label2_11 As label:
+        Height: =68
+        Size: =24
+        Text: ="RT-07"
+        X: =51
+        Y: =147
+        ZIndex: =7
+
+    paragraph_info_1 As label:
+        AutoHeight: =true
+        Height: =298
+        LineHeight: =1.6
+        Size: =20
+        Text: =infoVar
+        Width: =1262
+        X: =51
+        Y: =336
+        ZIndex: =8
+
+    Arrow2_13 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('TPG01-F6')
+        X: =1263
+        Y: =661
+        ZIndex: =9
+

@@ -1,0 +1,541 @@
+"'TPG01-F6' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(191, 21, 37, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            ZIndex: =2
+
+            Label9 As label:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                PaddingLeft: =15
+                Size: =24
+                Text: |-
+                    ="TPG-01-F6: RIESGOS DE GESTIÓN"
+                Width: =600
+                ZIndex: =1
+
+            Image2 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =1
+                Height: =65
+                Image: =logotypsa
+                Width: =65
+                ZIndex: =2
+
+        MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Canvas1_1 As fluidGrid.fluidGridWithBlankCard:
+                BorderThickness: =0
+                Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
+                Width: =Parent.Width
+                Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+                ZIndex: =1
+
+                DataCard2_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =64
+                    Width: =1366
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                    Label5_2 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-01 Equipo de Gestión"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_19 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_8 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar,"· ¿Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo? (JP, TC, BIM Manager, Commercial manager)
+                            · ¿El equipo estará disponible en el momento oportuno?
+                            · ¿Hay penalizaciones por no disponer del equipo de gestión nominado?
+                            . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, ¿se han tenido en cuenta en la oferta?
+                            · Otros");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard3_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =3
+
+                    Label5_9 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-02 Clásulas contractuales"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_20 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_9 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar,"· ¿Disponemos y hemos leído el contrato enteramente?
+                            · ¿El contrato es completo y es equilibrado y aceptable?
+                            · ¿Hay cláusulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
+                            · ¿Hay cláusulas razonables para modificaciones de alcance?
+                            · ¿Hay penalizaciones por cambio de staff?");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_1 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard5_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =2
+                    ZIndex: =5
+
+                    Label5_10 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-03 Socios"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_21 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_10 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿Los socios son conocidos y de confianza?
+                            · ¿Hay algún problema financiero o de corrupción?
+                            · ¿Tenemos alguna protección en caso de que el socio incumpla?
+                            · Otros");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_2 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard6_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =3
+                    ZIndex: =6
+
+                    Label5_11 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-04 Aprobaciones"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_22 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_11 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿El proceso de aprobacion es claro? 
+                            · ¿Se contemplan aprobaciones por terceros? 
+                            · ¿El proceso de aprobación final es claro?");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_3 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard7_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =4
+                    ZIndex: =7
+
+                    Label5_12 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-05 Financieros"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_23 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_12 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿Es el cliente solvente? 
+                            · ¿Se requiere alguna medida para protegernos en caso de insolvencia?
+                            · ¿Hay incertidumbre en relacion con los fondos? (por ejemplo, el presupuesto esta aun pendiente de verificación por parte de algun organismo gubernamental o debe ser revisado y aprobado anualmente
+                            ");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_4 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard8_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =5
+                    ZIndex: =8
+
+                    Label5_13 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-06 Pagos"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_24 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_13 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿El proceso de pagos es claro y razonable?
+                            · ¿La vinculación entre la aprobación de los trabajos y el pago de lo servicios correspondientes es aceptable?
+                            · ¿Los plazos y los hitos de pago son aceptables?
+                            · ¿Se preve que podamos suspender los trabajos y resolver el contrato en caso de impago?"
+                            );
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_7 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard10_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =6
+                    ZIndex: =9
+
+                    Label5_14 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-07 Cashflow"
+                        Width: =352
+                        ZIndex: =1
+
+                    risk_25 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_14 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿El cash flow está evaluado y es aceptable, incluso en caso de que se produzca algun retraso previsible?
+                            · Otros");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_5 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard11_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =72
+                    Width: =1366
+                    X: =0
+                    Y: =7
+                    ZIndex: =10
+
+                    Label5_15 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RM-08 Riesgos fiscales o de fluctuación de moneda"
+                        Width: =619
+                        ZIndex: =1
+
+                    risk_26 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_15 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿Hay incertidumbres en relacion con los withholding taxes y otros impuestos, su aplicabilidad o los porcentajes?
+                            · ¿Hay riesgo de fluctuación de moneda?
+                            · ¿Hay algún problema para la expatriacion de beneficios o el pago de servicios entre paises?
+                            · Otros");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1060
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_6 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            Label8 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Stretch
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(184, 0, 0, 1)
+                FillPortions: =1
+                Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
+                ZIndex: =1
+
