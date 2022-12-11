@@ -1,5 +1,6 @@
 "'Info_TPG-01-F6' As screen":
     ContentLanguage: ="Bajo"
+    OnVisible: =
 
     Label1_51 As label:
         Color: =RGBA(33, 32, 32, 1)
@@ -48,8 +49,9 @@
         ZIndex: =16
 
     paragraph_info As label:
+        AutoHeight: =true
         Height: =295
-        Text: =
+        Text: =infoVar
         Width: =1237
         X: =54
         Y: =336

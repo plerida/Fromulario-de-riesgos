@@ -66,11 +66,11 @@
                 Height: =40
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =paragraph_info.Text="· Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo (JP, TC, BIM Manager, Commercial manager).
+                    =Set(infoVar,"· Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo (JP, TC, BIM Manager, Commercial manager).
                     · El equipo estará disponible en el momento oportuno?
                     · Hay penalidades por no disponer del equipo de gestión nominado?
                     . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, se han tenido en cuenta en la oferta? 
-                    · Otros";
+                    · Otros");
                     Navigate('Info_TPG-01-F6')
                 Width: =46
                 X: =1056
@@ -118,7 +118,7 @@
                 Height: =40
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =paragraph_info.Text="· Disponemos y hemos leido el contrato enteramente?
+                    =Set(infoVar,"· Disponemos y hemos leido el contrato enteramente?
                     · El contrato es completo y es equilibrado y aceptable?
                     · Hay clausulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
                     ¿Hay clausulas razonables para modificaciones de alcance?
@@ -170,7 +170,7 @@
                 Height: =40
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =paragraph_info.Text="· Los socios son conocidos y de confianza?
+                    =Set(infoVar, "· Los socios son conocidos y de confianza?
                     · Hay algun problema financiero o de corrupcion?
                     · Tengemos alguna proteccion en caso de que el socio incumpla?
                     · Otros?";
