@@ -16,6 +16,31 @@
     "dependents": [],
     "id": "0c07a5b4-d0a2-47f2-b9d6-d55d38055230"
   },
+  "5b4a503f-f378-449e-904a-cfa4979b773c": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1610-greyhound-localization-RelayFix/1.0.1610.3091/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://grupotypsa.sharepoint.com/sites/ADT-121": {
+        "dataSources": {
+          "Ofertas": {
+            "tableName": "62c0b26d-505b-48bc-870e-75dbc1567ed6"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Ofertas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5b4a503f-f378-449e-904a-cfa4979b773c"
+  },
   "a75c244b-4d19-4884-8489-a347183f2eb6": {
     "connectionParameters": {
       "sku": "Enterprise"

@@ -156,3 +156,10 @@ Datos_generales As screen:
         Y: =640
         ZIndex: =14
 
+    ListBox1 As listbox:
+        Items: =Ofertas
+        Width: =403
+        X: =135
+        Y: =484
+        ZIndex: =15
+
