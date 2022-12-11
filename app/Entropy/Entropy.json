@@ -3,7 +3,8 @@
     "footer": 15,
     "footer_F5": 15,
     "footer_F6": 15,
-    "footer_info": 15
+    "footer_info": 15,
+    "header": 16
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -68,9 +69,11 @@
     "FooterContainer-F6": 155,
     "footer-label": 319,
     "form_background": 190,
+    "header": 326,
     "HeaderContainer1_1": 175,
     "HeaderContainer-F5": 202,
     "HeaderContainer-F6": 107,
+    "HeaderContainer-F6_1": 327,
     "id_label": 180,
     "identificador_label": 178,
     "Image1": 285,
@@ -323,14 +326,16 @@
     "title_label": 187,
     "title_label_2": 278,
     "title-F6": 109,
+    "title-F6_1": 329,
     "TPG01-F5": 200,
     "TPG01-F6": 105,
     "typsa_logo_F5": 203,
-    "typsa_logo_F6": 108
+    "typsa_logo_F6": 108,
+    "typsa_logo_F6_1": 328
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:47:04",
+  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:49:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0c07a5b4-d0a2-47f2-b9d6-d55d38055230": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/shared-office365user-fb127bc8-31f8-4039-ad05-7dd5694cf316\"",
@@ -353,10 +358,12 @@
   },
   "OldLogoFileName": "vhdlqu0k.jpg",
   "OrderComponentMetadata": {
-    "9a2cdb3fc7a544989aee29638c960d8a": 0
+    "9a2cdb3fc7a544989aee29638c960d8a": 0,
+    "c7333ddae55849eaa5023a0b20cddf2a": 1
   },
   "OrderComponentTemplate": {
-    "9a2cdb3fc7a544989aee29638c960d8a": 0
+    "9a2cdb3fc7a544989aee29638c960d8a": 0,
+    "c7333ddae55849eaa5023a0b20cddf2a": 1
   },
   "OrderDataSource": {
     "colData": 8,
@@ -448,9 +455,11 @@
     "FooterContainer-F6": 289,
     "footer-label": 302,
     "form_background": 3,
+    "header": 0,
     "HeaderContainer1_1": 291,
     "HeaderContainer-F5": 180,
     "HeaderContainer-F6": 241,
+    "HeaderContainer-F6_1": 303,
     "id_label": 296,
     "identificador_label": 294,
     "Image1": 13,
@@ -703,10 +712,12 @@
     "title_label": 0,
     "title_label_2": 173,
     "title-F6": 243,
+    "title-F6_1": 305,
     "TPG01-F5": 0,
     "TPG01-F6": 0,
     "typsa_logo_F5": 181,
-    "typsa_logo_F6": 242
+    "typsa_logo_F6": 242,
+    "typsa_logo_F6_1": 304
   },
   "ResourcesJsonIndices": {
     "Image-adt_logo": 2,
@@ -726,10 +737,10 @@
       "dataCard": 20,
       "dropdown": 28,
       "fluidGrid": 2,
-      "groupContainer": 9,
+      "groupContainer": 10,
       "icon": 19,
-      "image": 17,
-      "label": 118,
+      "image": 18,
+      "label": 119,
       "listbox": 2,
       "rectangle": 39,
       "screen": 15,
