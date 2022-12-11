@@ -1,14 +1,73 @@
 "'Info_TPG01-FX' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
 
-    Label8_1 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(184, 0, 0, 1)
-        Height: =50
-        Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
-        Width: =1366
+    footer_info As footer:
         Y: =718
-        ZIndex: =1
+
+    identificador_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="ID"
+        X: =51
+        Y: =106
+        ZIndex: =2
+
+    riesgo_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =24
+        Text: ="Riesgo"
+        X: =552
+        Y: =106
+        ZIndex: =3
+
+    info_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =20
+        Text: |-
+            ="Consideraciones (Aspectos a considerar a titulo orientativo)
+            "
+        Width: =1210
+        X: =51
+        Y: =210
+        ZIndex: =4
+
+    risk_label As label:
+        Height: =68
+        Size: =24
+        Text: =nameLabel
+        Width: =814
+        X: =552
+        Y: =147
+        ZIndex: =5
+
+    id_label As label:
+        Height: =68
+        Size: =24
+        Text: =idLabel
+        X: =51
+        Y: =147
+        ZIndex: =6
+
+    considerations_label As label:
+        AutoHeight: =true
+        Height: =298
+        LineHeight: =1.6
+        Size: =18
+        Text: =infoVar
+        Width: =1262
+        X: =51
+        Y: =280
+        ZIndex: =7
+
+    back_button As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(actualInfo)
+        X: =1263
+        Y: =661
+        ZIndex: =8
 
     HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
         Fill: =RGBA(191, 21, 37, 1)
@@ -18,7 +77,7 @@
         LayoutMode: =LayoutMode.Auto
         PaddingRight: =30
         Width: =1366
-        ZIndex: =2
+        ZIndex: =9
 
         Label9_1 As label:
             BorderColor: =RGBA(255, 255, 255, 1)
@@ -38,70 +97,4 @@
             Image: =logotypsa
             Width: =65
             ZIndex: =2
-
-    Label1_53 As label:
-        Color: =RGBA(33, 32, 32, 1)
-        FontWeight: =FontWeight.Bold
-        Size: =20
-        Text: ="ID"
-        X: =51
-        Y: =106
-        ZIndex: =3
-
-    Label1_54 As label:
-        Color: =RGBA(33, 32, 32, 1)
-        FontWeight: =FontWeight.Bold
-        Size: =24
-        Text: ="Riesgo"
-        X: =552
-        Y: =106
-        ZIndex: =4
-
-    Label1_55 As label:
-        Color: =RGBA(33, 32, 32, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =91
-        Size: =20
-        Text: |-
-            ="Consideraciones (Aspectos a considerar a titulo orientativo)
-            "
-        Width: =1210
-        X: =51
-        Y: =245
-        ZIndex: =5
-
-    risk_label As label:
-        Height: =68
-        Size: =24
-        Text: =nameLabel
-        Width: =814
-        X: =552
-        Y: =147
-        ZIndex: =6
-
-    id_label As label:
-        Height: =68
-        Size: =24
-        Text: =idLabel
-        X: =51
-        Y: =147
-        ZIndex: =7
-
-    paragraph_info_1 As label:
-        AutoHeight: =true
-        Height: =298
-        LineHeight: =1.6
-        Size: =20
-        Text: =infoVar
-        Width: =1262
-        X: =51
-        Y: =336
-        ZIndex: =8
-
-    back_button As arrow.backArrow:
-        Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(actualInfo)
-        X: =1263
-        Y: =661
-        ZIndex: =9
 
