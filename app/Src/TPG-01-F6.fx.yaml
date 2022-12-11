@@ -122,7 +122,7 @@
                     · El contrato es completo y es equilibrado y aceptable?
                     · Hay clausulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
                     ¿Hay clausulas razonables para modificaciones de alcance?
-                    ¿Hay penalizaciones por cambio de staff?";
+                    ¿Hay penalizaciones por cambio de staff?");
                     Navigate('Info_TPG-01-F6')
                 Width: =46
                 X: =1056
@@ -173,7 +173,7 @@
                     =Set(infoVar, "· Los socios son conocidos y de confianza?
                     · Hay algun problema financiero o de corrupcion?
                     · Tengemos alguna proteccion en caso de que el socio incumpla?
-                    · Otros?";
+                    · Otros?");
                     Navigate('Info_TPG-01-F6')
                 Width: =46
                 X: =1056
