@@ -1,0 +1,659 @@
+"'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1_2 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(191, 21, 37, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            ZIndex: =2
+
+            Label9_2 As label:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                PaddingLeft: =15
+                Size: =24
+                Text: |-
+                    ="TPG-01-F5: RIESGOS TÉCNICOS"
+                Width: =600
+                ZIndex: =1
+
+            Image2_2 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =1
+                Height: =65
+                Image: =logotypsa
+                Width: =65
+                ZIndex: =2
+
+        MainSectionContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
+                BorderThickness: =0
+                Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
+                Width: =Parent.Width
+                Y: =
+                ZIndex: =1
+
+                DataCard2_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =64
+                    Width: =1366
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                    Label5_3 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-01 Claridad en el alcance de los trabajos"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_27 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_16 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar,"· Las expectativas del cliente están claras. 
+                            · El alcance está suficientemente definido para determinar el trabajo a realizar. 
+                            · El nivel de detalle de los entregables está claro. 
+                            · En proyectos BIM: Se ha definido el nivel de detalle LOD y LOI en función de las diferentes etapas de proyecto (matriz de responsabilidades LOD/MEA).
+                            · En proyectos BIM: Existe lista de estándares y documentos para definir procesos y protocolos BIM que se han de aplicar al proyecto. 
+                            · Existe responsabilidad de aprobación en seguridad frente a incendio (fire safety) ante Autoridad local y/o aclaración sobre necesidad de simulaciones o análisis de evacuación/humos (CFD) ");
+                            Set(idLabel, "RT-01");
+                            Set(nameLabel, "Claridad en el alcance de los trabajos");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_8 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard3_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =3
+
+                    Label5_16 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-02 Estimación del coste de nuestros servicios"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_28 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_17 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar,"· Se ha dispuesto de la información necesaria para realizar una estimación del coste afinada. 
+                            · Se ha considerado una estimación por contingencias que cubre adecuadamente las incertidumbres del contrato.");
+                            Set(idLabel, "RT-02");
+                            Set(nameLabel, "Estimación del coste de nuestros servicios");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_9 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard5_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =2
+                    ZIndex: =5
+
+                    Label5_17 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-03 Trabajo deslocalizado"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_29 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_18 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· El contrato es en consorcio con otras empresas con distinta metodología de trabajo, o requiere de trabajo colaborativo entre varios centros de producción con distintos horarios.");
+                            Set(idLabel, "RT-03");
+                            Set(nameLabel, "Trabajo deslocalizado");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_10 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard6_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =3
+                    ZIndex: =6
+
+                    Label5_18 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-04 Disponibilidad del equipo técnico"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_30 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_19 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· El equipo técnico necesario estará disponible cuando y donde se le precise (incluidos los del socio, si lo hay).  ");
+                            Set(idLabel, "RT-04");
+                            Set(nameLabel, "Disponibilidad del equipo técnico");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_11 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard7_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =4
+                    ZIndex: =7
+
+                    Label5_19 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-05 Capacidad y experiencia del equipo de trabajo"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_31 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_20 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· El equipo de trabajo tiene la experiencia y conocimientos tecnicos requeridos, incluidos seguridad frente a incendios. La experiencia técnica de nuestros socios ha sido contrastada. 
+                            · En proyectos BIM. Están establecidos los requisitos de capacitación /formación de los perfiles para acometer los trabajos.
+                            · En proyectos BIM. Existe una relación de roles, responsabilidades para abordar el trabajo.  
+                            ");
+                            Set(idLabel, "RT-05");
+                            Set(nameLabel, "Capacidad y experiencia del equipo de trabajo");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_12 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard8_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =5
+                    ZIndex: =8
+
+                    Label5_20 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-06 Seguridad"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_32 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_21 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· Hay riesgos físicos en el emplazamiento que deban ser tenidos en cuenta. 
+                            · Hay riesgos o especiales medidas a tener en cuenta en relación con la seguridad de la información. "
+                            );
+                            Set(idLabel, "RT-06");
+                            Set(nameLabel, "Seguridad");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_13 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard10_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =6
+                    ZIndex: =9
+
+                    Label5_21 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-07 Recursos técnicos"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_33 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_22 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· Disponemos de los medios y equipos adecuados para la realización del trabajo (software, comunicaciones, licencias, etc.).  
+                            · En proyectos BIM: Existen requisitos de software (versión y release) y hardware.  
+                            · En proyectos BIM: Existen requisitos en cuanto a las condiciones de las infraestructuras IT. 
+                            · En proyectos BIM: Existen requisitos de seguridad e integridad de la información del proyecto. ");
+                            Set(idLabel, "RT-07");
+                            Set(nameLabel, "Recursos técnicos");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_14 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard11_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =72
+                    Width: =1366
+                    X: =0
+                    Y: =7
+                    ZIndex: =10
+
+                    Label5_22 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-08 Datos de partida y aspectos relacionados con la coordinación"
+                        Width: =666
+                        ZIndex: =1
+
+                    risk_34 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =2
+
+                    Icon3_23 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· ¿Hay incertidumbres en relacion con Los datos de partida para iniciar los trabajos estarán disponibles a tiempo. 
+                            · Hay inputs que deben ser provistos por terceros, para que podamos desarrollar los trabajos. 
+                            · Tenemos que coordinarnos con terceros para hacer nuestro trabajo. 
+                            · Algunos intervinientes en el proyecto pueden originar retrasos.  
+                            · En proyectos BIM: Existen requisitos y/o procedimientos para la coordinación interdisciplinar a través de modelos tridimensionales con información paramétrica. 
+                            · En proyectos BIM: Existen requisitos de origen de coordenadas y modelo 0.  
+                            · En proyectos singulares, identificación de necesidad de enfoques prestacionales dependientes del país en el que se ubique el proyecto.  
+                            · Coordinación necesaria con otras empresas / agentes externos en justificación seguridad frente a incendio (Fire Safety)  ");
+                            Set(idLabel, "RT-08");
+                            Set(nameLabel, "Datos de partida y aspectos relacionados con la coordinación");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =3
+
+                    Rectangle3_15 As rectangle:
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                DataCard3 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =68
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =11
+
+                    Label5_23 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-09 Subcontratistas"
+                        Width: =666
+                        ZIndex: =1
+
+                    Icon3_24 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· Dispondremos de los subcontratistas adecuados. Serán subcontratistas de confianza con los que ya hemos trabajado antes. 
+                            · En proyectos BIM. Se ha demostrado que la madurez BIM que poseen es la adecuada para abordar el proyecto. (cuestionarios de precalificación).  ");
+                            Set(idLabel, "RT-09");
+                            Set(nameLabel, "Subcontratistas");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =2
+
+                    risk_35 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =3
+
+                DataCard4 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =78
+                    Width: =1366
+                    X: =0
+                    Y: =9
+                    ZIndex: =12
+
+                    Label5_24 As label:
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="RT-10 Planificación"
+                        Width: =666
+                        ZIndex: =1
+
+                    Icon3_25 As icon.Information:
+                        Color: =RGBA(184, 0, 0, 1)
+                        FocusedBorderThickness: =0
+                        Height: =42
+                        Icon: =Icon.Information
+                        OnSelect: |-
+                            =Set(infoVar, "· Podemos cumplir los hitos de entrega establecidos, que son razonables. 
+                            · Se dispone de una planificación a partir de la cual el motivo de los retrasos no imputables a nosotros puede identificarse. 
+                            · En proyectos BIM: Existen los objetivos estratégicos del cliente en cuanto al uso de la información de los modelos (Objetivos BIM/Usos BIM). 
+                            · Existen requisitos en cuanto a la organización y la estructura de los modelos, implementación y la gestión del CDE, colaboración, flujos de trabajo y tipos de intercambios de información, etapas de trabajo, propósito y formatos requeridos.");
+                            Set(idLabel, "RT-10");
+                            Set(nameLabel, "Planificación");
+                            Navigate('Info_TPG01-F6')
+                        Width: =42
+                        X: =1021
+                        Y: =15
+                        ZIndex: =2
+
+                    risk_36 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Bajo", "Medio", "Alto"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =1102
+                        Y: =15
+                        ZIndex: =3
+
+        FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            Label8_2 As label:
+                Align: =Align.Center
+                AlignInContainer: =AlignInContainer.Stretch
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(184, 0, 0, 1)
+                FillPortions: =1
+                LayoutMinHeight: =50
+                Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
+                ZIndex: =1
+

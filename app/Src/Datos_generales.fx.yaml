@@ -149,8 +149,14 @@ Datos_generales As screen:
         ZIndex: =14
 
     project As listbox:
+        BorderColor: =RGBA(184, 0, 0, 1)
+        FocusedBorderThickness: =2
         Height: =175
+        HoverFill: =RGBA(220, 153, 153, 1)
         Items: =Filter(Ofertas,'Responsable de la oferta'.Email = User().Email)
+        PressedFill: =RGBA(184, 0, 0, 1)
+        SelectionFill: =RGBA(184, 0, 0, 1)
+        SelectMultiple: =false
         Width: =403
         X: =119
         Y: =249
