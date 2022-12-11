@@ -1,0 +1,57 @@
+"Screen1 As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+        MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            Gallery1 As gallery.variableTemplateHeightGallery:
+                Items: =TPGF6
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                TemplateSize: =280
+                ZIndex: =1
+
+                Gallery3 As gallery.variableTemplateHeightGallery:
+                    Height: =280
+                    Items: =ThisItem.articles
+                    Layout: =Layout.Vertical
+                    TemplateSize: =280
+                    Width: =1316
+                    X: =40
+                    ZIndex: =1
+
+                    Label6 As label:
+                        OnSelect: =Select(Parent)
+                        Text: =ThisItem.id
+                        X: =40
+                        Y: =40
+                        ZIndex: =1
+
+        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
