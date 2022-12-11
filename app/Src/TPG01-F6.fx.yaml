@@ -2,7 +2,7 @@
     OnVisible: |-
         =Set(actualInfo, 'TPG01-F6');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
 
-    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+    "'ScreenContainer-F6' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -10,7 +10,8 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+        "'HeaderContainer-F6' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(191, 21, 37, 1)
             FillPortions: =0
             Height: =75
@@ -42,7 +43,8 @@
                 Width: =65
                 ZIndex: =2
 
-        MainSectionContainer1 As groupContainer.verticalAutoLayoutContainer:
+        "'MainSectionContainer-F6' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -50,6 +52,7 @@
             ZIndex: =3
 
             Canvas1_1 As fluidGrid.fluidGridWithBlankCard:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =0
                 Height: =Parent.Height - Self.Y
                 LayoutMinHeight: =250
@@ -565,7 +568,8 @@
                         Y: =32
                         ZIndex: =2
 
-        FooterContainer1 As groupContainer.horizontalAutoLayoutContainer:
+        "'FooterContainer-F6' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =50
             LayoutMinHeight: =100
@@ -573,9 +577,8 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =4
 
-            Label8 As label:
+            "'footer-F6' As label":
                 Align: =Align.Center
-                AlignInContainer: =AlignInContainer.Stretch
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(184, 0, 0, 1)
                 FillPortions: =1

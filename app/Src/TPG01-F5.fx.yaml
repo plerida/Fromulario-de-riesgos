@@ -2,7 +2,7 @@
     OnVisible: |-
         =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS")
 
-    ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+    "'ScreenContainer-F5' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -10,7 +10,8 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        HeaderContainer1_2 As groupContainer.horizontalAutoLayoutContainer:
+        "'HeaderContainer-F5' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(191, 21, 37, 1)
             FillPortions: =0
             Height: =75
@@ -42,7 +43,8 @@
                 Width: =65
                 ZIndex: =2
 
-        MainSectionContainer1_1 As groupContainer.verticalAutoLayoutContainer:
+        "'MainSectionContainer-F5' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -50,6 +52,7 @@
             ZIndex: =3
 
             Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =0
                 Height: =Parent.Height - Self.Y
                 LayoutMinHeight: =250
@@ -666,21 +669,17 @@
                         Y: =32
                         ZIndex: =2
 
-        FooterContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
+        "'FooterContainer-F5' As groupContainer.horizontalAutoLayoutContainer":
             FillPortions: =0
             Height: =50
+            LayoutAlignItems: =LayoutAlignItems.Center
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             ZIndex: =4
 
-            Label8_2 As label:
-                Align: =Align.Center
-                AlignInContainer: =AlignInContainer.Stretch
-                Color: =RGBA(255, 255, 255, 1)
-                Fill: =RGBA(184, 0, 0, 1)
-                FillPortions: =1
-                LayoutMinHeight: =50
-                Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
-                ZIndex: =1
+            footer_1 As footer:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+                ZIndex: =2
 
