@@ -101,7 +101,7 @@
 
     back_button As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate('TPG01-F6')
+        OnSelect: =Navigate(actualInfo)
         X: =1263
         Y: =661
         ZIndex: =9

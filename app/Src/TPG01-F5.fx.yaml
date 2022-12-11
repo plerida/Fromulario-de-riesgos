@@ -1,4 +1,5 @@
 "'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: =Set(actualInfo, 'TPG01-F5')
 
     ScreenContainer1_1 As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
@@ -590,7 +591,7 @@
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(250, 250, 250, 1)
                     Height: =78
                     Width: =1366
                     X: =0

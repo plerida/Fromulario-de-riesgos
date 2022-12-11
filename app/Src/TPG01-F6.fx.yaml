@@ -1,4 +1,5 @@
 "'TPG01-F6' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: =Set(actualInfo, 'TPG01-F6')
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Height: =Parent.Height
