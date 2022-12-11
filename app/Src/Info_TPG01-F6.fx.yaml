@@ -74,7 +74,7 @@
     risk_label As label:
         Height: =68
         Size: =24
-        Text: ="Recursos técnicos"
+        Text: =nameLabel
         Width: =814
         X: =552
         Y: =147
