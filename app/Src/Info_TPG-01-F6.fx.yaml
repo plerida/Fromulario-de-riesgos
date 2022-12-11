@@ -1,0 +1,76 @@
+"'Info_TPG-01-F6' As screen":
+    ContentLanguage: ="Bajo"
+
+    Label1_51 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =16
+        Text: ="ID"
+        X: =51
+        Y: =106
+        ZIndex: =1
+
+    Label1_50 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =16
+        Text: ="Riesgo"
+        X: =207
+        Y: =100
+        ZIndex: =4
+
+    Label1_52 As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =16
+        Text: |-
+            ="Consideraciones
+            (Aspectos a considerar a titulo orientativo)
+            "
+        Width: =498
+        X: =51
+        Y: =245
+        ZIndex: =5
+
+    Arrow1_10 As arrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('RT-09')
+        X: =1224
+        Y: =702
+        ZIndex: =9
+
+    Label3_10 As label:
+        Height: =68
+        Text: ="Recursos técnicos"
+        Width: =208
+        X: =207
+        Y: =142
+        ZIndex: =14
+
+    Label2_10 As label:
+        Text: ="RT-07"
+        X: =51
+        Y: =148
+        ZIndex: =16
+
+    paragraph_info As label:
+        Height: =295
+        Text: =""
+        Width: =1237
+        X: =54
+        Y: =336
+        ZIndex: =17
+
+    Image1_10 As image:
+        Image: ='MicrosoftTeams-image'
+        X: =1175
+        ZIndex: =19
+
+    Arrow2_12 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('RT-04')
+        X: =1147
+        Y: =702
+        ZIndex: =22
+

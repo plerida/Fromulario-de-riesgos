@@ -2,7 +2,32 @@ Datos_generales As screen:
     BackgroundImage: =
     Fill: =RGBA(255, 255, 255, 1)
 
-    Rectangle1_1 As rectangle:
+    title_label As label:
+        Align: =Align.Center
+        Color: =RGBA(191, 21, 37, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =142
+        Size: =26
+        Text: ="Generación del TPG-01-FX para Análisis de Riesgos"
+        Width: =875
+        X: =59
+        Y: =28
+        ZIndex: =1
+
+    logo_typsa As image:
+        Image: =logotypsa
+        X: =1061
+        Y: =41
+        ZIndex: =2
+
+    logo_adt As image:
+        Image: ='adt-logo'
+        X: =1215
+        Y: =41
+        ZIndex: =3
+
+    form_background As rectangle:
         BorderColor: =RGBA(191, 21, 37, 1)
         BorderThickness: =2
         Fill: =RGBA(242, 242, 242, 1)
@@ -10,9 +35,9 @@ Datos_generales As screen:
         Width: =1254
         X: =59
         Y: =170
-        ZIndex: =7
+        ZIndex: =4
 
-    Button1_1 As button:
+    ok_button As button:
         DisabledColor: =RGBA(255, 255, 255, 1)
         DisabledFill: =RGBA(191, 21, 37, 1)
         Fill: =RGBA(191, 21, 37, 1)
@@ -23,9 +48,9 @@ Datos_generales As screen:
             "
         X: =613
         Y: =640
-        ZIndex: =8
+        ZIndex: =5
 
-    Label5_2 As label:
+    project_label As label:
         Align: =Align.Center
         DisabledBorderColor: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(255, 255, 255, 1)
@@ -36,19 +61,20 @@ Datos_generales As screen:
         Width: =320
         X: =135
         Y: =192
-        ZIndex: =9
+        ZIndex: =6
 
     project As text:
-        Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Color: =RGBA(149, 149, 149, 1)
         Default: =""
         FontWeight: =FontWeight.Lighter
+        HoverBorderColor: =RGBA(184, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         X: =135
         Y: =249
-        ZIndex: =10
+        ZIndex: =7
 
-    Label5_3 As label:
+    money_label As label:
         FontWeight: =FontWeight.Semibold
         Height: =50
         Size: =20
@@ -56,18 +82,19 @@ Datos_generales As screen:
         Width: =176
         X: =207
         Y: =321
-        ZIndex: =11
+        ZIndex: =8
 
     money As text:
-        Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
         Format: =TextFormat.Number
+        HoverBorderColor: =RGBA(184, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         X: =135
         Y: =378
-        ZIndex: =12
+        ZIndex: =9
 
-    Label5_4 As label:
+    dg_label As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Semibold
         Height: =50
@@ -78,14 +105,16 @@ Datos_generales As screen:
         Width: =492
         X: =773
         Y: =192
-        ZIndex: =13
+        ZIndex: =10
 
     email_dg As text:
-        Align: =Align.Center
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
+        FocusedBorderThickness: =2
         Height: =49
         HintText: =""
+        HoverBorderColor: =RGBA(184, 0, 0, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -93,51 +122,30 @@ Datos_generales As screen:
         Width: =492
         X: =773
         Y: =249
-        ZIndex: =14
+        ZIndex: =11
 
-    Label6 As label:
-        Align: =Align.Center
-        Color: =RGBA(191, 21, 37, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =142
-        Size: =26
-        Text: ="Generación del TPG-01-FX para Análisis de Riesgos"
-        Width: =477
-        X: =455
-        Y: =20
-        ZIndex: =15
-
-    Image2 As image:
-        Image: ='adt-logo'
-        X: =59
-        Y: =20
-        ZIndex: =16
-
-    Image3 As image:
-        Image: =logotypsa
-        X: =183
-        Y: =20
-        ZIndex: =17
-
-    ListBox1 As listbox:
+    dg_results As listbox:
         BorderColor: =RGBA(184, 0, 0, 1)
-        Height: =277
+        FocusedBorderThickness: =2
+        Height: =276
         HoverFill: =RGBA(238, 204, 204, 1)
         Items: |-
             =Office365Users.SearchUser({searchTerm : email_dg.Text})
-        OnChange: =email_dg.Text = First(ListBox1.SelectedItems).DisplayName
+        OnChange: =email_dg.Text = First(dg_results.SelectedItems).DisplayName
         PressedFill: =RGBA(184, 0, 0, 1)
         SelectionFill: =RGBA(184, 0, 0, 1)
         SelectMultiple: =false
         Width: =492
         X: =773
         Y: =298
-        ZIndex: =19
+        ZIndex: =12
 
-    Label8 As label:
-        Text: =
-        X: =247
-        Y: =534
-        ZIndex: =20
+    Icon1 As icon.Search:
+        Color: =RGBA(184, 0, 0, 1)
+        Height: =34
+        Icon: =Icon.Search
+        Width: =34
+        X: =1215
+        Y: =257
+        ZIndex: =13
 
