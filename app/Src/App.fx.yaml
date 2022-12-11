@@ -1,3 +1,98 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: |-
+        =ClearCollect(TPGF6, {
+            id: "TPG-F6 Riesgos",
+            RM01: {
+                id1: "RT-01"
+                },
+            RM02: {
+                id2: "RT-02"
+                },
+            RM03: {
+                id3: "RT-03"
+                },
+            RM04: {
+                id4: "RT-04"
+                },
+            RM05: {
+                id5: "RT-05"
+                },
+            RM06: {
+                id6: "RT-06"
+                },
+            RM07: {
+                id7: "RT-07"
+                },
+            RM08: {
+                id8: "RT-08"
+                }}
+        );
+    StartScreen: |-
+        =ClearCollect(colData, {
+            money: money.Text, 
+            project: project.Text, 
+            email: First(dg_results.SelectedItems).Mail,
+            RT01: {
+                id1: "RT-01",
+                risk1: risk_1.Selected.Value,
+                comment1: comments_1.Text,
+                actions1: actions_1.Text
+                },
+            RT02: {
+                id2: "RT-02",
+                risk2: risk_2.Selected.Value,
+                comment2: comments_2.Text,
+                actions2: actions_2.Text
+                },
+            RT03: {
+                id3: "RT-03",
+                risk3: risk_3.Selected.Value,
+                comment3: comments_3.Text,
+                actions3: actions_3.Text
+                },
+            RT04: {
+                id4: "RT-04",
+                risk4: risk_4.Selected.Value,
+                comment4: comments_4.Text,
+                actions4: actions_4.Text
+                },
+            RT05: {
+                id5: "RT-05",
+                risk5: risk_5.Selected.Value,
+                comment5: comments_5.Text,
+                actions5: actions_5.Text
+                },
+            RT06: {
+                id6: "RT-06",
+                risk6: risk_6.Selected.Value,
+                comment6: comments_6.Text,
+                actions6: actions_6.Text
+                },
+            RT07: {
+                id7: "RT-07",
+                risk7: risk_7.Selected.Value,
+                comment7: comments_7.Text,
+                actions7: actions_7.Text
+                },
+            RT08: {
+                id8: "RT-08",
+                risk8: risk_8.Selected.Value,
+                comment8: comments_8.Text,
+                actions8: actions_8.Text
+                },
+            RT09: {
+                id9: "RT-09",
+                risk9: risk_9.Selected.Value,
+                comment9: comments_9.Text,
+                actions9: actions_9.Text
+                },
+            RT010: {
+                id10: "RT-010",
+                risk10: risk_10.Selected.Value,
+                comment10: comments_10.Text,
+                actions10: actions_10.Text
+                }
+            }
+        );
 
