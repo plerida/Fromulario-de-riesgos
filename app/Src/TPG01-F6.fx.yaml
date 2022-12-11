@@ -53,7 +53,7 @@
                 LayoutMinHeight: =250
                 LayoutMinWidth: =100
                 Width: =Parent.Width
-                Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+                Y: =
                 ZIndex: =1
 
                 DataCard2_1 As dataCard.blankCard:
@@ -103,9 +103,10 @@
                             · ¿Hay penalizaciones por no disponer del equipo de gestión nominado?
                             . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, ¿se han tenido en cuenta en la oferta?
                             · Otros");
+                            Set(idLabel, "RM-01");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -120,7 +121,7 @@
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(250, 250, 250, 1)
                     Height: =73
                     Width: =1366
                     X: =0
@@ -162,9 +163,10 @@
                             · ¿Hay cláusulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
                             · ¿Hay cláusulas razonables para modificaciones de alcance?
                             · ¿Hay penalizaciones por cambio de staff?");
+                            Set(idLabel, "RM-02");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -220,9 +222,10 @@
                             · ¿Hay algún problema financiero o de corrupción?
                             · ¿Tenemos alguna protección en caso de que el socio incumpla?
                             · Otros");
+                            Set(idLabel, "RM-03");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -237,7 +240,7 @@
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(250, 250, 250, 1)
                     Height: =73
                     Width: =1366
                     X: =0
@@ -277,9 +280,10 @@
                             =Set(infoVar, "· ¿El proceso de aprobacion es claro? 
                             · ¿Se contemplan aprobaciones por terceros? 
                             · ¿El proceso de aprobación final es claro?");
+                            Set(idLabel, "RM-04");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -335,9 +339,10 @@
                             · ¿Se requiere alguna medida para protegernos en caso de insolvencia?
                             · ¿Hay incertidumbre en relacion con los fondos? (por ejemplo, el presupuesto esta aun pendiente de verificación por parte de algun organismo gubernamental o debe ser revisado y aprobado anualmente
                             ");
+                            Set(idLabel, "RM-05");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -352,7 +357,7 @@
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(250, 250, 250, 1)
                     Height: =73
                     Width: =1366
                     X: =0
@@ -394,9 +399,10 @@
                             · ¿Los plazos y los hitos de pago son aceptables?
                             · ¿Se preve que podamos suspender los trabajos y resolver el contrato en caso de impago?"
                             );
+                            Set(idLabel, "RM-06");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -450,9 +456,10 @@
                         OnSelect: |-
                             =Set(infoVar, "· ¿El cash flow está evaluado y es aceptable, incluso en caso de que se produzca algun retraso previsible?
                             · Otros");
+                            Set(idLabel, "RM-07");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -468,7 +475,7 @@
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(250, 250, 250, 1)
                     Height: =72
                     Width: =1366
                     X: =0
@@ -509,9 +516,10 @@
                             · ¿Hay riesgo de fluctuación de moneda?
                             · ¿Hay algún problema para la expatriacion de beneficios o el pago de servicios entre paises?
                             · Otros");
+                            Set(idLabel, "RM-08");
                             Navigate('Info_TPG01-F6')
                         Width: =42
-                        X: =1060
+                        X: =1021
                         Y: =15
                         ZIndex: =3
 
@@ -536,6 +544,7 @@
                 Color: =RGBA(255, 255, 255, 1)
                 Fill: =RGBA(184, 0, 0, 1)
                 FillPortions: =1
+                LayoutMinHeight: =50
                 Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
                 ZIndex: =1
 

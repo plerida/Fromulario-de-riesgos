@@ -4,9 +4,10 @@
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(184, 0, 0, 1)
+        Height: =50
         Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
         Width: =1366
-        Y: =728
+        Y: =718
         ZIndex: =1
 
     HeaderContainer1_1 As groupContainer.horizontalAutoLayoutContainer:
@@ -70,7 +71,7 @@
         Y: =245
         ZIndex: =5
 
-    Label3_11 As label:
+    risk_label As label:
         Height: =68
         Size: =24
         Text: ="Recursos técnicos"
@@ -79,10 +80,10 @@
         Y: =147
         ZIndex: =6
 
-    Label2_11 As label:
+    id_label As label:
         Height: =68
         Size: =24
-        Text: ="RT-07"
+        Text: =idLabel
         X: =51
         Y: =147
         ZIndex: =7
@@ -98,7 +99,7 @@
         Y: =336
         ZIndex: =8
 
-    Arrow2_13 As arrow.backArrow:
+    back_button As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
         OnSelect: =Navigate('TPG01-F6')
         X: =1263
