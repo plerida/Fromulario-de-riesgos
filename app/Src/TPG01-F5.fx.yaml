@@ -681,5 +681,6 @@
             footer_1 As footer:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
+                Width: =
                 ZIndex: =2
 

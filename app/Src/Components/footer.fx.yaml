@@ -1,7 +1,7 @@
 footer As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =50
-    Width: =100%
+    Width: =App.Width
     X: =0
     Y: =0
     ZIndex: =1
@@ -12,6 +12,6 @@ footer As CanvasComponent:
         Fill: =RGBA(184, 0, 0, 1)
         Height: =49
         Text: ="Acelerador Digital de TYPSA | Dirección General de Calidad"
-        Width: =650
+        Width: =App.Width
         ZIndex: =1
 

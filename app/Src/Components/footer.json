@@ -60,7 +60,14 @@
           "VerticalAlign",
           "X",
           "Y",
-          "Width",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "650",
+            "InvariantPropertyName": "Width",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "Height",
           "DisplayMode",
           "ZIndex",
@@ -315,7 +322,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "650",
+            "InvariantScript": "App.Width",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -365,7 +372,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638063791359395579",
+    "LastModifiedTimestamp": "638063793159957893",
     "Name": "footer",
     "Rules": [
       {
@@ -388,7 +395,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "100%",
+        "InvariantScript": "App.Width",
         "Property": "Width",
         "RuleProviderType": "System"
       },
@@ -424,7 +431,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638063791359395579",
+  "LastModifiedTimestamp": "638063793159957893",
   "Name": "9a2cdb3fc7a544989aee29638c960d8a",
   "OverridableProperties": {},
   "Version": "638063789434853941"

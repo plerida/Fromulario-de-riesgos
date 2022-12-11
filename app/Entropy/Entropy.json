@@ -326,7 +326,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:12:20",
+  "HeaderLastSavedDateTimeUTC": "12/11/2022 18:15:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0c07a5b4-d0a2-47f2-b9d6-d55d38055230": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/shared-office365user-fb127bc8-31f8-4039-ad05-7dd5694cf316\"",
@@ -457,7 +457,7 @@
     "email_dg": 7,
     "Enviar_formulario": 0,
     "footer": 0,
-    "footer_1": 0,
+    "footer_1": 237,
     "FooterContainer-F5": 236,
     "FooterContainer-F6": 287,
     "footer-F6": 288,
