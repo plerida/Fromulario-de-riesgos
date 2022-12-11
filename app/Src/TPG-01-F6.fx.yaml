@@ -63,18 +63,18 @@
             Icon3 As icon.Information:
                 Color: =RGBA(184, 0, 0, 1)
                 FocusedBorderThickness: =0
-                Height: =40
+                Height: =42
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =Set(infoVar,"· Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo (JP, TC, BIM Manager, Commercial manager).
-                    · El equipo estará disponible en el momento oportuno?
-                    · Hay penalidades por no disponer del equipo de gestión nominado?
-                    . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, se han tenido en cuenta en la oferta? 
+                    =Set(infoVar,"· ¿Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo? (JP, TC, BIM Manager, Commercial manager)
+                    · ¿El equipo estará disponible en el momento oportuno?
+                    · ¿Hay penalizaciones por no disponer del equipo de gestión nominado?
+                    . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, ¿se han tenido en cuenta en la oferta?
                     · Otros");
                     Navigate('Info_TPG-01-F6')
-                Width: =46
-                X: =1056
-                Y: =17
+                Width: =42
+                X: =1060
+                Y: =15
                 ZIndex: =3
 
         DataCard3 As dataCard.blankCard:
@@ -115,18 +115,18 @@
             Icon3_1 As icon.Information:
                 Color: =RGBA(184, 0, 0, 1)
                 FocusedBorderThickness: =0
-                Height: =40
+                Height: =42
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =Set(infoVar,"· Disponemos y hemos leido el contrato enteramente?
-                    · El contrato es completo y es equilibrado y aceptable?
-                    · Hay clausulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
-                    ¿Hay clausulas razonables para modificaciones de alcance?
-                    ¿Hay penalizaciones por cambio de staff?");
+                    =Set(infoVar,"· ¿Disponemos y hemos leído el contrato enteramente?
+                    · ¿El contrato es completo y es equilibrado y aceptable?
+                    · ¿Hay cláusulas contractuales que puedan originar retrasos, trabajo adicional o costes adicionales que puedan desequilibrarlo?
+                    · ¿Hay cláusulas razonables para modificaciones de alcance?
+                    · ¿Hay penalizaciones por cambio de staff?");
                     Navigate('Info_TPG-01-F6')
-                Width: =46
-                X: =1056
-                Y: =17
+                Width: =42
+                X: =1060
+                Y: =15
                 ZIndex: =3
 
         DataCard5 As dataCard.blankCard:
@@ -167,17 +167,17 @@
             Icon3_2 As icon.Information:
                 Color: =RGBA(184, 0, 0, 1)
                 FocusedBorderThickness: =0
-                Height: =40
+                Height: =42
                 Icon: =Icon.Information
                 OnSelect: |-
-                    =Set(infoVar, "· Los socios son conocidos y de confianza?
-                    · Hay algun problema financiero o de corrupcion?
-                    · Tengemos alguna proteccion en caso de que el socio incumpla?
-                    · Otros?");
+                    =Set(infoVar, "· ¿Los socios son conocidos y de confianza?
+                    · ¿Hay algún problema financiero o de corrupción?
+                    · ¿Tenemos alguna protección en caso de que el socio incumpla?
+                    · Otros");
                     Navigate('Info_TPG-01-F6')
-                Width: =46
-                X: =1056
-                Y: =16
+                Width: =42
+                X: =1060
+                Y: =15
                 ZIndex: =3
 
         DataCard6 As dataCard.blankCard:
@@ -215,6 +215,21 @@
                 Y: =15
                 ZIndex: =2
 
+            Icon3_3 As icon.Information:
+                Color: =RGBA(184, 0, 0, 1)
+                FocusedBorderThickness: =0
+                Height: =42
+                Icon: =Icon.Information
+                OnSelect: |-
+                    =Set(infoVar, "· ¿El proceso de aprobacion es claro? 
+                    · ¿Se contemplan aprobaciones por terceros? 
+                    · ¿El proceso de aprobación final es claro?");
+                    Navigate('Info_TPG-01-F6')
+                Width: =42
+                X: =1060
+                Y: =15
+                ZIndex: =3
+
         DataCard7 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
@@ -249,6 +264,22 @@
                 X: =1102
                 Y: =15
                 ZIndex: =2
+
+            Icon3_4 As icon.Information:
+                Color: =RGBA(184, 0, 0, 1)
+                FocusedBorderThickness: =0
+                Height: =42
+                Icon: =Icon.Information
+                OnSelect: |-
+                    =Set(infoVar, "· ¿Es el cliente solvente? 
+                    · ¿Se requiere alguna medida para protegernos en caso de insolvencia?
+                    · ¿Hay incertidumbre en relacion con los fondos? (por ejemplo, el presupuesto esta aun pendiente de verificación por parte de algun organismo gubernamental o debe ser revisado y aprobado anualmente
+                    ");
+                    Navigate('Info_TPG-01-F6')
+                Width: =42
+                X: =1060
+                Y: =15
+                ZIndex: =3
 
         DataCard8 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -285,6 +316,23 @@
                 Y: =15
                 ZIndex: =2
 
+            Icon3_5 As icon.Information:
+                Color: =RGBA(184, 0, 0, 1)
+                FocusedBorderThickness: =0
+                Height: =42
+                Icon: =Icon.Information
+                OnSelect: |-
+                    =Set(infoVar, "· ¿El proceso de pagos es claro y razonable?
+                    · ¿La vinculación entre la aprobación de los trabajos y el pago de lo servicios correspondientes es aceptable?
+                    · ¿Los plazos y los hitos de pago son aceptables?
+                    · ¿Se preve que podamos suspender los trabajos y resolver el contrato en caso de impago?"
+                    );
+                    Navigate('Info_TPG-01-F6')
+                Width: =42
+                X: =1060
+                Y: =15
+                ZIndex: =3
+
         DataCard10 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
@@ -319,6 +367,20 @@
                 X: =1102
                 Y: =15
                 ZIndex: =2
+
+            Icon3_6 As icon.Information:
+                Color: =RGBA(184, 0, 0, 1)
+                FocusedBorderThickness: =0
+                Height: =42
+                Icon: =Icon.Information
+                OnSelect: |-
+                    =Set(infoVar, "· ¿El cash flow está evaluado y es aceptable, incluso en caso de que se produzca algun retraso previsible?
+                    · Otros");
+                    Navigate('Info_TPG-01-F6')
+                Width: =42
+                X: =1060
+                Y: =15
+                ZIndex: =3
 
         DataCard11 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -355,6 +417,22 @@
                 X: =1102
                 Y: =15
                 ZIndex: =2
+
+            Icon3_7 As icon.Information:
+                Color: =RGBA(184, 0, 0, 1)
+                FocusedBorderThickness: =0
+                Height: =42
+                Icon: =Icon.Information
+                OnSelect: |-
+                    =Set(infoVar, "· ¿Hay incertidumbres en relacion con los withholding taxes y otros impuestos, su aplicabilidad o los porcentajes?
+                    · ¿Hay riesgo de fluctuación de moneda?
+                    · ¿Hay algún problema para la expatriacion de beneficios o el pago de servicios entre paises?
+                    · Otros");
+                    Navigate('Info_TPG-01-F6')
+                Width: =42
+                X: =1060
+                Y: =15
+                ZIndex: =3
 
     logo_typsa_1 As image:
         BorderColor: =RGBA(255, 255, 255, 1)
