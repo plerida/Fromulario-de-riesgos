@@ -124,6 +124,13 @@
                         Y: =72
                         ZIndex: =4
 
+                    Button2 As button:
+                        OnSelect: =If(DataCard1.Visible = true, DataCard1.Visible = false)
+                        Text: ="Botón"
+                        X: =804
+                        Y: =15
+                        ZIndex: =5
+
                 "'RT-02_card' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -132,7 +139,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =1
+                    Y: =2
                     ZIndex: =3
 
                     "'RT-02_label' As label":
@@ -190,7 +197,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =2
+                    Y: =3
                     ZIndex: =5
 
                     "'RT-03_label' As label":
@@ -247,7 +254,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =3
+                    Y: =4
                     ZIndex: =6
 
                     "'RT-04_label' As label":
@@ -304,7 +311,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =4
+                    Y: =5
                     ZIndex: =7
 
                     "'RT-05_label' As label":
@@ -364,7 +371,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =5
+                    Y: =6
                     ZIndex: =8
 
                     "'RT-06_label' As label":
@@ -423,7 +430,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =7
                     ZIndex: =9
 
                     "'RT-07_label' As label":
@@ -484,7 +491,7 @@
                     Height: =72
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =8
                     ZIndex: =10
 
                     "'RT-08_label' As label":
@@ -548,7 +555,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =8
+                    Y: =9
                     ZIndex: =11
 
                     "'RT-09_label' As label":
@@ -604,9 +611,10 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
                     Height: =73
+                    Visible: =true
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =10
                     ZIndex: =12
 
                     "'RT-10_label' As label":
@@ -666,7 +674,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =11
                     ZIndex: =13
 
                     next_button_F5 As arrow:
@@ -682,6 +690,23 @@
                         X: =612
                         Y: =32
                         ZIndex: =2
+
+                DataCard1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =14
+
+                    TextInput1 As text:
+                        Default: ="Entrada de texto"
+                        X: =564
+                        Y: =12
+                        ZIndex: =1
 
         "'FooterContainer-F5' As groupContainer.horizontalAutoLayoutContainer":
             FillPortions: =0
