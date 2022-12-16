@@ -129,26 +129,9 @@
                             =If(card = true, Set(card, false));
                             If(card = false, Set(card, true));
                         Text: ="Botón"
-                        X: =557
+                        X: =804
                         Y: =15
                         ZIndex: =5
-
-                    Icon2 As icon.ChevronDown:
-                        Height: =40
-                        Icon: =Icon.ChevronDown
-                        Visible: =card
-                        Width: =40
-                        X: =945
-                        Y: =15
-                        ZIndex: =6
-
-                    Icon4 As icon.ChevronRight:
-                        Height: =40
-                        Icon: =Icon.ChevronRight
-                        Width: =40
-                        X: =945
-                        Y: =15
-                        ZIndex: =7
 
                 "'RT-02_card' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
