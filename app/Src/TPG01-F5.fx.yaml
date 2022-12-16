@@ -1,6 +1,6 @@
 "'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     OnVisible: |-
-        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS")
+        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS"); Set(card, true)
 
     "'ScreenContainer-F5' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
@@ -126,8 +126,8 @@
 
                     Button2 As button:
                         OnSelect: |-
-                            =If(DataCard1.Visible = true, DataCard1.Visible = false);
-                            If(DataCard1.Visible = false, DataCard1.Visible = true);
+                            =If(card = true, card = false);
+                            If(card = false, card = true);
                         Text: ="Botón"
                         X: =804
                         Y: =15
@@ -699,6 +699,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =100
+                    Visible: =card
                     Width: =1366
                     X: =0
                     Y: =1
