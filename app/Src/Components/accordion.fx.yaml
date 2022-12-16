@@ -12,7 +12,7 @@ accordion As CanvasComponent:
         Items: =CustomGallerySample
         Layout: =Layout.Vertical
         TemplateSize: =280
-        Width: =608
+        Width: =606
         X: =4
         Y: =3
         ZIndex: =1
