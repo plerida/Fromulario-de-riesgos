@@ -1,6 +1,6 @@
 "'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     OnVisible: |-
-        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS"); Set(card, true)
+        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS");
 
     "'ScreenContainer-F5' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
