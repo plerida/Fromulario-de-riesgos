@@ -23,17 +23,17 @@ accordion As CanvasComponent:
         PaddingLeft: =20
         PaddingRight: =20
         Text: ="RT-02"
-        Width: =612
+        Width: =590
         Y: =283
         ZIndex: =3
 
     Button1_2 As button:
         BorderThickness: =0
-        Height: =50
+        Height: =46
         PaddingLeft: =20
         PaddingRight: =20
         Text: ="RT-03"
-        Width: =612
+        Width: =590
         Y: =499
         ZIndex: =4
 
@@ -43,7 +43,7 @@ accordion As CanvasComponent:
         PaddingLeft: =20
         PaddingRight: =20
         Text: ="RT-01"
-        Width: =624
+        Width: =590
         ZIndex: =5
 
     Label5 As label:
@@ -56,7 +56,7 @@ accordion As CanvasComponent:
         PaddingTop: =20
         Size: =15
         Text: ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        Width: =612
+        Width: =590
         Y: =50
         ZIndex: =6
 
@@ -70,7 +70,7 @@ accordion As CanvasComponent:
         PaddingTop: =20
         Size: =15
         Text: ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure ."
-        Width: =612
+        Width: =590
         Y: =338
         ZIndex: =7
 
