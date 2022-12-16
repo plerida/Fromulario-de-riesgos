@@ -8,10 +8,13 @@ accordion As CanvasComponent:
 
     Gallery3 As gallery.variableTemplateHeightGallery:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =640
+        Height: =615
         Items: =CustomGallerySample
         Layout: =Layout.Vertical
         TemplateSize: =280
+        Width: =596
+        X: =16
+        Y: =12
         ZIndex: =1
 
     Button1_1 As button:
@@ -21,7 +24,7 @@ accordion As CanvasComponent:
         PaddingRight: =20
         Text: ="RT-02"
         Width: =640
-        Y: =405
+        Y: =288
         ZIndex: =3
 
     Button1_2 As button:
@@ -31,7 +34,7 @@ accordion As CanvasComponent:
         PaddingRight: =20
         Text: ="RT-03"
         Width: =640
-        Y: =577
+        Y: =499
         ZIndex: =4
 
     Button1_3 As button:
@@ -68,6 +71,6 @@ accordion As CanvasComponent:
         Size: =15
         Text: ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure ."
         Width: =640
-        Y: =452
+        Y: =338
         ZIndex: =7
 
