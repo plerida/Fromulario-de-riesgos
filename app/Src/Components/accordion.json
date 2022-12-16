@@ -223,7 +223,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "640",
+            "InvariantScript": "624",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -540,19 +540,19 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "16",
+            "InvariantScript": "4",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "12",
+            "InvariantScript": "3",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "596",
+            "InvariantScript": "608",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -847,7 +847,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "640",
+            "InvariantScript": "612",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -1171,19 +1171,19 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "288",
+            "InvariantScript": "283",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "640",
+            "InvariantScript": "612",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
           {
             "Category": "Design",
-            "InvariantScript": "50",
+            "InvariantScript": "55",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -1544,7 +1544,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "640",
+            "InvariantScript": "612",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -1874,7 +1874,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "640",
+            "InvariantScript": "612",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -1988,7 +1988,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638067783822484784",
+    "LastModifiedTimestamp": "638067784777882558",
     "Name": "accordion",
     "Rules": [
       {
@@ -2047,7 +2047,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638067783822484784",
+  "LastModifiedTimestamp": "638067784777882558",
   "Name": "89d853997b10453ab2652e0853965e4b",
   "OverridableProperties": {},
   "Version": "638067770175750644"
