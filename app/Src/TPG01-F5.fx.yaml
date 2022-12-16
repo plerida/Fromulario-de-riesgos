@@ -125,7 +125,9 @@
                         ZIndex: =4
 
                     Button2 As button:
-                        OnSelect: =If(DataCard1.Visible = true, DataCard1.Visible = false)
+                        OnSelect: |-
+                            =If(DataCard1.Visible = true, DataCard1.Visible = false);
+                            If(DataCard1.Visible = false, DataCard1.Visible = true);
                         Text: ="Botón"
                         X: =804
                         Y: =15
