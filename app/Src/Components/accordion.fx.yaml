@@ -8,11 +8,10 @@ accordion As CanvasComponent:
 
     Gallery3 As gallery.variableTemplateHeightGallery:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =525
+        Height: =640
         Items: =CustomGallerySample
         Layout: =Layout.Vertical
         TemplateSize: =280
-        Width: =533
         ZIndex: =1
 
     Button1_1 As button:

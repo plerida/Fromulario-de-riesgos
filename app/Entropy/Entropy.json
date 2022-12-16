@@ -1,15 +1,17 @@
 {
   "ComponentIndexes": {
-    "accordion": 17,
-    "footer": 15,
+    "accordion": 18,
+    "accordion_1": 18,
+    "footer": 16,
     "footer_F5": 15,
     "footer_F6": 15,
     "footer_info": 15,
-    "header": 16
+    "header": 17
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "accordion": 326,
+    "accordion_1": 356,
     "actions_1": 126,
     "actions_10": 194,
     "actions_2": 245,
@@ -326,6 +328,7 @@
     "RT-10_label": 79,
     "RT-10_risk": 81,
     "RT-10_separator": 82,
+    "Screen2": 355,
     "ScreenContainer-F5": 27,
     "ScreenContainer-F6": 261,
     "search_icon": 321,
@@ -344,7 +347,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/16/2022 09:03:33",
+  "HeaderLastSavedDateTimeUTC": "12/16/2022 09:04:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0c07a5b4-d0a2-47f2-b9d6-d55d38055230": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/6cd06c08b2084536815b78529c061e5c\"",
@@ -407,6 +410,7 @@
   },
   "PublishOrderIndices": {
     "accordion": 0,
+    "accordion_1": 0,
     "actions_1": 26,
     "actions_10": 170,
     "actions_2": 42,
@@ -723,6 +727,7 @@
     "RT-10_label": 231,
     "RT-10_risk": 233,
     "RT-10_separator": 234,
+    "Screen2": 0,
     "ScreenContainer-F5": 179,
     "ScreenContainer-F6": 240,
     "search_icon": 8,
@@ -751,6 +756,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 1.7780155,
     "ControlCount": {
+      "89d853997b10453ab2652e0853965e4b": 1,
       "9a2cdb3fc7a544989aee29638c960d8a": 4,
       "arrow": 25,
       "button": 8,
