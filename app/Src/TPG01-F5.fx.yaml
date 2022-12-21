@@ -90,7 +90,7 @@
                         Height: =42
                         Items: =["Bajo", "Medio", "Alto"]
                         OnChange: |-
-                            =If('RT-01_risk'.Selected.Value = "Alto",UpdateContext({card:!card});)
+                            =If('RT-01_risk'.Selected.Value = "Alto",UpdateContext({card:false});)
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Tooltip: |
                             =
@@ -132,7 +132,8 @@
                         Fill: =RGBA(255, 255, 255, 1)
                         Height: =42
                         OnSelect: |
-                            =UpdateContext({card:!card});
+                            =If('RT-01_risk'.Selected.Value = "Medio", UpdateContext({card:!card}));
+                            If('RT-01_risk'.Selected.Value = "Bajo", UpdateContext({card:!card}))
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
                         X: =639
