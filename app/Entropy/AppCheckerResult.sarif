@@ -5075,6 +5075,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.comments_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.comments_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F5",
+                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.comments_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.actions_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.actions_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F5",
+                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard2.actions_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.card"
                 }
               ],
