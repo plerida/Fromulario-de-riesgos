@@ -126,7 +126,7 @@
 
                     Button2 As button:
                         OnSelect: |
-                            =UpdateContext({card:true});
+                            =UpdateContext({card:false});
                         Text: ="Botón"
                         X: =804
                         Y: =15
