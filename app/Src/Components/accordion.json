@@ -87,7 +87,7 @@
         "Name": "Button1_3",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 309,
+        "PublishOrderIndex": 315,
         "Rules": [
           {
             "Category": "Data",
@@ -350,7 +350,7 @@
             "Name": "galleryTemplate3",
             "Parent": "Gallery3",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 311,
+            "PublishOrderIndex": 317,
             "Rules": [
               {
                 "Category": "Design",
@@ -428,7 +428,7 @@
         "Name": "Gallery3",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 310,
+        "PublishOrderIndex": 316,
         "Rules": [
           {
             "Category": "Data",
@@ -699,7 +699,7 @@
         "Name": "Label5",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 312,
+        "PublishOrderIndex": 318,
         "Rules": [
           {
             "Category": "Data",
@@ -1041,7 +1041,7 @@
         "Name": "Button1_1",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 313,
+        "PublishOrderIndex": 319,
         "Rules": [
           {
             "Category": "Data",
@@ -1396,7 +1396,7 @@
         "Name": "Label5_1",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 314,
+        "PublishOrderIndex": 320,
         "Rules": [
           {
             "Category": "Data",
@@ -1769,7 +1769,7 @@
         "Name": "Label5_2",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 315,
+        "PublishOrderIndex": 321,
         "Rules": [
           {
             "Category": "Data",
@@ -2111,7 +2111,7 @@
         "Name": "Button1_2",
         "Parent": "accordion",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 316,
+        "PublishOrderIndex": 322,
         "Rules": [
           {
             "Category": "Data",
