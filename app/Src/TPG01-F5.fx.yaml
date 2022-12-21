@@ -705,12 +705,6 @@
                     Y: =1
                     ZIndex: =14
 
-                    TextInput1 As text:
-                        Default: ="Entrada de texto"
-                        X: =44
-                        Y: =28
-                        ZIndex: =1
-
         "'FooterContainer-F5' As groupContainer.horizontalAutoLayoutContainer":
             FillPortions: =0
             Height: =50
