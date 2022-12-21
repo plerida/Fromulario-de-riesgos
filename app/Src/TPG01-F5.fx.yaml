@@ -1,6 +1,6 @@
 "'TPG01-F5' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     OnVisible: |-
-        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS");
+        =Set(actualInfo, 'TPG01-F5'); Set(infoTitle, "TPG-01-F5: RIESGOS TÉCNICOS"); Set(card, true);
 
     "'ScreenContainer-F5' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
@@ -707,8 +707,8 @@
 
                     TextInput1 As text:
                         Default: ="Entrada de texto"
-                        X: =564
-                        Y: =12
+                        X: =44
+                        Y: =28
                         ZIndex: =1
 
         "'FooterContainer-F5' As groupContainer.horizontalAutoLayoutContainer":
