@@ -125,9 +125,10 @@
                         ZIndex: =4
 
                     Button2 As button:
-                        OnSelect: |-
+                        OnSelect: |
                             =If(card = true, Set(card, false));
                             If(card = false, Set(card, true));
+                            UpdateContext({var:false}); UpdateContext({var:true})
                         Text: ="Botón"
                         X: =804
                         Y: =15
