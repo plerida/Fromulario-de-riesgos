@@ -28,6 +28,7 @@ App As appinfo:
                 id8: "RT-08"
                 }})}
         );
+        Set(card, true);
     StartScreen: |-
         =ClearCollect(colData, {
             money: money.Text, 
