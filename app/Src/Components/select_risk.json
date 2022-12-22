@@ -5,8 +5,8 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "accordion",
-    "TemplateGuid": "89d853997b10453ab2652e0853965e4b"
+    "Name": "select_risk",
+    "TemplateGuid": "0ca03074c8db461bb3072d1b8e369765"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,8 +19,8 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638073072707345513",
-  "Name": "89d853997b10453ab2652e0853965e4b",
+  "LastModifiedTimestamp": "638073084674302126",
+  "Name": "0ca03074c8db461bb3072d1b8e369765",
   "OverridableProperties": {},
-  "Version": "638067770175750644"
+  "Version": "638073083569425880"
 }

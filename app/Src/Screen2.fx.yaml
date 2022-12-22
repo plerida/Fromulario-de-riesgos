@@ -1,6 +1,0 @@
-Screen2 As screen:
-
-    accordion_1 As accordion:
-        X: =418
-        Y: =54
-

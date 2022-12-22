@@ -113,20 +113,10 @@
   },
   "ScreenOrder": [
     "Datos_generales",
-    "RT-01",
-    "RT-02",
-    "RT-03",
-    "RT-04",
-    "RT-05",
-    "RT-06",
-    "RT-07",
-    "RT-08",
-    "RT-09",
-    "RT-10",
-    "Enviar_formulario",
     "TPG01-F5",
     "TPG01-F6",
+    "TPG01-F7",
     "Info_TPG01-FX",
-    "Screen2"
+    "Enviar_formulario"
   ]
 }

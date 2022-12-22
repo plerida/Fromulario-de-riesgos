@@ -1,0 +1,23 @@
+select_risk As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =80
+    Width: =240
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    risk_component As dropdown:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        ChevronBackground: =RGBA(191, 21, 37, 1)
+        Default: ="Bajo"
+        Height: =42
+        Items: =["Bajo", "Medio", "Alto"]
+        SelectionFill: =RGBA(191, 21, 37, 1)
+        Tooltip: |
+            =
+        Width: =220
+        X: =12
+        Y: =21
+        ZIndex: =1
+
