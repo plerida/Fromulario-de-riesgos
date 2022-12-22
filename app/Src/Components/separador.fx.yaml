@@ -1,0 +1,17 @@
+separador As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =5
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =529
+        Width: =3
+        Y: =60
+        ZIndex: =1
+
