@@ -259,7 +259,7 @@
                         Size: =18
                         Text: ="UTE/JV"
                         Width: =352
-                        X: =715
+                        X: =701
                         ZIndex: =7
 
                 "'RM-06_card_1' As dataCard.blankCard":
@@ -352,6 +352,25 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
+
+                    "'RM-04_label_8' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="TYPSA líder"
+                        Width: =352
+                        X: =707
+                        ZIndex: =5
+
+                    Checkbox1 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =1274
+                        ZIndex: =6
 
                 "'RM-08_card_1' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
