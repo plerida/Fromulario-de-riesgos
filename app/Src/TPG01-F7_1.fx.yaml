@@ -67,7 +67,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =64
+                    Height: =93
                     Width: =1366
                     X: =0
                     Y: =0
@@ -94,8 +94,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: |
-                        =85
+                    Height: =105
                     Width: =1366
                     X: =0
                     Y: =1
@@ -170,7 +169,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =60
+                    Height: =115
                     Width: =1366
                     X: =0
                     Y: =2
@@ -235,7 +234,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =52
+                    Height: =115
                     Width: =1366
                     X: =0
                     Y: =3
@@ -292,8 +291,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: |
-                        =85
+                    Height: =84
                     Width: =1366
                     X: =0
                     Y: =4
@@ -349,36 +347,30 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =10
+                    Height: |
+                        =130
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =5
                     ZIndex: =11
 
                     next_button_F6_2 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
+                        Height: =47
                         OnSelect: =Navigate(Enviar_formulario)
-                        X: =708
-                        Y: =27
+                        Width: =49
+                        X: =734
+                        Y: =43
                         ZIndex: =1
 
                     back_button_F6_2 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
+                        Height: =47
                         OnSelect: =Navigate('TPG01-F5')
-                        X: =534
-                        Y: =27
+                        Width: =49
+                        X: =631
+                        Y: =43
                         ZIndex: =2
-
-                DataCard5 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
-                    Width: =1366
-                    X: =0
-                    Y: =5
-                    ZIndex: =12
 
         "'FooterContainer-F6_2' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
