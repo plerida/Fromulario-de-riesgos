@@ -1,0 +1,563 @@
+"'TPG01-F7_1' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: |-
+        =Set(actualInfo, 'TPG01-F7_1');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
+
+    "'ScreenContainer-F6_2' As groupContainer.verticalAutoLayoutContainer":
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        "'HeaderContainer-F6_3' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(191, 21, 37, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            ZIndex: =2
+
+            "'title-F6_3' As label":
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                PaddingLeft: =15
+                Size: =24
+                Text: |-
+                    ="TPG-01-F7: RESUMEN"
+                Width: =600
+                ZIndex: =1
+
+            typsa_logo_F6_3 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =1
+                Height: =65
+                Image: =logotypsa
+                Width: =65
+                ZIndex: =2
+
+        "'MainSectionContainer-F6_2' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            canvas_F6_2 As fluidGrid.fluidGridWithBlankCard:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderThickness: =0
+                Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
+                Width: =Parent.Width
+                Y: =
+                ZIndex: =1
+
+                "'RM-01_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =64
+                    Width: =1366
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                    "'RM-01_label_2' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Tipo de servicio"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-01_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                "'RM-03_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: |
+                        =85
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =5
+
+                    "'RM-03_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    "'RM-04_label_10' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Estudio preliminar (de facibilidad, informativo...)"
+                        Width: =352
+                        ZIndex: =5
+
+                    Checkbox1_2 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =352
+                        ZIndex: =6
+
+                    Checkbox1_6 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =832
+                        Y: =6
+                        ZIndex: =7
+
+                    "'RM-04_label_11' As label":
+                        Height: =85
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Shop drawings (planos de taller, working drawings..."
+                        Width: =326
+                        X: =506
+                        ZIndex: =8
+
+                "'RM-04_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =60
+                    Width: =1366
+                    X: =0
+                    Y: =2
+                    ZIndex: =6
+
+                    "'RM-04_label_12' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Proyecto conceptual"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-04_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    "'RM-04_label_13' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: =""
+                        Width: =352
+                        X: =704
+                        ZIndex: =6
+
+                    Checkbox1_3 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =352
+                        ZIndex: =8
+
+                    "'RM-04_label_20' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Proyecto de licitación"
+                        Width: =284
+                        X: =507
+                        ZIndex: =9
+
+                    Checkbox1_7 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =837
+                        ZIndex: =10
+
+                "'RM-05_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =52
+                    Width: =1366
+                    X: =0
+                    Y: =3
+                    ZIndex: =7
+
+                    "'RM-05_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_12 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =1130
+                        Y: =20
+                        ZIndex: =6
+
+                    "'RM-04_label_14' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Project Management"
+                        Width: =352
+                        X: =507
+                        Y: =12
+                        ZIndex: =7
+
+                    "'RM-04_label_19' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Proyecto esquemático"
+                        Width: =352
+                        ZIndex: =8
+
+                    Checkbox1_4 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =352
+                        Y: =12
+                        ZIndex: =9
+
+                    Checkbox1_8 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =837
+                        ZIndex: =10
+
+                "'RM-06_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: |
+                        =85
+                    Width: =1366
+                    X: =0
+                    Y: =4
+                    ZIndex: =8
+
+                    "'RM-06_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_13 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =1135
+                        Y: =20
+                        ZIndex: =6
+
+                    "'RM-04_label_16' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="% Participación de TYPSA"
+                        Width: =352
+                        X: =698
+                        ZIndex: =7
+
+                    "'RM-04_label_15' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Proyecto de detalle"
+                        Width: =352
+                        ZIndex: =8
+
+                    Checkbox1_5 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =352
+                        Y: =12
+                        ZIndex: =9
+
+                "'RM-07_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =85
+                    Width: =1366
+                    X: =0
+                    Y: =5
+                    ZIndex: =9
+
+                    "'RM-07_label_5' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="País del cliente"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-07_risk_3' As dropdown":
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["España", "Francia", "Portugal"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =326
+                        Y: =15
+                        ZIndex: =2
+
+                    "'RM-07_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    "'RM-04_label_17' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="TYPSA líder"
+                        Width: =352
+                        X: =707
+                        ZIndex: =5
+
+                    Checkbox1_1 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =1274
+                        ZIndex: =6
+
+                "'RM-08_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =83
+                    Width: =1366
+                    X: =0
+                    Y: =6
+                    ZIndex: =10
+
+                    "'RM-08_label_2' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Índice percepción corrupción"
+                        Width: =619
+                        ZIndex: =1
+
+                    "'RM-08_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Label1_1 As label:
+                        FontWeight: =FontWeight.Semibold
+                        Height: =45
+                        Size: =18
+                        Text: ="65"
+                        Width: =43
+                        X: =488
+                        Y: =14
+                        ZIndex: =5
+
+                    "'RM-04_label_18' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Descripción del proyecto"
+                        Width: =352
+                        X: =704
+                        ZIndex: =6
+
+                navigation_buttons_F6_2 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =10
+                    Width: =1366
+                    X: =0
+                    Y: =9
+                    ZIndex: =11
+
+                    next_button_F6_2 As arrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate(Enviar_formulario)
+                        X: =708
+                        Y: =27
+                        ZIndex: =1
+
+                    back_button_F6_2 As arrow.backArrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate('TPG01-F5')
+                        X: =534
+                        Y: =27
+                        ZIndex: =2
+
+                DataCard3_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =85
+                    Width: =1366
+                    X: =0
+                    Y: =7
+                    ZIndex: =12
+
+                    "'RM-07_label_6' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Socio"
+                        Width: =352
+                        Y: =26
+                        ZIndex: =1
+
+                    "'RM-07_risk_4' As dropdown":
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["España", "Francia", "Portugal"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =220
+                        X: =326
+                        Y: =42
+                        ZIndex: =2
+
+                    TextInput1_1 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =97
+                        Size: =18
+                        Width: =564
+                        X: =723
+                        ZIndex: =3
+
+                DataCard4_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =85
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =13
+
+                    "'RM-07_label_7' As label":
+                        Height: =100
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Riesgo de corrupción"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-07_label_8' As label":
+                        Align: =Align.Right
+                        Height: =100
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="bajo"
+                        Width: =226
+                        X: =319
+                        ZIndex: =2
+
+        "'FooterContainer-F6_2' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            footer_F6_2 As footer:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+
