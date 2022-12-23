@@ -1,0 +1,390 @@
+"'TPG01-F7_1m' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+    OnVisible: |-
+        =Set(actualInfo, 'TPG01-F7_1m');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
+
+    "'ScreenContainer-F6_3' As groupContainer.verticalAutoLayoutContainer":
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Parent.Width
+        ZIndex: =1
+
+        "'HeaderContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(191, 21, 37, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            ZIndex: =2
+
+            "'title-F6_4' As label":
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                PaddingLeft: =15
+                Size: =24
+                Text: |-
+                    ="TPG-01-F7: RESUMEN"
+                Width: =600
+                ZIndex: =1
+
+            typsa_logo_F6_4 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =1
+                Height: =65
+                Image: =logotypsa
+                Width: =65
+                ZIndex: =2
+
+        "'MainSectionContainer-F6_3' As groupContainer.verticalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =3
+
+            canvas_F6_3 As fluidGrid.fluidGridWithBlankCard:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderThickness: =0
+                Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
+                Width: =Parent.Width
+                Y: =
+                ZIndex: =1
+
+                "'RM-01_card_3' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =112
+                    Width: =1366
+                    X: =0
+                    Y: =0
+                    ZIndex: =2
+
+                    "'RM-01_label_3' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Carga de trabajo TYPSA (persona/mes)"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-01_separator_3' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_14 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =335
+                        Y: =20
+                        ZIndex: =5
+
+                "'RM-03_card_3' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: |
+                        =85
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =5
+
+                    "'RM-03_separator_3' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    "'RM-01_label_4' As label":
+                        FontWeight: =FontWeight.Semibold
+                        Height: =80
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Criterio valoración de la oferta"
+                        Width: =399
+                        Y: =4
+                        ZIndex: =9
+
+                "'RM-04_card_3' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: |
+                        =85
+                    Width: =1366
+                    X: =0
+                    Y: =2
+                    ZIndex: =6
+
+                    "'RM-04_separator_3' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_9 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =334
+                        Y: =16
+                        ZIndex: =5
+
+                    "'RM-01_label_5' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Peso parte técnica"
+                        Width: =352
+                        ZIndex: =8
+
+                "'RM-05_card_3' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =112
+                    Width: =1366
+                    X: =0
+                    Y: =3
+                    ZIndex: =7
+
+                    "'RM-05_label_2' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Peso parte económica"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-05_separator_3' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_11 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =335
+                        Y: =20
+                        ZIndex: =5
+
+                "'RM-06_card_3' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: |
+                        =85
+                    Width: =1366
+                    X: =0
+                    Y: =4
+                    ZIndex: =8
+
+                    "'RM-06_separator_3' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    "'RM-04_label_25' As label":
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Avales"
+                        Width: =352
+                        ZIndex: =5
+
+                "'RM-07_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =85
+                    Width: =1366
+                    X: =0
+                    Y: =5
+                    ZIndex: =9
+
+                    "'RM-07_label_5' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="De anticipo"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-07_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_15 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =352
+                        Y: =20
+                        ZIndex: =7
+
+                "'RM-08_card_2' As dataCard.blankCard":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    BorderThickness: =0
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(250, 250, 250, 1)
+                    Height: =83
+                    Width: =1366
+                    X: =0
+                    Y: =6
+                    ZIndex: =10
+
+                    "'RM-08_label_2' As label":
+                        Height: =83
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="De buena ejecución"
+                        Width: =326
+                        ZIndex: =1
+
+                    "'RM-08_separator_2' As rectangle":
+                        Fill: =RGBA(237, 237, 237, 1)
+                        Height: =1
+                        Width: =1366
+                        Y: =72
+                        ZIndex: =4
+
+                    Rectangle1_16 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =350
+                        Y: =25
+                        ZIndex: =7
+
+                navigation_buttons_F6_3 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =10
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =11
+
+                    next_button_F6_3 As arrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate(Enviar_formulario)
+                        X: =715
+                        Y: =27
+                        ZIndex: =1
+
+                    back_button_F6_3 As arrow.backArrow:
+                        Fill: =RGBA(191, 21, 37, 1)
+                        OnSelect: =Navigate('TPG01-F5')
+                        X: =554
+                        Y: =27
+                        ZIndex: =2
+
+                DataCard4_1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: |
+                        =95
+                    Width: =1366
+                    X: =0
+                    Y: =7
+                    ZIndex: =13
+
+                    "'RM-07_label_7' As label":
+                        Height: =100
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Retenciones"
+                        Width: =352
+                        ZIndex: =1
+
+                    "'RM-07_label_8' As label":
+                        Align: =Align.Right
+                        Height: =100
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: =""
+                        Width: =226
+                        X: =319
+                        ZIndex: =2
+
+                    Rectangle1_17 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =33
+                        Width: =198
+                        X: =352
+                        Y: =33
+                        ZIndex: =3
+
+        "'FooterContainer-F6_3' As groupContainer.horizontalAutoLayoutContainer":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            FillPortions: =0
+            Height: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =4
+
+            footer_F6_3 As footer:
+                LayoutMinHeight: =640
+                LayoutMinWidth: =640
+

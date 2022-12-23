@@ -67,7 +67,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =64
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =0
@@ -434,14 +434,14 @@
                     next_button_F6_1 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate(Enviar_formulario)
-                        X: =708
+                        X: =715
                         Y: =27
                         ZIndex: =1
 
                     back_button_F6_1 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate('TPG01-F5')
-                        X: =534
+                        X: =554
                         Y: =27
                         ZIndex: =2
 
@@ -538,7 +538,7 @@
     separador_1 As separador:
         Height: =450
         Width: =47
-        X: =644
+        X: =659
         Y: =159
         ZIndex: =3
 
