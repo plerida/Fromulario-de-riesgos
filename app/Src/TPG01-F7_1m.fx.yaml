@@ -313,7 +313,9 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =10
+                    Height: |+
+                        =90
+                        
                     Width: =1366
                     X: =0
                     Y: =8
@@ -323,14 +325,14 @@
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate(Enviar_formulario)
                         X: =715
-                        Y: =27
+                        Y: =13
                         ZIndex: =1
 
                     back_button_F6_3 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate('TPG01-F5')
                         X: =554
-                        Y: =27
+                        Y: =13
                         ZIndex: =2
 
                 DataCard4_1 As dataCard.blankCard:
@@ -338,8 +340,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: |
-                        =95
+                    Height: =100
                     Width: =1366
                     X: =0
                     Y: =7
