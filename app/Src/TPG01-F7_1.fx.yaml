@@ -132,7 +132,7 @@
                         Height: =73
                         Text: =""
                         Width: =46
-                        X: =832
+                        X: =857
                         Y: =6
                         ZIndex: =7
 
@@ -145,6 +145,25 @@
                         Width: =326
                         X: =506
                         ZIndex: =8
+
+                    "'RM-04_label_21' As label":
+                        Height: =85
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Otros"
+                        Width: =326
+                        X: =967
+                        ZIndex: =9
+
+                    Checkbox1_10 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Height: =73
+                        Text: =""
+                        Width: =46
+                        X: =1209
+                        ZIndex: =10
 
                 "'RM-04_card_2' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -208,7 +227,7 @@
                         Height: =73
                         Text: =""
                         Width: =46
-                        X: =837
+                        X: =857
                         ZIndex: =10
 
                 "'RM-05_card_2' As dataCard.blankCard":
@@ -228,16 +247,6 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
-
-                    Rectangle1_12 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1130
-                        Y: =20
-                        ZIndex: =6
 
                     "'RM-04_label_14' As label":
                         Height: =73
@@ -275,7 +284,7 @@
                         Height: =73
                         Text: =""
                         Width: =46
-                        X: =837
+                        X: =857
                         ZIndex: =10
 
                 "'RM-06_card_2' As dataCard.blankCard":
@@ -297,24 +306,14 @@
                         Y: =72
                         ZIndex: =4
 
-                    Rectangle1_13 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1135
-                        Y: =20
-                        ZIndex: =6
-
                     "'RM-04_label_16' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="% Participación de TYPSA"
+                        Text: ="Asistencia técnica/supervisión de obra"
                         Width: =352
-                        X: =698
+                        X: =507
                         ZIndex: =7
 
                     "'RM-04_label_15' As label":
@@ -336,115 +335,14 @@
                         Y: =12
                         ZIndex: =9
 
-                "'RM-07_card_2' As dataCard.blankCard":
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =85
-                    Width: =1366
-                    X: =0
-                    Y: =5
-                    ZIndex: =9
-
-                    "'RM-07_label_5' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="País del cliente"
-                        Width: =352
-                        ZIndex: =1
-
-                    "'RM-07_risk_3' As dropdown":
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        ChevronBackground: =RGBA(191, 21, 37, 1)
-                        Default: ="Bajo"
-                        Height: =42
-                        Items: =["España", "Francia", "Portugal"]
-                        SelectionFill: =RGBA(191, 21, 37, 1)
-                        Size: =18
-                        Tooltip: |
-                            =
-                        Width: =220
-                        X: =326
-                        Y: =15
-                        ZIndex: =2
-
-                    "'RM-07_separator_2' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =4
-
-                    "'RM-04_label_17' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="TYPSA líder"
-                        Width: =352
-                        X: =707
-                        ZIndex: =5
-
-                    Checkbox1_1 As checkbox:
+                    Checkbox1_9 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
                         Text: =""
                         Width: =46
-                        X: =1274
-                        ZIndex: =6
-
-                "'RM-08_card_2' As dataCard.blankCard":
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    BorderThickness: =0
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(250, 250, 250, 1)
-                    Height: =83
-                    Width: =1366
-                    X: =0
-                    Y: =6
-                    ZIndex: =10
-
-                    "'RM-08_label_2' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Índice percepción corrupción"
-                        Width: =619
-                        ZIndex: =1
-
-                    "'RM-08_separator_2' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =4
-
-                    Label1_1 As label:
-                        FontWeight: =FontWeight.Semibold
-                        Height: =45
-                        Size: =18
-                        Text: ="65"
-                        Width: =43
-                        X: =488
-                        Y: =14
-                        ZIndex: =5
-
-                    "'RM-04_label_18' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Descripción del proyecto"
-                        Width: =352
-                        X: =704
-                        ZIndex: =6
+                        X: =857
+                        ZIndex: =10
 
                 navigation_buttons_F6_2 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -454,7 +352,7 @@
                     Height: =10
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =6
                     ZIndex: =11
 
                     next_button_F6_2 As arrow:
@@ -471,82 +369,16 @@
                         Y: =27
                         ZIndex: =2
 
-                DataCard3_1 As dataCard.blankCard:
+                DataCard5 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =85
+                    Height: =100
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =5
                     ZIndex: =12
-
-                    "'RM-07_label_6' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Socio"
-                        Width: =352
-                        Y: =26
-                        ZIndex: =1
-
-                    "'RM-07_risk_4' As dropdown":
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        ChevronBackground: =RGBA(191, 21, 37, 1)
-                        Default: ="Bajo"
-                        Height: =42
-                        Items: =["España", "Francia", "Portugal"]
-                        SelectionFill: =RGBA(191, 21, 37, 1)
-                        Size: =18
-                        Tooltip: |
-                            =
-                        Width: =220
-                        X: =326
-                        Y: =42
-                        ZIndex: =2
-
-                    TextInput1_1 As text:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
-                        Height: =97
-                        Size: =18
-                        Width: =564
-                        X: =723
-                        ZIndex: =3
-
-                DataCard4_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =85
-                    Width: =1366
-                    X: =0
-                    Y: =8
-                    ZIndex: =13
-
-                    "'RM-07_label_7' As label":
-                        Height: =100
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Riesgo de corrupción"
-                        Width: =352
-                        ZIndex: =1
-
-                    "'RM-07_label_8' As label":
-                        Align: =Align.Right
-                        Height: =100
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="bajo"
-                        Width: =226
-                        X: =319
-                        ZIndex: =2
 
         "'FooterContainer-F6_2' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
