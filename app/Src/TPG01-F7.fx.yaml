@@ -433,7 +433,7 @@
 
                     next_button_F6_1 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
-                        OnSelect: =Navigate(Enviar_formulario)
+                        OnSelect: =Navigate('TPG01-F7_1')
                         X: =715
                         Y: =27
                         ZIndex: =1

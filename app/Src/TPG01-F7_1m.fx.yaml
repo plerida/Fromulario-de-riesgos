@@ -52,11 +52,8 @@
             ZIndex: =3
 
             canvas_F6_3 As fluidGrid.fluidGridWithBlankCard:
-                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =0
                 Height: =Parent.Height - Self.Y
-                LayoutMinHeight: =250
-                LayoutMinWidth: =100
                 Width: =Parent.Width
                 Y: =
                 ZIndex: =1
@@ -749,6 +746,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =73
+                    Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
                     Y: =9
@@ -769,6 +767,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =73
+                    Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
                     Y: =10
@@ -789,6 +788,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =73
+                    Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
                     Y: =11
@@ -809,17 +809,18 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =100
+                    Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
                     Y: =7
                     ZIndex: =18
 
                     "'RM-02_label_8' As label":
-                        Height: =57
+                        Height: =70
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Ley aplicable al contrato"
+                        Text: ="Ley aplicable al contratoO"
                         Width: =392
                         ZIndex: =1
 
@@ -829,6 +830,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =73
+                    Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
                     Y: =8
