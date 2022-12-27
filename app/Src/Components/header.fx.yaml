@@ -21,6 +21,8 @@ header As CanvasComponent:
             Color: =RGBA(255, 255, 255, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
+            LayoutMinWidth: |
+                =180
             PaddingLeft: =15
             Size: =24
             Text: |-

@@ -31,7 +31,7 @@
                 PaddingLeft: =15
                 Size: =24
                 Text: |-
-                    ="TPG-01-F7: RESUMEN"
+                    ="TPG-01-F7: ANÁLISIS ECONÓMICO DEL PROYECTO"
                 Width: =600
                 ZIndex: =1
 
@@ -66,18 +66,19 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =0
                     ZIndex: =2
 
                     "'RM-01_label_6' As label":
+                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Carga de trabajo TYPSA (persona/mes)"
+                        Text: ="Costes del proyecto"
                         Width: =400
                         ZIndex: =1
 
@@ -100,12 +101,11 @@
                     ZIndex: =3
 
                     "'RM-02_label_4' As label":
-                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Criterio valoración de la oferta"
+                        Text: ="A. Costes personal"
                         Width: =352
                         ZIndex: =1
 
@@ -132,7 +132,7 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Peso  parte técnica"
+                        Text: ="B. Costes directos"
                         Width: =352
                         ZIndex: =1
 
@@ -148,7 +148,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =75
                     Width: =1366
                     X: =0
                     Y: =3
@@ -159,7 +159,7 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Peso parte económica"
+                        Text: ="C. Costes reperccusión gastos Generales"
                         Width: =352
                         ZIndex: =1
 
@@ -182,12 +182,11 @@
                     ZIndex: =9
 
                     "'RM-07_label_8' As label":
-                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Avales"
+                        Text: ="TOTAL Costes (Valoración según TRD)"
                         Width: =352
                         ZIndex: =1
 
@@ -215,7 +214,7 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="De anticipo"
+                        Text: ="Cantidad correspondiente a los socios"
                         Width: =619
                         ZIndex: =1
 
@@ -347,8 +346,8 @@
                                 PaddingLeft: |
                                     =20
                                 Size: =18
-                                Text: ="De buena ejecución"
-                                Width: =352
+                                Text: ="Contingencias (recomendable, no inferior a 10%. Justifcar en caso de ser menor)"
+                                Width: =542
                                 ZIndex: =1
 
                             "'RM-02_separator_3' As rectangle":
@@ -860,11 +859,12 @@
                     ZIndex: =20
 
                     "'RM-02_label_15' As label":
+                        FontWeight: =FontWeight.Bold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Retenciones"
+                        Text: ="Coste total"
                         Width: =352
                         ZIndex: =1
 
