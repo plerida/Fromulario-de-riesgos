@@ -120,6 +120,13 @@
                         X: =532
                         ZIndex: =5
 
+                    Label3_4 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =782
+                        Y: =5
+                        ZIndex: =6
+
                 analisis_ec_card02 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -285,7 +292,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =15
                     ZIndex: =11
 
                     next_button_F6_5 As arrow:
@@ -354,6 +361,13 @@
                         Y: =11
                         ZIndex: =2
 
+                    Label3_5 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =782
+                        Y: =16
+                        ZIndex: =3
+
                 analisis_ec_card09 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -371,13 +385,21 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Ley aplicable al contrato"
+                        Text: ="Retenciones e impuestos que agravan el resultado"
                         Width: =392
                         ZIndex: =1
 
                     input_text_10 As input_text:
-                        X: =532
+                        X: =529
+                        Y: =10
                         ZIndex: =2
+
+                    Label3_6 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =779
+                        Y: =15
+                        ZIndex: =3
 
                 analisis_ec_card10 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -392,21 +414,32 @@
                     ZIndex: =19
 
                     "'RM-02_label_13' As label":
-                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Modo de resolución de disputas"
+                        Text: ="Retenciones e impuestos que gravan el resultado"
                         Width: =352
                         ZIndex: =1
+
+                    input_text_11 As input_text:
+                        X: =529
+                        Y: =10
+                        ZIndex: =2
+
+                    Label3_7 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =779
+                        Y: =16
+                        ZIndex: =3
 
                 coste_total As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =140
                     Width: =1366
                     X: =0
                     Y: =7
@@ -420,13 +453,153 @@
                         Size: =18
                         Text: ="Coste total"
                         Width: =352
-                        Y: =12
+                        Y: =35
                         ZIndex: =1
 
                     input_text_8 As input_text:
-                        X: =530
-                        Y: =24
+                        X: =527
+                        Y: =46
                         ZIndex: =2
+
+                DataCard5 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =11
+                    ZIndex: =21
+
+                    "'RM-02_label_18' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Por facturación de servicios de ingeniería"
+                        Width: =352
+                        ZIndex: =1
+
+                    input_text_12 As input_text:
+                        X: =529
+                        Y: =10
+                        ZIndex: =2
+
+                    Label3_8 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =779
+                        Y: =16
+                        ZIndex: =3
+
+                DataCard6 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =12
+                    ZIndex: =22
+
+                    "'RM-02_label_19' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Por repatriación de beneficios"
+                        Width: =352
+                        ZIndex: =1
+
+                    input_text_13 As input_text:
+                        X: =529
+                        Y: =10
+                        ZIndex: =2
+
+                    Label3_9 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =779
+                        Y: =16
+                        ZIndex: =3
+
+                DataCard7 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =140
+                    Width: =1366
+                    X: =0
+                    Y: =13
+                    ZIndex: =23
+
+                    "'RM-02_label_20' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Beneficio neto esperado"
+                        Width: =352
+                        Y: =38
+                        ZIndex: =1
+
+                    input_text_14 As input_text:
+                        X: =529
+                        Y: =49
+                        ZIndex: =2
+
+                    Label3_10 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =779
+                        Y: =54
+                        ZIndex: =3
+
+                DataCard8 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =14
+                    ZIndex: =24
+
+                    "'RM-02_label_21' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Precio a ofertar (impuestos no incluidos)"
+                        Width: =352
+                        ZIndex: =1
+
+                    input_text_15 As input_text:
+                        X: =524
+                        Y: =11
+                        ZIndex: =2
+
+                    Label3_11 As label:
+                        Size: =18
+                        Text: ="Euro"
+                        X: =774
+                        Y: =16
+                        ZIndex: =3
+
+                DataCard9 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =16
+                    ZIndex: =25
 
         "'FooterContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
