@@ -58,7 +58,7 @@
                 Y: =
                 ZIndex: =1
 
-                "'RM-01_card_3' As dataCard.blankCard":
+                card_01 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -86,7 +86,12 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-02_card_1' As dataCard.blankCard":
+                    resumen_01 As Component1:
+                        X: =345
+                        Y: =22
+                        ZIndex: =5
+
+                criterio_valoracion_oferta As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -114,7 +119,7 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-03_card_3' As dataCard.blankCard":
+                card_03 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -141,7 +146,12 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-05_card_3' As dataCard.blankCard":
+                    resumen_02 As Component1:
+                        X: =352
+                        Y: =11
+                        ZIndex: =5
+
+                card_04 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -159,6 +169,7 @@
                         Size: =18
                         Text: ="Peso parte económica"
                         Width: =352
+                        Y: =11
                         ZIndex: =1
 
                     "'RM-05_separator_3' As rectangle":
@@ -168,7 +179,12 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-07_card_2' As dataCard.blankCard":
+                    resumen_03 As Component1:
+                        X: =352
+                        Y: =23
+                        ZIndex: =5
+
+                avales As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -223,6 +239,11 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
+
+                    resumen_04 As Component1:
+                        X: =352
+                        Y: =11
+                        ZIndex: =5
 
                 navigation_buttons_F6_3 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -355,7 +376,7 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard6 As dataCard.blankCard:
+                card_06 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -375,7 +396,12 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard7 As dataCard.blankCard:
+                    resumen_05 As Component1:
+                        X: =352
+                        Y: =11
+                        ZIndex: =2
+
+                card_07 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -394,6 +420,11 @@
                         Text: ="Retenciones"
                         Width: =352
                         ZIndex: =1
+
+                    resumen_06 As Component1:
+                        X: =352
+                        Y: =11
+                        ZIndex: =2
 
         "'FooterContainer-F6_3' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer

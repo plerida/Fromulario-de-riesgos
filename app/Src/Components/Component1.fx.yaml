@@ -1,0 +1,16 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =50
+    Width: =250
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    TextInput3 As text:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Default: =""
+        Height: =50
+        Size: =18
+        Width: =250
+        ZIndex: =1
+
