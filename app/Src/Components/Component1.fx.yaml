@@ -9,8 +9,10 @@ Component1 As CanvasComponent:
     TextInput3 As text:
         BorderColor: =RGBA(191, 21, 37, 1)
         Default: =""
-        Height: =50
+        Height: =32
         Size: =18
-        Width: =250
+        Width: =230
+        X: =10
+        Y: =10
         ZIndex: =1
 

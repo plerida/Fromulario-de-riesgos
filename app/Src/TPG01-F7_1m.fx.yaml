@@ -52,8 +52,11 @@
             ZIndex: =3
 
             canvas_F6_3 As fluidGrid.fluidGridWithBlankCard:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderThickness: =0
                 Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
                 Width: =Parent.Width
                 Y: =
                 ZIndex: =1
@@ -212,7 +215,7 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-08_card_2' As dataCard.blankCard":
+                card_051 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -253,7 +256,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =13
                     ZIndex: =11
 
                     next_button_F6_3 As arrow:
@@ -270,7 +273,7 @@
                         Y: =32
                         ZIndex: =2
 
-                DataCard11 As dataCard.blankCard:
+                card_10 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -279,7 +282,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =11
                     ZIndex: =15
 
                     "'RM-02_label_5' As label":
@@ -291,7 +294,15 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard12 As dataCard.blankCard:
+                    checkbox_card10 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =360
+                        Y: =8
+                        ZIndex: =3
+
+                card_09 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -300,7 +311,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =10
                     ZIndex: =16
 
                     "'RM-02_label_6' As label":
@@ -312,7 +323,15 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard13 As dataCard.blankCard:
+                    checkbox_card09 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =360
+                        Y: =8
+                        ZIndex: =3
+
+                card_11 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -333,7 +352,15 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard14 As dataCard.blankCard:
+                    checkbox_card11 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =360
+                        Y: =8
+                        ZIndex: =3
+
+                card_06 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -354,7 +381,12 @@
                         Width: =392
                         ZIndex: =1
 
-                DataCard15 As dataCard.blankCard:
+                    resumen_05 As Component1:
+                        X: =352
+                        Y: =11
+                        ZIndex: =2
+
+                resolucion_disputas As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -363,7 +395,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =13
+                    Y: =9
                     ZIndex: =19
 
                     "'RM-02_label_9' As label":
@@ -376,7 +408,7 @@
                         Width: =352
                         ZIndex: =1
 
-                card_06 As dataCard.blankCard:
+                card_07 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -396,12 +428,12 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_05 As Component1:
+                    resumen_06 As Component1:
                         X: =352
                         Y: =11
                         ZIndex: =2
 
-                card_07 As dataCard.blankCard:
+                card_08 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -421,7 +453,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_06 As Component1:
+                    resumen_07 As Component1:
                         X: =352
                         Y: =11
                         ZIndex: =2
