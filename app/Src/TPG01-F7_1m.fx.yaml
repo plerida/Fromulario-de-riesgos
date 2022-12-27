@@ -232,7 +232,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =12
+                    Y: =13
                     ZIndex: =11
 
                     next_button_F6_3 As arrow:
@@ -249,497 +249,6 @@
                         Y: =32
                         ZIndex: =2
 
-                DataCard8 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =75
-                    Width: =1366
-                    X: =0
-                    Y: =6
-                    ZIndex: =12
-
-                    canvas_F6_4 As fluidGrid.fluidGridWithBlankCard:
-                        BorderThickness: =0
-                        Height: =77
-                        Width: =Parent.Width
-                        Y: =
-                        ZIndex: =1
-
-                        "'RM-01_card_4' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            BorderThickness: =0
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =64
-                            Width: =1366
-                            X: =0
-                            Y: =8
-                            ZIndex: =2
-
-                            "'RM-01_label_4' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-01 Equipo de Gestión"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-01_risk_1' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-01_info_1' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar,"· ¿Está el equipo de gestión suficientemente dimensionado, con personas con conocimiento y experiencia adecuadas para la realizacion del trabajo? (JP, TC, BIM Manager, Commercial manager)
-                                    · ¿El equipo estará disponible en el momento oportuno?
-                                    · ¿Hay penalizaciones por no disponer del equipo de gestión nominado?
-                                    . Si existen requisitos específicos en materia de seguridad y confidencialidad de la información, ¿se han tenido en cuenta en la oferta?
-                                    · Otros");
-                                    Set(idLabel, "RM-01");
-                                    Set(nameLabel, "Equipo de Gestión");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-01_separator_4' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-02_card_2' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(250, 250, 250, 1)
-                            Height: =100
-                            Width: =1366
-                            X: =0
-                            Y: =0
-                            ZIndex: =3
-
-                            "'RM-02_label_2' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="De buena ejecución"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-02_separator_2' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-03_card_4' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =73
-                            Width: =1366
-                            X: =0
-                            Y: =1
-                            ZIndex: =5
-
-                            "'RM-03_label_2' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-03 Socios"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-03_risk_2' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-03_info_2' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿Los socios son conocidos y de confianza?
-                                    · ¿Hay algún problema financiero o de corrupción?
-                                    · ¿Tenemos alguna protección en caso de que el socio incumpla?
-                                    · Otros");
-                                    Set(idLabel, "RM-03");
-                                    Set(nameLabel, "Socios");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-03_separator_4' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-04_card_3' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(250, 250, 250, 1)
-                            Height: =73
-                            Width: =1366
-                            X: =0
-                            Y: =2
-                            ZIndex: =6
-
-                            "'RM-04_label_17' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-04 Aprobaciones"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-04_risk_1' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-04_info_1' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿El proceso de aprobacion es claro? 
-                                    · ¿Se contemplan aprobaciones por terceros? 
-                                    · ¿El proceso de aprobación final es claro?");
-                                    Set(idLabel, "RM-04");
-                                    Set(nameLabel, "Aprobaciones");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-04_separator_3' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-05_card_4' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =73
-                            Width: =1366
-                            X: =0
-                            Y: =3
-                            ZIndex: =7
-
-                            "'RM-05_label_3' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-05 Financieros"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-05_risk_2' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-05_info_2' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿Es el cliente solvente? 
-                                    · ¿Se requiere alguna medida para protegernos en caso de insolvencia?
-                                    · ¿Hay incertidumbre en relacion con los fondos? (por ejemplo, el presupuesto esta aun pendiente de verificación por parte de algun organismo gubernamental o debe ser revisado y aprobado anualmente
-                                    ");
-                                    Set(idLabel, "RM-05");
-                                    Set(nameLabel, "Financieros");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-05_separator_4' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-06_card_4' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(250, 250, 250, 1)
-                            Height: =73
-                            Width: =1366
-                            X: =0
-                            Y: =4
-                            ZIndex: =8
-
-                            "'RM-06_label_2' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-06 Pagos"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-06_risk_2' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-06_info_2' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿El proceso de pagos es claro y razonable?
-                                    · ¿La vinculación entre la aprobación de los trabajos y el pago de lo servicios correspondientes es aceptable?
-                                    · ¿Los plazos y los hitos de pago son aceptables?
-                                    · ¿Se preve que podamos suspender los trabajos y resolver el contrato en caso de impago?"
-                                    );
-                                    Set(idLabel, "RM-06");
-                                    Set(nameLabel, "Pagos");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-06_separator_4' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-07_card_3' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =73
-                            Width: =1366
-                            X: =0
-                            Y: =5
-                            ZIndex: =9
-
-                            "'RM-07_label_6' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-07 Cashflow"
-                                Width: =352
-                                ZIndex: =1
-
-                            "'RM-07_risk_4' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-07_info_2' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿El cash flow está evaluado y es aceptable, incluso en caso de que se produzca algun retraso previsible?
-                                    · Otros");
-                                    Set(idLabel, "RM-07");
-                                    Set(nameLabel, "Cashflow");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-07_separator_3' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        "'RM-08_card_3' As dataCard.blankCard":
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            BorderThickness: =0
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(250, 250, 250, 1)
-                            Height: =72
-                            Width: =1366
-                            X: =0
-                            Y: =6
-                            ZIndex: =10
-
-                            "'RM-08_label_3' As label":
-                                Height: =73
-                                PaddingLeft: |
-                                    =20
-                                Size: =18
-                                Text: ="RM-08 Riesgos fiscales o de fluctuación de moneda"
-                                Width: =619
-                                ZIndex: =1
-
-                            "'RM-08_risk_2' As dropdown":
-                                BorderColor: =RGBA(191, 21, 37, 1)
-                                BorderThickness: =1
-                                ChevronBackground: =RGBA(191, 21, 37, 1)
-                                Default: ="Bajo"
-                                Height: =42
-                                Items: =["Bajo", "Medio", "Alto"]
-                                SelectionFill: =RGBA(191, 21, 37, 1)
-                                Tooltip: |
-                                    =
-                                Width: =220
-                                X: =1102
-                                Y: =15
-                                ZIndex: =2
-
-                            "'RM-08_info_2' As icon.Information":
-                                Color: =RGBA(184, 0, 0, 1)
-                                FocusedBorderThickness: =0
-                                Height: =42
-                                Icon: =Icon.Information
-                                OnSelect: |-
-                                    =Set(infoVar, "· ¿Hay incertidumbres en relacion con los withholding taxes y otros impuestos, su aplicabilidad o los porcentajes?
-                                    · ¿Hay riesgo de fluctuación de moneda?
-                                    · ¿Hay algún problema para la expatriacion de beneficios o el pago de servicios entre paises?
-                                    · Otros");
-                                    Set(idLabel, "RM-08");
-                                    Set(nameLabel, "Riesgos fiscales o de fluctuación de moneda");
-                                    Navigate('Info_TPG01-FX')
-                                Width: =42
-                                X: =1021
-                                Y: =15
-                                ZIndex: =3
-
-                            "'RM-08_separator_3' As rectangle":
-                                Fill: =RGBA(237, 237, 237, 1)
-                                Height: =1
-                                Width: =1366
-                                Y: =72
-                                ZIndex: =4
-
-                        navigation_buttons_F6_4 As dataCard.blankCard:
-                            BorderColor: =RGBA(0, 0, 0, 1)
-                            BorderStyle: =BorderStyle.Solid
-                            DisplayMode: =DisplayMode.Edit
-                            Fill: =RGBA(0, 0, 0, 0)
-                            Height: =100
-                            Width: =1366
-                            X: =0
-                            Y: =7
-                            ZIndex: =11
-
-                            next_button_F6_4 As arrow:
-                                Fill: =RGBA(191, 21, 37, 1)
-                                OnSelect: =Navigate('TPG01-F7')
-                                X: =699
-                                Y: =32
-                                ZIndex: =1
-
-                            back_button_F6_4 As arrow.backArrow:
-                                Fill: =RGBA(191, 21, 37, 1)
-                                OnSelect: =Navigate('TPG01-F5')
-                                X: =612
-                                Y: =32
-                                ZIndex: =2
-
                 DataCard11 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -749,7 +258,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =10
                     ZIndex: =15
 
                     "'RM-02_label_5' As label":
@@ -770,7 +279,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =11
                     ZIndex: =16
 
                     "'RM-02_label_6' As label":
@@ -791,7 +300,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =12
                     ZIndex: =17
 
                     "'RM-02_label_7' As label":
@@ -808,7 +317,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =75
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
@@ -833,7 +342,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =8
+                    Y: =9
                     ZIndex: =19
 
                     "'RM-02_label_9' As label":
@@ -843,6 +352,46 @@
                             =20
                         Size: =18
                         Text: ="Modo de resolución de disputas"
+                        Width: =352
+                        ZIndex: =1
+
+                DataCard6 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =75
+                    Width: =1366
+                    X: =0
+                    Y: =6
+                    ZIndex: =20
+
+                    "'RM-02_label_16' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="De buena ejecución"
+                        Width: =352
+                        ZIndex: =1
+
+                DataCard7 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =21
+
+                    "'RM-02_label_17' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Retenciones"
                         Width: =352
                         ZIndex: =1
 
