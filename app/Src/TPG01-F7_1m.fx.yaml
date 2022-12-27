@@ -1,6 +1,6 @@
 "'TPG01-F7_1m' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     OnVisible: |-
-        =If(Value(money.Text) >= 1000000, true); Set(actualInfo, 'TPG01-F7_1m');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
+        =Set(actualInfo, 'TPG01-F7_1m');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
 
     "'ScreenContainer-F6_3' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height

@@ -434,15 +434,15 @@
                     next_button_F6_1 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate('TPG01-F7_1')
-                        X: =715
-                        Y: =27
+                        X: =685
+                        Y: =28
                         ZIndex: =1
 
                     back_button_F6_1 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate('TPG01-F5')
-                        X: =554
-                        Y: =27
+                        X: =596
+                        Y: =28
                         ZIndex: =2
 
                 DataCard3 As dataCard.blankCard:
