@@ -743,47 +743,6 @@
                                 Y: =32
                                 ZIndex: =2
 
-                DataCard9 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
-                    Width: =1366
-                    X: =0
-                    Y: =7
-                    ZIndex: =13
-
-                    "'RM-02_label_3' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Ley aplicable al contrato"
-                        Width: =352
-                        ZIndex: =1
-
-                DataCard10 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
-                    Width: =1366
-                    X: =0
-                    Y: =8
-                    ZIndex: =14
-
-                    "'RM-02_label_4' As label":
-                        FontWeight: =FontWeight.Semibold
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Modo de resolución de disputas"
-                        Width: =352
-                        ZIndex: =1
-
                 DataCard11 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -841,6 +800,47 @@
                             =20
                         Size: =18
                         Text: ="Jurisdicción ordinaria"
+                        Width: =352
+                        ZIndex: =1
+
+                DataCard14 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =100
+                    Width: =1366
+                    X: =0
+                    Y: =7
+                    ZIndex: =18
+
+                    "'RM-02_label_8' As label":
+                        Height: =57
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Ley aplicable al contrato"
+                        Width: =392
+                        ZIndex: =1
+
+                DataCard15 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =8
+                    ZIndex: =19
+
+                    "'RM-02_label_9' As label":
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Modo de resolución de disputas"
                         Width: =352
                         ZIndex: =1
 
