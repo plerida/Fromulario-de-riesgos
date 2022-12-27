@@ -42,7 +42,10 @@ Datos_generales As screen:
         DisabledFill: =RGBA(191, 21, 37, 1)
         Fill: =RGBA(191, 21, 37, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
-        OnSelect: =If(Value(money.Text) >= 200000, Navigate('TPG01-F5'), If(Value(money.Text) < 500000, Navigate('TPG01-F5')))
+        OnSelect: |
+            =If(Value(money.Text) >= 2000000, Navigate('TPG01-F5'),  Set(mayor2, true)); Set(mayor2, false);
+            
+             If(Value(money.Text) < 1000000, Navigate('TPG01-F5'), Set(mayor1, true)); Set(mayor1, false);
         Text: |-
             ="Aceptar
             "
