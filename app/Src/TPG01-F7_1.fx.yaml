@@ -357,7 +357,9 @@
                     next_button_F6_2 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         Height: =47
-                        OnSelect: =Navigate('TPG01-F7_1m')
+                        OnSelect: |-
+                            =If(Value(money.Text) >= 1000000, Navigate('TPG01-F7_1m'));
+                            If(Value(money.Text) < 1000000, Navigate('TPG01-F7_2'))
                         Width: =49
                         X: =734
                         Y: =43

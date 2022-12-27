@@ -1,8 +1,8 @@
-"'TPG01-F7_1m' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
+"'TPG01-F7_2' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
     OnVisible: |-
-        =If(Value(money.Text) >= 1000000, true); Set(actualInfo, 'TPG01-F7_1m');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
+        =If(Value(money.Text) >= 1000000, true); Set(actualInfo, 'TPG01-F7_2');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
 
-    "'ScreenContainer-F6_3' As groupContainer.verticalAutoLayoutContainer":
+    "'ScreenContainer-F6_4' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
@@ -10,7 +10,7 @@
         Width: =Parent.Width
         ZIndex: =1
 
-        "'HeaderContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":
+        "'HeaderContainer-F6_5' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(191, 21, 37, 1)
             FillPortions: =0
@@ -23,7 +23,7 @@
             PaddingRight: =30
             ZIndex: =2
 
-            "'title-F6_4' As label":
+            "'title-F6_5' As label":
                 BorderColor: =RGBA(255, 255, 255, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 Font: =Font.'Segoe UI'
@@ -35,7 +35,7 @@
                 Width: =600
                 ZIndex: =1
 
-            typsa_logo_F6_4 As image:
+            typsa_logo_F6_5 As image:
                 BorderColor: =RGBA(255, 255, 255, 1)
                 BorderThickness: =1
                 Height: =65
@@ -43,7 +43,7 @@
                 Width: =65
                 ZIndex: =2
 
-        "'MainSectionContainer-F6_3' As groupContainer.verticalAutoLayoutContainer":
+        "'MainSectionContainer-F6_4' As groupContainer.verticalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
@@ -51,14 +51,16 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =3
 
-            canvas_F6_3 As fluidGrid.fluidGridWithBlankCard:
+            canvas_F6_5 As fluidGrid.fluidGridWithBlankCard:
                 BorderThickness: =0
                 Height: =Parent.Height - Self.Y
+                LayoutMinHeight: =250
+                LayoutMinWidth: =100
                 Width: =Parent.Width
                 Y: =
                 ZIndex: =1
 
-                "'RM-01_card_3' As dataCard.blankCard":
+                "'RM-01_card_6' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -70,7 +72,7 @@
                     Y: =0
                     ZIndex: =2
 
-                    "'RM-01_label_3' As label":
+                    "'RM-01_label_6' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -79,14 +81,14 @@
                         Width: =400
                         ZIndex: =1
 
-                    "'RM-01_separator_3' As rectangle":
+                    "'RM-01_separator_6' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                "'RM-02_card_1' As dataCard.blankCard":
+                "'RM-02_card_4' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -97,7 +99,7 @@
                     Y: =1
                     ZIndex: =3
 
-                    "'RM-02_label_1' As label":
+                    "'RM-02_label_4' As label":
                         FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
@@ -107,14 +109,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    "'RM-02_separator_1' As rectangle":
+                    "'RM-02_separator_4' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                "'RM-03_card_3' As dataCard.blankCard":
+                "'RM-03_card_6' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -125,7 +127,7 @@
                     Y: =2
                     ZIndex: =5
 
-                    "'RM-03_label_1' As label":
+                    "'RM-03_label_4' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -134,14 +136,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    "'RM-03_separator_3' As rectangle":
+                    "'RM-03_separator_6' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                "'RM-05_card_3' As dataCard.blankCard":
+                "'RM-05_card_6' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -152,7 +154,7 @@
                     Y: =3
                     ZIndex: =7
 
-                    "'RM-05_label_2' As label":
+                    "'RM-05_label_5' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -161,14 +163,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    "'RM-05_separator_3' As rectangle":
+                    "'RM-05_separator_6' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                "'RM-07_card_2' As dataCard.blankCard":
+                "'RM-07_card_5' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -179,7 +181,7 @@
                     Y: =4
                     ZIndex: =9
 
-                    "'RM-07_label_5' As label":
+                    "'RM-07_label_8' As label":
                         FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
@@ -189,14 +191,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    "'RM-07_separator_2' As rectangle":
+                    "'RM-07_separator_5' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                "'RM-08_card_2' As dataCard.blankCard":
+                "'RM-08_card_5' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -208,7 +210,7 @@
                     Y: =5
                     ZIndex: =10
 
-                    "'RM-08_label_2' As label":
+                    "'RM-08_label_5' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -217,14 +219,14 @@
                         Width: =619
                         ZIndex: =1
 
-                    "'RM-08_separator_2' As rectangle":
+                    "'RM-08_separator_5' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
                         Height: =1
                         Width: =1366
                         Y: =72
                         ZIndex: =4
 
-                navigation_buttons_F6_3 As dataCard.blankCard:
+                navigation_buttons_F6_5 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -235,21 +237,21 @@
                     Y: =12
                     ZIndex: =11
 
-                    next_button_F6_3 As arrow:
+                    next_button_F6_5 As arrow:
                         Fill: =RGBA(191, 21, 37, 1)
-                        OnSelect: =Navigate('TPG01-F7_2')
+                        OnSelect: =Navigate(Enviar_formulario)
                         X: =699
                         Y: =32
                         ZIndex: =1
 
-                    back_button_F6_3 As arrow.backArrow:
+                    back_button_F6_5 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
                         OnSelect: =Navigate('TPG01-F5')
                         X: =612
                         Y: =32
                         ZIndex: =2
 
-                DataCard8 As dataCard.blankCard:
+                DataCard8_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -260,14 +262,14 @@
                     Y: =6
                     ZIndex: =12
 
-                    canvas_F6_4 As fluidGrid.fluidGridWithBlankCard:
+                    canvas_F6_6 As fluidGrid.fluidGridWithBlankCard:
                         BorderThickness: =0
                         Height: =77
                         Width: =Parent.Width
                         Y: =
                         ZIndex: =1
 
-                        "'RM-01_card_4' As dataCard.blankCard":
+                        "'RM-01_card_5' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             BorderThickness: =0
@@ -279,7 +281,7 @@
                             Y: =8
                             ZIndex: =2
 
-                            "'RM-01_label_4' As label":
+                            "'RM-01_label_5' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -288,7 +290,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-01_risk_1' As dropdown":
+                            "'RM-01_risk_2' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -303,7 +305,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-01_info_1' As icon.Information":
+                            "'RM-01_info_2' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -322,14 +324,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-01_separator_4' As rectangle":
+                            "'RM-01_separator_5' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-02_card_2' As dataCard.blankCard":
+                        "'RM-02_card_3' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -340,7 +342,7 @@
                             Y: =0
                             ZIndex: =3
 
-                            "'RM-02_label_2' As label":
+                            "'RM-02_label_3' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -349,14 +351,14 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-02_separator_2' As rectangle":
+                            "'RM-02_separator_3' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-03_card_4' As dataCard.blankCard":
+                        "'RM-03_card_5' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -367,7 +369,7 @@
                             Y: =1
                             ZIndex: =5
 
-                            "'RM-03_label_2' As label":
+                            "'RM-03_label_3' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -376,7 +378,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-03_risk_2' As dropdown":
+                            "'RM-03_risk_3' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -391,7 +393,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-03_info_2' As icon.Information":
+                            "'RM-03_info_3' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -409,14 +411,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-03_separator_4' As rectangle":
+                            "'RM-03_separator_5' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-04_card_3' As dataCard.blankCard":
+                        "'RM-04_card_4' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -427,7 +429,7 @@
                             Y: =2
                             ZIndex: =6
 
-                            "'RM-04_label_17' As label":
+                            "'RM-04_label_18' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -436,7 +438,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-04_risk_1' As dropdown":
+                            "'RM-04_risk_2' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -451,7 +453,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-04_info_1' As icon.Information":
+                            "'RM-04_info_2' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -468,14 +470,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-04_separator_3' As rectangle":
+                            "'RM-04_separator_4' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-05_card_4' As dataCard.blankCard":
+                        "'RM-05_card_5' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -486,7 +488,7 @@
                             Y: =3
                             ZIndex: =7
 
-                            "'RM-05_label_3' As label":
+                            "'RM-05_label_4' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -495,7 +497,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-05_risk_2' As dropdown":
+                            "'RM-05_risk_3' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -510,7 +512,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-05_info_2' As icon.Information":
+                            "'RM-05_info_3' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -528,14 +530,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-05_separator_4' As rectangle":
+                            "'RM-05_separator_5' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-06_card_4' As dataCard.blankCard":
+                        "'RM-06_card_5' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -546,7 +548,7 @@
                             Y: =4
                             ZIndex: =8
 
-                            "'RM-06_label_2' As label":
+                            "'RM-06_label_3' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -555,7 +557,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-06_risk_2' As dropdown":
+                            "'RM-06_risk_3' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -570,7 +572,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-06_info_2' As icon.Information":
+                            "'RM-06_info_3' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -589,14 +591,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-06_separator_4' As rectangle":
+                            "'RM-06_separator_5' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-07_card_3' As dataCard.blankCard":
+                        "'RM-07_card_4' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -607,7 +609,7 @@
                             Y: =5
                             ZIndex: =9
 
-                            "'RM-07_label_6' As label":
+                            "'RM-07_label_7' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -616,7 +618,7 @@
                                 Width: =352
                                 ZIndex: =1
 
-                            "'RM-07_risk_4' As dropdown":
+                            "'RM-07_risk_5' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -631,7 +633,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-07_info_2' As icon.Information":
+                            "'RM-07_info_3' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -647,14 +649,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-07_separator_3' As rectangle":
+                            "'RM-07_separator_4' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        "'RM-08_card_3' As dataCard.blankCard":
+                        "'RM-08_card_4' As dataCard.blankCard":
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             BorderThickness: =0
@@ -666,7 +668,7 @@
                             Y: =6
                             ZIndex: =10
 
-                            "'RM-08_label_3' As label":
+                            "'RM-08_label_4' As label":
                                 Height: =73
                                 PaddingLeft: |
                                     =20
@@ -675,7 +677,7 @@
                                 Width: =619
                                 ZIndex: =1
 
-                            "'RM-08_risk_2' As dropdown":
+                            "'RM-08_risk_3' As dropdown":
                                 BorderColor: =RGBA(191, 21, 37, 1)
                                 BorderThickness: =1
                                 ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -690,7 +692,7 @@
                                 Y: =15
                                 ZIndex: =2
 
-                            "'RM-08_info_2' As icon.Information":
+                            "'RM-08_info_3' As icon.Information":
                                 Color: =RGBA(184, 0, 0, 1)
                                 FocusedBorderThickness: =0
                                 Height: =42
@@ -708,14 +710,14 @@
                                 Y: =15
                                 ZIndex: =3
 
-                            "'RM-08_separator_3' As rectangle":
+                            "'RM-08_separator_4' As rectangle":
                                 Fill: =RGBA(237, 237, 237, 1)
                                 Height: =1
                                 Width: =1366
                                 Y: =72
                                 ZIndex: =4
 
-                        navigation_buttons_F6_4 As dataCard.blankCard:
+                        navigation_buttons_F6_6 As dataCard.blankCard:
                             BorderColor: =RGBA(0, 0, 0, 1)
                             BorderStyle: =BorderStyle.Solid
                             DisplayMode: =DisplayMode.Edit
@@ -726,21 +728,21 @@
                             Y: =7
                             ZIndex: =11
 
-                            next_button_F6_4 As arrow:
+                            next_button_F6_6 As arrow:
                                 Fill: =RGBA(191, 21, 37, 1)
                                 OnSelect: =Navigate('TPG01-F7')
                                 X: =699
                                 Y: =32
                                 ZIndex: =1
 
-                            back_button_F6_4 As arrow.backArrow:
+                            back_button_F6_6 As arrow.backArrow:
                                 Fill: =RGBA(191, 21, 37, 1)
                                 OnSelect: =Navigate('TPG01-F5')
                                 X: =612
                                 Y: =32
                                 ZIndex: =2
 
-                DataCard11 As dataCard.blankCard:
+                DataCard11_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -752,7 +754,7 @@
                     Y: =9
                     ZIndex: =15
 
-                    "'RM-02_label_5' As label":
+                    "'RM-02_label_11' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -761,7 +763,7 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard12 As dataCard.blankCard:
+                DataCard12_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -773,7 +775,7 @@
                     Y: =10
                     ZIndex: =16
 
-                    "'RM-02_label_6' As label":
+                    "'RM-02_label_10' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -782,7 +784,7 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard13 As dataCard.blankCard:
+                DataCard13_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -794,7 +796,7 @@
                     Y: =11
                     ZIndex: =17
 
-                    "'RM-02_label_7' As label":
+                    "'RM-02_label_12' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -803,7 +805,7 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard14 As dataCard.blankCard:
+                DataCard14_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -815,7 +817,7 @@
                     Y: =7
                     ZIndex: =18
 
-                    "'RM-02_label_8' As label":
+                    "'RM-02_label_14' As label":
                         Height: =70
                         PaddingLeft: |
                             =20
@@ -824,7 +826,7 @@
                         Width: =392
                         ZIndex: =1
 
-                DataCard15 As dataCard.blankCard:
+                DataCard15_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -836,7 +838,7 @@
                     Y: =8
                     ZIndex: =19
 
-                    "'RM-02_label_9' As label":
+                    "'RM-02_label_13' As label":
                         FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
@@ -846,7 +848,7 @@
                         Width: =352
                         ZIndex: =1
 
-        "'FooterContainer-F6_3' As groupContainer.horizontalAutoLayoutContainer":
+        "'FooterContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =50
@@ -855,7 +857,7 @@
             LayoutMode: =LayoutMode.Auto
             ZIndex: =4
 
-            footer_F6_3 As footer:
+            footer_F6_4 As footer:
                 LayoutMinHeight: =640
                 LayoutMinWidth: =640
 
