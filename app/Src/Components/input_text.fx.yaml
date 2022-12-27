@@ -1,4 +1,4 @@
-Component1 As CanvasComponent:
+input_text As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =50
     Width: =250

@@ -1,0 +1,40 @@
+row_2 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =70
+    Width: =1360
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =70
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =368
+        ZIndex: =4
+
+        Label2_2 As label:
+            Height: =70
+            Size: =18
+            Text: ="Texto"
+            Width: =312
+            ZIndex: =1
+
+    TextInput4_1 As text:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Default: ="Entrada de texto"
+        Height: =50
+        Size: =18
+        Width: =250
+        X: =368
+        Y: =10
+        ZIndex: =5
+
+    Label2_3 As label:
+        Height: =70
+        Size: =18
+        Text: ="Euro"
+        Width: =312
+        X: =636
+        ZIndex: =6
+

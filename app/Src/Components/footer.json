@@ -96,7 +96,7 @@
         "Name": "footer-label",
         "Parent": "footer",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 395,
+        "PublishOrderIndex": 358,
         "Rules": [
           {
             "Category": "Data",

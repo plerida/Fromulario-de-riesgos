@@ -89,7 +89,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_01 As Component1:
+                    resumen_01 As input_text:
                         X: =345
                         Y: =22
                         ZIndex: =5
@@ -149,7 +149,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_02 As Component1:
+                    resumen_02 As input_text:
                         X: =352
                         Y: =11
                         ZIndex: =5
@@ -182,7 +182,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_03 As Component1:
+                    resumen_03 As input_text:
                         X: =352
                         Y: =23
                         ZIndex: =5
@@ -243,7 +243,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_04 As Component1:
+                    resumen_04 As input_text:
                         X: =352
                         Y: =11
                         ZIndex: =5
@@ -381,7 +381,7 @@
                         Width: =392
                         ZIndex: =1
 
-                    resumen_05 As Component1:
+                    resumen_05 As input_text:
                         X: =352
                         Y: =11
                         ZIndex: =2
@@ -428,7 +428,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_06 As Component1:
+                    resumen_06 As input_text:
                         X: =352
                         Y: =11
                         ZIndex: =2
@@ -453,7 +453,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_07 As Component1:
+                    resumen_07 As input_text:
                         X: =352
                         Y: =11
                         ZIndex: =2
