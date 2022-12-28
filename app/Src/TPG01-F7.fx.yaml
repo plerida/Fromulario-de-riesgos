@@ -166,6 +166,7 @@
                         Size: =18
                         Text: ="Moneda"
                         Width: =352
+                        Y: =10
                         ZIndex: =1
 
                     "'RM-04_separator_1' As rectangle":
@@ -194,16 +195,6 @@
                         Width: =352
                         X: =704
                         ZIndex: =6
-
-                    Rectangle1_4 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1127
-                        Y: =20
-                        ZIndex: =7
 
                 "'RM-05_card_1' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -343,23 +334,33 @@
                         X: =707
                         ZIndex: =3
 
-                    Checkbox1 As checkbox:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
-                        FontWeight: =FontWeight.Lighter
-                        Height: =73
-                        OnCheck: =IsMatch(First(project.SelectedItems).Empresa, "TYPSA('TY')")
-                        OnUncheck: =
-                        Text: =
-                        Width: =46
-                        X: =1274
-                        ZIndex: =4
-
                     input_text_17 As input_text:
                         datoSP: =First(project.SelectedItems).País
                         X: =325
                         Y: =11
                         ZIndex: =5
+
+                    Label4 As label:
+                        Height: =38
+                        Size: =18
+                        Text: |
+                            =
+                            IsMatch(First(project.SelectedItems).Empresa, "TYPSA \(TY\)")
+                        Width: =179
+                        X: =1142
+                        ZIndex: =6
+
+                    Checkbox1 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Default: |
+                            =
+                            IsMatch(First(project.SelectedItems).Empresa, "TYPSA \(TY\)")
+                        OnCheck: =
+                        Text: =""
+                        X: =1142
+                        Y: =40
+                        ZIndex: =7
 
                 "'RM-08_card_1' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
