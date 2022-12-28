@@ -176,7 +176,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =90
+                    Height: =105
                     Width: =1366
                     X: =0
                     Y: =4
@@ -226,7 +226,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =92
+                    Height: =44
                     Width: =1366
                     X: =0
                     Y: =5
@@ -325,7 +325,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =82
+                    Height: =97
                     Width: =1366
                     X: =0
                     Y: =8
@@ -403,21 +403,25 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Retenciones e impuestos que agravan el resultado"
+                        Text: ="¿Es un contrato 'fitness for purpose'?"
                         Width: =392
                         ZIndex: =1
 
-                    input_text_32 As input_text:
-                        X: =529
+                    resumen_socio_4 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =465
                         Y: =10
                         ZIndex: =2
-
-                    Label3_19 As label:
-                        Size: =18
-                        Text: ="Euro"
-                        X: =779
-                        Y: =15
-                        ZIndex: =3
 
                 analisis_ec_card10_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -436,28 +440,32 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Retenciones e impuestos que gravan el resultado"
+                        Text: ="¿Es un contrato 'back to back'?"
                         Width: =352
                         ZIndex: =1
 
-                    input_text_33 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
-                    Label3_20 As label:
+                    resumen_socio_5 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
-                        Text: ="Euro"
-                        X: =779
-                        Y: =16
-                        ZIndex: =3
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =467
+                        Y: =12
+                        ZIndex: =2
 
                 coste_total_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =62
+                    Height: =73
                     Width: =1366
                     X: =0
                     Y: =9
@@ -469,15 +477,10 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Coste total"
+                        Text: ="Otras"
                         Width: =352
                         Y: =35
                         ZIndex: =1
-
-                    input_text_30 As input_text:
-                        X: =532
-                        Y: =46
-                        ZIndex: =2
 
                 DataCard5_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -495,21 +498,25 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Por facturación de servicios de ingeniería"
+                        Text: ="¿La clausula de pago es 'pay when paid'?"
                         Width: =352
                         ZIndex: =1
 
-                    input_text_34 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
-                    Label3_21 As label:
+                    resumen_socio_6 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
-                        Text: ="Euro"
-                        X: =779
-                        Y: =16
-                        ZIndex: =3
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =470
+                        Y: =12
+                        ZIndex: =4
 
                 DataCard6_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -523,25 +530,29 @@
                     ZIndex: =22
 
                     "'RM-02_label_33' As label":
-                        Height: =73
+                        Height: =90
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Por repatriación de beneficios"
-                        Width: =352
+                        Text: ="¿Otras indemnizaciones no cubiertas por el seguro (i.e. desvios presupuestarios"
+                        Width: =426
                         ZIndex: =1
 
-                    input_text_35 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
-                    Label3_22 As label:
+                    resumen_socio_7 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
-                        Text: ="Euro"
-                        X: =779
-                        Y: =16
-                        ZIndex: =3
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =470
+                        Y: =20
+                        ZIndex: =2
 
                 DataCard7_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -555,26 +566,16 @@
                     ZIndex: =23
 
                     "'RM-02_label_34' As label":
-                        Height: =73
+                        FontWeight: =FontWeight.Bold
+                        Height: =61
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Beneficio neto esperado"
-                        Width: =352
-                        Y: =38
+                        Text: ="¿Alguna línea roja?"
+                        Width: =269
+                        X: =84
+                        Y: =30
                         ZIndex: =1
-
-                    input_text_36 As input_text:
-                        X: =529
-                        Y: =49
-                        ZIndex: =2
-
-                    Label3_23 As label:
-                        Size: =18
-                        Text: ="Euro"
-                        X: =779
-                        Y: =54
-                        ZIndex: =3
 
                 DataCard8_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
