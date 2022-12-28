@@ -61,20 +61,21 @@
                 Y: =
                 ZIndex: =1
 
-                "'RM-01_card_1' As dataCard.blankCard":
+                resumen1_card01 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =90
+                    Height: =132
                     Width: =1366
                     X: =0
                     Y: =0
                     ZIndex: =2
 
-                    "'RM-01_label_1' As label":
-                        Height: =90
+                    titulo As label:
+                        FontWeight: =FontWeight.Bold
+                        Height: =107
                         PaddingLeft: |
                             =20
                         Size: =18
@@ -89,7 +90,7 @@
                         Y: =72
                         ZIndex: =4
 
-                "'RM-03_card_1' As dataCard.blankCard":
+                resumen1_card02 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -117,37 +118,26 @@
                         Width: =352
                         ZIndex: =5
 
-                    Rectangle1 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =334
-                        Y: =24
-                        ZIndex: =6
-
                     "'RM-04_label_4' As label":
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="Fecha de presentación de la oferta"
-                        Width: =352
+                        Width: =304
                         X: =697
                         ZIndex: =7
 
-                    Rectangle1_3 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1126
-                        Y: =20
-                        ZIndex: =8
+                    input_text_18 As input_text:
+                        X: =307
+                        Y: =11
+                        ZIndex: =9
 
-                "'RM-04_card_1' As dataCard.blankCard":
+                    input_text_20 As input_text:
+                        X: =1064
+                        ZIndex: =10
+
+                resumen1_card03 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -166,7 +156,6 @@
                         Size: =18
                         Text: ="Moneda"
                         Width: =352
-                        Y: =10
                         ZIndex: =1
 
                     "'RM-04_separator_1' As rectangle":
@@ -175,16 +164,6 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
-
-                    Rectangle1_1 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =334
-                        Y: =16
-                        ZIndex: =5
 
                     "'RM-04_label_5' As label":
                         Height: =73
@@ -196,7 +175,17 @@
                         X: =704
                         ZIndex: =6
 
-                "'RM-05_card_1' As dataCard.blankCard":
+                    input_text_19 As input_text:
+                        X: =307
+                        Y: =11
+                        ZIndex: =7
+
+                    input_text_22 As input_text:
+                        X: =1064
+                        Y: =11
+                        ZIndex: =8
+
+                resumen1_card04 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -223,16 +212,6 @@
                         Y: =72
                         ZIndex: =4
 
-                    Rectangle1_5 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1130
-                        Y: =20
-                        ZIndex: =6
-
                     "'RM-04_label_6' As label":
                         Height: =73
                         PaddingLeft: |
@@ -245,11 +224,16 @@
 
                     input_text_1 As input_text:
                         datoSP: =First(project.SelectedItems).País
-                        X: =325
+                        X: =307
                         Y: =11
                         ZIndex: =8
 
-                "'RM-06_card_1' As dataCard.blankCard":
+                    input_text_21 As input_text:
+                        X: =1064
+                        Y: =11
+                        ZIndex: =9
+
+                resumen1_card05 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -269,6 +253,7 @@
                         ZIndex: =4
 
                     "'RM-04_label_3' As label":
+                        FontWeight: =FontWeight.Bold
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -276,16 +261,6 @@
                         Text: ="Cliente"
                         Width: =352
                         ZIndex: =5
-
-                    Rectangle1_6 As rectangle:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        Fill: =RGBA(255, 255, 255, 1)
-                        Height: =33
-                        Width: =198
-                        X: =1135
-                        Y: =20
-                        ZIndex: =6
 
                     "'RM-04_label_7' As label":
                         Height: =73
@@ -297,7 +272,12 @@
                         X: =698
                         ZIndex: =7
 
-                "'RM-07_card_1' As dataCard.blankCard":
+                    input_text_23 As input_text:
+                        X: =1064
+                        Y: =11
+                        ZIndex: =8
+
+                resumen1_card06 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -336,19 +316,9 @@
 
                     input_text_17 As input_text:
                         datoSP: =First(project.SelectedItems).País
-                        X: =325
+                        X: =307
                         Y: =11
                         ZIndex: =5
-
-                    Label4 As label:
-                        Height: =38
-                        Size: =18
-                        Text: |
-                            =
-                            IsMatch(First(project.SelectedItems).Empresa, "TYPSA \(TY\)")
-                        Width: =179
-                        X: =1142
-                        ZIndex: =6
 
                     Checkbox1 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
@@ -358,11 +328,11 @@
                             IsMatch(First(project.SelectedItems).Empresa, "TYPSA \(TY\)")
                         OnCheck: =
                         Text: =""
-                        X: =1142
-                        Y: =40
+                        X: =1132
+                        Y: =11
                         ZIndex: =7
 
-                "'RM-08_card_1' As dataCard.blankCard":
+                resumen1_card07 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -435,7 +405,7 @@
                         Y: =28
                         ZIndex: =2
 
-                DataCard3 As dataCard.blankCard:
+                resumen1_card08 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -456,7 +426,7 @@
                         Y: =26
                         ZIndex: =1
 
-                    "'RM-07_risk_2' As dropdown":
+                    resumen_socio As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -481,7 +451,7 @@
                         X: =723
                         ZIndex: =3
 
-                DataCard4 As dataCard.blankCard:
+                resumen1_card09 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
