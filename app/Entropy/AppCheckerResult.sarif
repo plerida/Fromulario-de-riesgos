@@ -2926,6 +2926,270 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 36,
+                  "snippet": {
+                    "text": "de"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 42,
+                  "snippet": {
+                    "text": "oferta"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 48,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperandExpected",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 28,
+                  "snippet": {
+                    "text": ".Titulo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Titulo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 39,
+                  "snippet": {
+                    "text": "la"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "la"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 42,
+                  "snippet": {
+                    "text": "oferta"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 36,
+                  "snippet": {
+                    "text": "de"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-01_card_1'.'RM-01_label_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrOperatorExpected",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Enviar_formulario.send_button.OnSelect"
                 }
               ],
@@ -5696,36 +5960,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "input_text.TextInput3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "input_text.TextInput3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "input_text",
-                "type": "input_text.TextInput3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'TPG01-F7_1m'.'ScreenContainer-F6_3'.'MainSectionContainer-F6_3'.canvas_F6_3.navigation_buttons_F6_3.back_button_F6_3.AccessibleLabel"
                 }
               ],
@@ -6980,36 +7214,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.'RM-07_risk_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.'RM-07_risk_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "TPG01-F7",
-                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.'RM-07_risk_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -9249,6 +9453,66 @@
                 "member": "Visible",
                 "module": "TPG01-F7_1m",
                 "type": "'TPG01-F7_1m'.'ScreenContainer-F6_3'.'MainSectionContainer-F6_3'.canvas_F6_3.card_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-05_card_1'.input_text_1.datoSP"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-05_card_1'.input_text_1.datoSP",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "datoSP",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-05_card_1'.input_text_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.input_text_17.datoSP"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.input_text_17.datoSP",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "datoSP",
+                "module": "TPG01-F7",
+                "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.'RM-07_card_1'.input_text_17"
               }
             }
           ],

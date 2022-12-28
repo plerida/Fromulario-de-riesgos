@@ -304,7 +304,9 @@
 
                     back_button_F6_5 As arrow.backArrow:
                         Fill: =RGBA(191, 21, 37, 1)
-                        OnSelect: =Navigate('TPG01-F5')
+                        OnSelect: |-
+                            =If(Value(money.Text) >= 1000000, Navigate('TPG01-F7_1m'));
+                            If(Value(money.Text) < 1000000, Navigate('TPG01-F7_1'))
                         X: =612
                         Y: =32
                         ZIndex: =2
