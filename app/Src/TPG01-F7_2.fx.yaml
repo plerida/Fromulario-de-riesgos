@@ -261,7 +261,7 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Cantidad correspondiente a los socios"
+                        Text: ="Cantidad correspondiente a los sociosa"
                         Width: =366
                         ZIndex: =1
 
@@ -292,7 +292,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =16
+                    Y: =20
                     ZIndex: =11
 
                     next_button_F6_5 As arrow:
@@ -595,7 +595,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =120
                     Width: =1366
                     X: =0
                     Y: =15
@@ -615,15 +615,120 @@
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
                         Default: ="Bajo"
-                        Height: =42
+                        Height: =50
                         Items: =["Precios unitarios", "Precio cerrado",]
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
                         Tooltip: |
                             =
-                        Width: =242
-                        X: =543
-                        Y: =15
+                        Width: =250
+                        X: =524
+                        Y: =23
+                        ZIndex: =2
+
+                DataCard10 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =68
+                    Width: =1366
+                    X: =0
+                    Y: =16
+                    ZIndex: =26
+
+                    "'RM-02_label_23' As label":
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Fondos"
+                        Width: =352
+                        ZIndex: =1
+
+                DataCard11 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =17
+                    ZIndex: =27
+
+                    "'RM-02_label_24' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Privados"
+                        Width: =352
+                        ZIndex: =1
+
+                    Checkbox2 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =524
+                        Y: =11
+                        ZIndex: =2
+
+                DataCard12 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =19
+                    ZIndex: =28
+
+                    "'RM-02_label_25' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Públicos locales"
+                        Width: =352
+                        ZIndex: =1
+
+                    Checkbox2_1 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =524
+                        Y: =11
+                        ZIndex: =2
+
+                DataCard13 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =73
+                    Width: =1366
+                    X: =0
+                    Y: =18
+                    ZIndex: =29
+
+                    Checkbox2_2 As checkbox:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        Text: =""
+                        X: =524
+                        Y: =11
+                        ZIndex: =1
+
+                    "'RM-02_label_26' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Públicos locales"
+                        Width: =352
                         ZIndex: =2
 
         "'FooterContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":

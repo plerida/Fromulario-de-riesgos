@@ -1,7 +1,7 @@
 {
   "ControlStates": {
     "footer": {
-      "AllowAccessToGlobals": false,
+      "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
         {
