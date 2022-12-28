@@ -301,7 +301,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =22
+                    Y: =19
                     ZIndex: =11
 
                     next_button_F6_6 As arrow:
@@ -559,7 +559,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =140
+                    Height: =100
                     Width: =1366
                     X: =0
                     Y: =14
@@ -567,54 +567,59 @@
 
                     "'RM-02_label_34' As label":
                         FontWeight: =FontWeight.Bold
-                        Height: =61
+                        Height: =69
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="¿Alguna línea roja?"
-                        Width: =269
-                        X: =84
-                        Y: =30
+                        Width: =277
+                        X: =167
+                        Y: =10
                         ZIndex: =1
+
+                    resumen_socio_8 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =467
+                        Y: =20
+                        ZIndex: =2
 
                 DataCard8_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =77
                     Width: =1366
                     X: =0
                     Y: =15
                     ZIndex: =24
 
                     "'RM-02_label_35' As label":
-                        Height: =73
+                        FontWeight: =FontWeight.Bold
+                        Height: =72
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Precio a ofertar (impuestos no incluidos)"
+                        Text: ="Seguros"
                         Width: =352
                         ZIndex: =1
-
-                    input_text_37 As input_text:
-                        X: =524
-                        Y: =11
-                        ZIndex: =2
-
-                    Label3_24 As label:
-                        Size: =18
-                        Text: ="Euro"
-                        X: =774
-                        Y: =16
-                        ZIndex: =3
 
                 DataCard9_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =120
+                    Height: =73
                     Width: =1366
                     X: =0
                     Y: =16
@@ -625,25 +630,9 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Modalidad precio"
+                        Text: ="¿Requiere póliza de RC específica para proyecto?"
                         Width: =352
                         ZIndex: =1
-
-                    "'RM-06_risk_2' As dropdown":
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        ChevronBackground: =RGBA(191, 21, 37, 1)
-                        Default: ="Bajo"
-                        Height: =50
-                        Items: =["Precios unitarios", "Precio cerrado",]
-                        SelectionFill: =RGBA(191, 21, 37, 1)
-                        Size: =18
-                        Tooltip: |
-                            =
-                        Width: =250
-                        X: =524
-                        Y: =23
-                        ZIndex: =2
 
                 DataCard10_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -657,12 +646,11 @@
                     ZIndex: =26
 
                     "'RM-02_label_37' As label":
-                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Fondos"
+                        Text: ="Cobertura exigida (por siniestro)"
                         Width: =352
                         ZIndex: =1
 
@@ -682,107 +670,9 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Privados"
+                        Text: ="Cobertura exigida (por año)"
                         Width: =352
                         ZIndex: =1
-
-                    Checkbox2_3 As checkbox:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
-                        Text: =""
-                        X: =524
-                        Y: =11
-                        ZIndex: =2
-
-                DataCard12_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
-                    Width: =1366
-                    X: =0
-                    Y: =20
-                    ZIndex: =28
-
-                    "'RM-02_label_40' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Públicos locales"
-                        Width: =352
-                        ZIndex: =1
-
-                    Checkbox2_5 As checkbox:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
-                        Text: =""
-                        X: =524
-                        Y: =11
-                        ZIndex: =2
-
-                DataCard13_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
-                    Width: =1366
-                    X: =0
-                    Y: =19
-                    ZIndex: =29
-
-                    Checkbox2_4 As checkbox:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        CheckboxBorderColor: =RGBA(191, 21, 37, 1)
-                        Text: =""
-                        X: =524
-                        Y: =11
-                        ZIndex: =1
-
-                    "'RM-02_label_39' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Públicos locales"
-                        Width: =352
-                        ZIndex: =2
-
-                DataCard14_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =105
-                    Visible: =If(Value(money.Text) >=2000000, true)
-                    Width: =1366
-                    X: =0
-                    Y: =21
-                    ZIndex: =30
-
-                    "'RM-02_label_41' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Cash flow negativo máximo (contratos >2M€)"
-                        Width: =352
-                        Y: =16
-                        ZIndex: =1
-
-                    input_text_38 As input_text:
-                        X: =511
-                        Y: =23
-                        ZIndex: =2
-
-                    Label3_25 As label:
-                        Size: =18
-                        Text: ="Euro"
-                        X: =761
-                        Y: =33
-                        ZIndex: =3
 
                 DataCard3 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
