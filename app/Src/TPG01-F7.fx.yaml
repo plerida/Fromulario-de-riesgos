@@ -348,8 +348,8 @@
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         FontWeight: =FontWeight.Lighter
                         Height: =73
-                        OnCheck: =If(First(project.SelectedItems).'Empresa', "TYPSA(TY)")
-                        OnUncheck: =If(!First(project.SelectedItems).'Empresa', "TYPSA(TY)")
+                        OnCheck: =If(First(project.SelectedItems).Empresa, "TYPSA(TY)", true)
+                        OnUncheck: =If(First(project.SelectedItems).Empresa, "TYPSA(TY)", false)
                         Text: =
                         Width: =46
                         X: =1274
