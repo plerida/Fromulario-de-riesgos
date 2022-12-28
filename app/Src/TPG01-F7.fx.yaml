@@ -1,6 +1,6 @@
 "'TPG01-F7' As screen.'tabletAutoLayout_HeaderMainFooter_ver1.0'":
-    OnVisible: |-
-        =Set(actualInfo, 'TPG01-F7');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN")
+    OnVisible: |
+        =Set(actualInfo, 'TPG01-F7');Set(infoTitle,"TPG-01-F6: RIESGOS DE GESTIÓN"); 
 
     "'ScreenContainer-F6_1' As groupContainer.verticalAutoLayoutContainer":
         Height: =Parent.Height
@@ -348,8 +348,8 @@
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         FontWeight: =FontWeight.Lighter
                         Height: =73
-                        OnCheck: =If(First(project.SelectedItems).Empresa, "TYPSA(TY)", true)
-                        OnUncheck: =If(First(project.SelectedItems).Empresa, "TYPSA(TY)", false)
+                        OnCheck: =IsMatch(First(project.SelectedItems).Empresa, "TYPSA('TY')")
+                        OnUncheck: =
                         Text: =
                         Width: =46
                         X: =1274
