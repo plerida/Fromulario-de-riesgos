@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2022-11-09T17:32:16.1310000Z",
+      "LastChangedTimeString": "2022-12-15T17:52:39.7990000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -39,6 +39,7 @@
       "Pa_x00ed_s": "País",
       "Responsabledelaoferta": "Responsable de la oferta",
       "Responsabledelaoferta#Claims": "Responsable de la oferta Claims",
+      "T_x00ed_tulodelaoferta": "Título de la oferta",
       "Title": "Title"
     },
     "DatasetName": "https://grupotypsa.sharepoint.com/sites/ADT-121",

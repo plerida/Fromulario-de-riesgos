@@ -78,7 +78,7 @@
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: =First(project.SelectedItems).Titulo de la oferta
+                        Text: =First(project.SelectedItems).'Título de la oferta'
                         Width: =1366
                         ZIndex: =1
 
@@ -346,8 +346,11 @@
                     Checkbox1 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Lighter
                         Height: =73
-                        Text: =""
+                        OnCheck: =If(First(project.SelectedItems).'Empresa', "TYPSA(TY)")
+                        OnUncheck: =If(!First(project.SelectedItems).'Empresa', "TYPSA(TY)")
+                        Text: =
                         Width: =46
                         X: =1274
                         ZIndex: =4
@@ -457,14 +460,14 @@
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
                         Default: ="Bajo"
-                        Height: =42
-                        Items: =["España", "Francia", "Portugal"]
+                        Height: =44
+                        Items: =["no vamos con socio", "vamos con socio internacional con sistema de gestión de la integridad o de reconocido prestigio", "vamos con socio local con sistema de gestión de la integridad", "vamos con socio sin gestión de sistemas de la integridad"]
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
                         Tooltip: |
                             =
-                        Width: =220
-                        X: =326
+                        Width: =482
+                        X: =154
                         Y: =42
                         ZIndex: =2
 
