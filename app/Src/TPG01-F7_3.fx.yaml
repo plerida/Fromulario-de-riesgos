@@ -60,7 +60,7 @@
                 Y: =
                 ZIndex: =1
 
-                costes_proyecto_1 As dataCard.blankCard:
+                disposiciones_contractuales_claves As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -89,7 +89,7 @@
                         Y: =72
                         ZIndex: =4
 
-                analisis_ec_card01_1 As dataCard.blankCard:
+                analisis_ec_card03_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -116,7 +116,7 @@
                         Width: =352
                         ZIndex: =7
 
-                    resumen_socio_1 As dropdown:
+                    campo_01 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -132,7 +132,7 @@
                         Y: =12
                         ZIndex: =8
 
-                analisis_ec_card02_1 As dataCard.blankCard:
+                analisis_ec_card03_2 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -159,7 +159,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_25 As input_text:
+                    campo_02 As input_text:
                         X: =443
                         Y: =16
                         ZIndex: =5
@@ -171,7 +171,7 @@
                         Y: =21
                         ZIndex: =6
 
-                analisis_ec_card03_1 As dataCard.blankCard:
+                analisis_ec_card03_4 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -205,7 +205,7 @@
                         Y: =16
                         ZIndex: =6
 
-                    resumen_socio_2 As dropdown:
+                    campo_03 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -249,7 +249,7 @@
                         Y: =72
                         ZIndex: =4
 
-                analisis_ec_card05_1 As dataCard.blankCard:
+                analisis_ec_card03_5 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
@@ -277,7 +277,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_socio_3 As dropdown:
+                    campo_04 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -320,7 +320,7 @@
                         Y: =32
                         ZIndex: =2
 
-                analisis_ec_card06_1 As dataCard.blankCard:
+                analisis_ec_card03_6 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -341,7 +341,7 @@
                         Y: =2
                         ZIndex: =1
 
-                    input_text_29 As input_text:
+                    campo_05 As input_text:
                         X: =455
                         Y: =13
                         ZIndex: =2
@@ -460,7 +460,7 @@
                         Y: =12
                         ZIndex: =2
 
-                coste_total_1 As dataCard.blankCard:
+                otras As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -482,7 +482,7 @@
                         Y: =35
                         ZIndex: =1
 
-                DataCard5_1 As dataCard.blankCard:
+                analisis_ec_card03_7 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -502,7 +502,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_socio_6 As dropdown:
+                    campo_06 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -518,7 +518,7 @@
                         Y: =12
                         ZIndex: =4
 
-                DataCard6_1 As dataCard.blankCard:
+                analisis_ec_card03_8 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -538,7 +538,7 @@
                         Width: =426
                         ZIndex: =1
 
-                    resumen_socio_7 As dropdown:
+                    campo_07 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -554,7 +554,7 @@
                         Y: =20
                         ZIndex: =2
 
-                DataCard7_1 As dataCard.blankCard:
+                analisis_ec_card03_9 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -577,7 +577,7 @@
                         Y: =10
                         ZIndex: =1
 
-                    resumen_socio_8 As dropdown:
+                    campo_08 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
@@ -593,7 +593,7 @@
                         Y: =20
                         ZIndex: =2
 
-                DataCard8_1 As dataCard.blankCard:
+                seguros As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -614,7 +614,7 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard9_1 As dataCard.blankCard:
+                analisis_ec_card03_10 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -634,47 +634,23 @@
                         Width: =352
                         ZIndex: =1
 
-                DataCard10_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =68
-                    Width: =1366
-                    X: =0
-                    Y: =17
-                    ZIndex: =26
-
-                    "'RM-02_label_37' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
+                    campo_09 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =49
+                        Items: =["Sí", "No"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
-                        Text: ="Cobertura exigida (por siniestro)"
-                        Width: =352
-                        ZIndex: =1
+                        Tooltip: |
+                            =
+                        Width: =234
+                        X: =467
+                        Y: =12
+                        ZIndex: =2
 
-                DataCard11_1 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
-                    Width: =1366
-                    X: =0
-                    Y: =18
-                    ZIndex: =27
-
-                    "'RM-02_label_38' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Cobertura exigida (por año)"
-                        Width: =352
-                        ZIndex: =1
-
-                DataCard3 As dataCard.blankCard:
+                limite_responsabilidad_contractual As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit

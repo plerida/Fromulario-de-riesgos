@@ -137,3 +137,10 @@ Enviar_formulario As screen:
         Y: =443
         ZIndex: =7
 
+    back_button_F6_7 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('TPG01-F7_3')
+        X: =70
+        Y: =30
+        ZIndex: =8
+
