@@ -316,11 +316,6 @@
                         X: =707
                         ZIndex: =3
 
-                    input_text_17 As input_text:
-                        datoSP: =First(project.SelectedItems).País
-                        X: =850
-                        ZIndex: =5
-
                     Checkbox1 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
@@ -332,6 +327,18 @@
                         X: =1132
                         Y: =11
                         ZIndex: =7
+
+                    Label6 As label:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =2
+                        FocusedBorderThickness: =5
+                        Height: =50
+                        Size: =18
+                        Text: =First(project.SelectedItems).País
+                        Width: =250
+                        X: =306
+                        Y: =11
+                        ZIndex: =8
 
                 resumen1_card07 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -386,11 +393,6 @@
                         X: =554
                         ZIndex: =7
 
-                    Label6 As label:
-                        Text: =First(project.SelectedItems).País
-                        X: =526
-                        ZIndex: =8
-
                     Label7 As label:
                         Height: =34
                         Size: =18
@@ -408,6 +410,8 @@
                         ZIndex: =10
 
                     Label8 As label:
+                        FontWeight: =FontWeight.Semibold
+                        Size: =18
                         Text: =First(Filter(Tabla1_1,Columna2 = Label7.Text)).Columna4
                         X: =307
                         Y: =16
@@ -443,7 +447,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =85
+                    Height: =116
                     Width: =1366
                     X: =0
                     Y: =7
@@ -481,7 +485,8 @@
                         Height: =97
                         Size: =18
                         Width: =564
-                        X: =723
+                        X: =728
+                        Y: =14
                         ZIndex: =3
 
                 resumen1_card09 As dataCard.blankCard:
