@@ -9,10 +9,10 @@
     "ConnectedDataSourceInfoNameMapping": {
       "__PowerAppsId__": "Row id",
       "Columna1": "Columna1",
-      "Columna2": "Columna2",
       "Columna3": "Columna3",
       "Columna4": "Columna4",
-      "Columna5": "Columna5"
+      "Columna5": "Columna5",
+      "pais": "pais"
     },
     "DatasetName": "b!okRd3T3Yuke_T-PyJbD8jT_wtDitbEFMm6n9IjljZr-6s7fGM9BUSqsiM-dI6YQM.016K3WPBNB7NYGXVA7CJFI4UOPGNRJ72L5",
     "EncodeDataset": true,

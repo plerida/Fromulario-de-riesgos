@@ -318,8 +318,7 @@
 
                     input_text_17 As input_text:
                         datoSP: =First(project.SelectedItems).País
-                        X: =307
-                        Y: =11
+                        X: =850
                         ZIndex: =5
 
                     Checkbox1 As checkbox:
@@ -352,7 +351,7 @@
                             =20
                         Size: =18
                         Text: ="Índice percepción corrupción"
-                        Width: =619
+                        Width: =280
                         ZIndex: =1
 
                     "'RM-08_separator_1' As rectangle":
@@ -366,7 +365,7 @@
                         FontWeight: =FontWeight.Semibold
                         Height: =36
                         Size: =18
-                        Text: =Search(Tabla1_1, "", ) 
+                        Text: =
                         Width: =265
                         X: =376
                         Y: =14
@@ -381,6 +380,38 @@
                         Width: =352
                         X: =704
                         ZIndex: =6
+
+                    Label4 As label:
+                        Text: =""
+                        X: =554
+                        ZIndex: =7
+
+                    Label6 As label:
+                        Text: =First(project.SelectedItems).País
+                        X: =526
+                        ZIndex: =8
+
+                    Label7 As label:
+                        Height: =34
+                        Size: =18
+                        Text: =First(Split(Label6.Text," (")).Result
+                        Visible: =false
+                        Width: =227
+                        X: =526
+                        Y: =38
+                        ZIndex: =9
+
+                    Label6_1 As label:
+                        Text: =
+                        X: =581
+                        Y: =43
+                        ZIndex: =10
+
+                    Label8 As label:
+                        Text: =First(Filter(Tabla1_1,Columna2 = Label7.Text)).Columna4
+                        X: =307
+                        Y: =16
+                        ZIndex: =11
 
                 navigation_buttons_F6_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)

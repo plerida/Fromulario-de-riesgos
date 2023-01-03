@@ -1967,7 +1967,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "navigation_buttons_F6_3",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2194,7 +2194,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resolucion_disputas",
-      "ParentIndex": 13,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3437,7 +3437,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen3_card08",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3532,7 +3532,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen3_card09",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8652,7 +8652,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "title-F6_4",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9072,7 +9072,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "typsa_logo_F6_4",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
