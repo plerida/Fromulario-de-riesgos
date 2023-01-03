@@ -10104,6 +10104,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard3.Label9_21.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard3.Label9_21.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.DataCard3.Label9_21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard4.Label9_22.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard4.Label9_22.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.DataCard4.Label9_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard15.Label9_23.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard15.Label9_23.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.DataCard15.Label9_23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card05_1.Label9_20.Text"
                 }
               ],
@@ -10147,6 +10237,36 @@
                 "member": "Text",
                 "module": "Screen1_1",
                 "type": "Screen1_1.canvas_F6_4.resumen2_card02_1.Label9_17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard16.Label9_24.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.DataCard16.Label9_24.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.DataCard16.Label9_24"
               }
             }
           ],

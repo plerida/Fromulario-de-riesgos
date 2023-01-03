@@ -145,6 +145,7 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
+            Visible: =
             Width: =1272
             X: =0
             Y: =2
@@ -217,6 +218,15 @@ Screen1_1 As screen:
                 Y: =32
                 ZIndex: =1
 
+            Label9_21 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =982
+                Y: =32
+                ZIndex: =2
+
         DataCard4 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
@@ -236,6 +246,15 @@ Screen1_1 As screen:
                 X: =40
                 Y: =32
                 ZIndex: =1
+
+            Label9_22 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
 
         DataCard15 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -257,12 +276,22 @@ Screen1_1 As screen:
                 Y: =32
                 ZIndex: =1
 
+            Label9_23 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
+
         DataCard16 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
+            Visible: =true
             Width: =1272
             X: =0
             Y: =7
@@ -276,4 +305,13 @@ Screen1_1 As screen:
                 X: =40
                 Y: =32
                 ZIndex: =1
+
+            Label9_24 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =978
+                Y: =32
+                ZIndex: =2
 
