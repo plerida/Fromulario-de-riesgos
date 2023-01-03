@@ -17,8 +17,7 @@ Screen1_1 As screen:
             FontWeight: =FontWeight.Bold
             PaddingLeft: =15
             Size: =24
-            Text: |-
-                ="TPG-01-F7: ANÁLISIS ECONÓMICO DEL PROYECTO"
+            Text: ="RESUMEN DE RIESGOS TÉCNICOS (TPG01-F5)"
             Width: =900
             ZIndex: =1
 
@@ -51,14 +50,14 @@ Screen1_1 As screen:
         "'HeaderContainer-F6_10' As groupContainer.horizontalAutoLayoutContainer":
             BorderColor: =RGBA(191, 21, 37, 1)
             BorderThickness: =2
-            Height: =74
+            Height: =60
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
             LayoutMode: =LayoutMode.Auto
             PaddingRight: =30
             Width: =1240
-            X: =15
-            Y: =9
+            X: =12
+            Y: =21
             ZIndex: =1
 
             "'title-F6_10' As label":
@@ -69,7 +68,7 @@ Screen1_1 As screen:
                 Font: =Font.'Segoe UI'
                 PaddingLeft: =15
                 Size: =22
-                Text: ="Resumen de riesgos técnicos"
+                Text: ="Resumen de riesgos técnicos "
                 Width: =900
                 ZIndex: =1
 
@@ -81,41 +80,14 @@ Screen1_1 As screen:
         Y: =170
         ZIndex: =4
 
-        resumen2_card02_1 As dataCard.blankCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            Width: =1272
-            X: =0
-            Y: =0
-            ZIndex: =5
-
-            Label9_16 As label:
-                Height: =68
-                Size: =18
-                Text: ="Recursos técnicos"
-                Width: =748
-                X: =39
-                Y: =32
-                ZIndex: =1
-
-            Label9_17 As label:
-                Height: =68
-                Size: =18
-                Text: ='RT-01_risk'.Selected.Value
-                Width: =258
-                X: =987
-                Y: =21
-                ZIndex: =2
-
         resumen2_card03_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(250, 250, 250, 1)
             Height: =100
+            Visible: |
+                =Not('RT-01_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =1
@@ -145,7 +117,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
-            Visible: =
+            Visible: |
+                =Not('RT-02_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =2
@@ -163,7 +136,7 @@ Screen1_1 As screen:
             Label9_19 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-02_risk'.Selected.Value
                 Width: =258
                 X: =978
                 Y: =24
@@ -175,6 +148,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(250, 250, 250, 1)
             Height: =84
+            Visible: |
+                =Not('RT-03_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =3
@@ -192,9 +167,9 @@ Screen1_1 As screen:
             Label9_20 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-03_risk'.Selected.Value
                 Width: =258
-                X: =978
+                X: =980
                 Y: =16
                 ZIndex: =2
 
@@ -204,6 +179,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
+            Visible: |
+                =Not('RT-04_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =4
@@ -221,7 +198,7 @@ Screen1_1 As screen:
             Label9_21 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-04_risk'.Selected.Value
                 Width: =258
                 X: =982
                 Y: =32
@@ -233,6 +210,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
+            Visible: |
+                =Not('RT-05_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =5
@@ -250,7 +229,7 @@ Screen1_1 As screen:
             Label9_22 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-05_risk'.Selected.Value
                 Width: =258
                 X: =984
                 Y: =32
@@ -262,6 +241,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
+            Visible: |
+                =Not('RT-06_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =6
@@ -279,7 +260,7 @@ Screen1_1 As screen:
             Label9_23 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-06_risk'.Selected.Value
                 Width: =258
                 X: =984
                 Y: =32
@@ -291,7 +272,8 @@ Screen1_1 As screen:
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =100
-            Visible: =true
+            Visible: |
+                =Not('RT-07_risk'.Selected.Value = "Bajo")
             Width: =1272
             X: =0
             Y: =7
@@ -309,9 +291,9 @@ Screen1_1 As screen:
             Label9_24 As label:
                 Height: =68
                 Size: =18
-                Text: ='RT-01_risk'.Selected.Value
+                Text: ='RT-07_risk'.Selected.Value
                 Width: =258
-                X: =978
+                X: =988
                 Y: =32
                 ZIndex: =2
 

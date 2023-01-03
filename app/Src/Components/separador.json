@@ -58,7 +58,7 @@
         "Name": "Rectangle2",
         "Parent": "separador",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 525,
+        "PublishOrderIndex": 506,
         "Rules": [
           {
             "Category": "Design",
