@@ -1,4 +1,4 @@
-Screen1_1 As screen:
+resumen_riesgos_tecnicos As screen:
 
     "'HeaderContainer-F6_9' As groupContainer.horizontalAutoLayoutContainer":
         Fill: =RGBA(191, 21, 37, 1)
@@ -294,6 +294,96 @@ Screen1_1 As screen:
                 Text: ='RT-07_risk'.Selected.Value
                 Width: =258
                 X: =988
+                Y: =32
+                ZIndex: =2
+
+        DataCard17 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: =Not('RT-08_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =8
+            ZIndex: =13
+
+            Label9_16 As label:
+                Height: =85
+                Size: =18
+                Text: ="Datos de partida y aspectos relacionados con la coordinación"
+                Width: =682
+                X: =39
+                Y: =15
+                ZIndex: =1
+
+            Label9_25 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-08_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
+
+        DataCard18 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: =
+            Width: =1272
+            X: =0
+            Y: =9
+            ZIndex: =14
+
+            Label9_17 As label:
+                Height: =68
+                Size: =18
+                Text: ="Subcontratistas"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_26 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-09_risk'.Selected.Value
+                Width: =258
+                X: =987
+                Y: =32
+                ZIndex: =2
+
+        DataCard19 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: =Not('RT-09_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =10
+            ZIndex: =15
+
+            Label9_27 As label:
+                Height: =68
+                Size: =18
+                Text: ="Subcontratistas"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_28 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-09_risk'.Selected.Value
+                Width: =258
+                X: =978
                 Y: =32
                 ZIndex: =2
 
