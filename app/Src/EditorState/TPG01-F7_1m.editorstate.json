@@ -1967,7 +1967,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "navigation_buttons_F6_3",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2194,7 +2194,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resolucion_disputas",
-      "ParentIndex": 13,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3437,7 +3437,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen3_card08",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3532,7 +3532,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen3_card09",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

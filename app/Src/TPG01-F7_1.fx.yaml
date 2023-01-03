@@ -116,7 +116,7 @@
                         Width: =352
                         ZIndex: =5
 
-                    Checkbox1_2 As checkbox:
+                    cb_1 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -125,7 +125,7 @@
                         X: =352
                         ZIndex: =6
 
-                    Checkbox1_6 As checkbox:
+                    cb_5 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -155,7 +155,7 @@
                         X: =967
                         ZIndex: =9
 
-                    Checkbox1_10 As checkbox:
+                    cb_9 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -201,7 +201,7 @@
                         X: =704
                         ZIndex: =6
 
-                    Checkbox1_3 As checkbox:
+                    cb_2 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -220,7 +220,7 @@
                         X: =507
                         ZIndex: =9
 
-                    Checkbox1_7 As checkbox:
+                    cb_6 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -267,7 +267,7 @@
                         Width: =352
                         ZIndex: =8
 
-                    Checkbox1_4 As checkbox:
+                    cb_3 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -277,7 +277,7 @@
                         Y: =12
                         ZIndex: =9
 
-                    Checkbox1_8 As checkbox:
+                    cb_7 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -323,7 +323,7 @@
                         Width: =352
                         ZIndex: =8
 
-                    Checkbox1_5 As checkbox:
+                    cb_4 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73
@@ -333,7 +333,7 @@
                         Y: =12
                         ZIndex: =9
 
-                    Checkbox1_9 As checkbox:
+                    cb_8 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Height: =73

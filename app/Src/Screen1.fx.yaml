@@ -1,0 +1,147 @@
+Screen1 As screen:
+
+    "'HeaderContainer-F6_7' As groupContainer.horizontalAutoLayoutContainer":
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =78
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingRight: =30
+        Width: =1366
+        ZIndex: =1
+
+        "'title-F6_7' As label":
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            PaddingLeft: =15
+            Size: =24
+            Text: |-
+                ="TPG-01-F7: ANÁLISIS ECONÓMICO DEL PROYECTO"
+            Width: =900
+            ZIndex: =1
+
+        typsa_logo_F6_7 As image:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =1
+            Height: =65
+            Image: =logotypsa
+            Width: =65
+            ZIndex: =2
+
+    "'FooterContainer-F6_6' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =50
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        Y: =718
+        ZIndex: =2
+
+        footer_F6_6 As footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+    Container2 As groupContainer.manualLayoutContainer:
+        Height: =640
+        Width: =1294
+        X: =36
+        Y: =78
+        ZIndex: =3
+
+        "'HeaderContainer-F6_8' As groupContainer.horizontalAutoLayoutContainer":
+            BorderColor: =RGBA(191, 21, 37, 1)
+            BorderThickness: =2
+            Height: =48
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            Width: =1236
+            X: =30
+            Y: =15
+            ZIndex: =1
+
+            "'title-F6_8' As label":
+                BorderColor: =RGBA(151, 0, 0, 1)
+                Color: =RGBA(23, 23, 23, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                DisabledFill: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                PaddingLeft: =15
+                Size: =22
+                Text: ="Resumen de riesgos técnicos"
+                Width: =900
+                ZIndex: =1
+
+        Label9 As label:
+            Height: =68
+            Size: =18
+            Text: ="Claridad en el alcance de los trabajos"
+            Width: =748
+            X: =30
+            Y: =86
+            ZIndex: =2
+
+        Label9_2 As label:
+            Height: =68
+            Size: =18
+            Text: ="Estimación del coste de nuestros servicios"
+            Width: =748
+            X: =30
+            Y: =154
+            ZIndex: =3
+
+        Label9_3 As label:
+            Height: =68
+            Size: =18
+            Text: ="Trabajo deslocalizado"
+            Width: =748
+            X: =30
+            Y: =222
+            ZIndex: =4
+
+        Label9_4 As label:
+            Height: =68
+            Size: =18
+            Text: ="Disponibilidad del equipo técnico"
+            Width: =748
+            X: =30
+            Y: =290
+            ZIndex: =5
+
+        Label9_5 As label:
+            Height: =68
+            Size: =18
+            Text: ="Capacidad y experiencia del equipo de trabajo"
+            Width: =748
+            X: =30
+            Y: =358
+            ZIndex: =6
+
+        Label9_6 As label:
+            Height: =68
+            Size: =18
+            Text: ="Seguridad"
+            Width: =748
+            X: =30
+            Y: =426
+            ZIndex: =7
+
+        Label9_7 As label:
+            Height: =68
+            Size: =18
+            Text: ="Recursos técnicos"
+            Width: =748
+            X: =30
+            Y: =494
+            ZIndex: =8
+
+        Label9_8 As label:
+            Height: =68
+            Size: =18
+            Text: ="Recursos técnicos"
+            Width: =748
+            X: =30
+            Y: =562
+            ZIndex: =9
+
