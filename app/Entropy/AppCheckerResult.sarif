@@ -9445,6 +9445,35 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen1_1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen1_1",
+                "type": "Screen1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.card"
                 }
               ],
@@ -9998,6 +10027,126 @@
                 "member": "Text",
                 "module": "TPG01-F7",
                 "type": "'TPG01-F7'.'ScreenContainer-F6_1'.'MainSectionContainer-F6_1'.canvas_F6_1.resumen1_card06.Label6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card03_1.Label9_18.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card03_1.Label9_18.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.resumen2_card03_1.Label9_18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card04_1.Label9_19.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card04_1.Label9_19.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.resumen2_card04_1.Label9_19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card05_1.Label9_20.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card05_1.Label9_20.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.resumen2_card05_1.Label9_20"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card02_1.Label9_17.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen1_1.canvas_F6_4.resumen2_card02_1.Label9_17.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen1_1",
+                "type": "Screen1_1.canvas_F6_4.resumen2_card02_1.Label9_17"
               }
             }
           ],

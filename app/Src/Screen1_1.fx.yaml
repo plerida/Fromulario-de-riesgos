@@ -1,0 +1,279 @@
+Screen1_1 As screen:
+
+    "'HeaderContainer-F6_9' As groupContainer.horizontalAutoLayoutContainer":
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =78
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingRight: =30
+        Width: =1366
+        ZIndex: =1
+
+        "'title-F6_9' As label":
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            PaddingLeft: =15
+            Size: =24
+            Text: |-
+                ="TPG-01-F7: ANÁLISIS ECONÓMICO DEL PROYECTO"
+            Width: =900
+            ZIndex: =1
+
+        typsa_logo_F6_8 As image:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =1
+            Height: =65
+            Image: =logotypsa
+            Width: =65
+            ZIndex: =2
+
+    "'FooterContainer-F6_7' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =50
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        Y: =718
+        ZIndex: =2
+
+        footer_F6_7 As footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+    Container2_1 As groupContainer.manualLayoutContainer:
+        Height: =640
+        Width: =1294
+        X: =36
+        Y: =78
+        ZIndex: =3
+
+        "'HeaderContainer-F6_10' As groupContainer.horizontalAutoLayoutContainer":
+            BorderColor: =RGBA(191, 21, 37, 1)
+            BorderThickness: =2
+            Height: =74
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            Width: =1240
+            X: =15
+            Y: =9
+            ZIndex: =1
+
+            "'title-F6_10' As label":
+                BorderColor: =RGBA(151, 0, 0, 1)
+                Color: =RGBA(23, 23, 23, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                DisabledFill: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                PaddingLeft: =15
+                Size: =22
+                Text: ="Resumen de riesgos técnicos"
+                Width: =900
+                ZIndex: =1
+
+    canvas_F6_4 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =548
+        Width: =1272
+        X: =24
+        Y: =170
+        ZIndex: =4
+
+        resumen2_card02_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =0
+            ZIndex: =5
+
+            Label9_16 As label:
+                Height: =68
+                Size: =18
+                Text: ="Recursos técnicos"
+                Width: =748
+                X: =39
+                Y: =32
+                ZIndex: =1
+
+            Label9_17 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =987
+                Y: =21
+                ZIndex: =2
+
+        resumen2_card03_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(250, 250, 250, 1)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =1
+            ZIndex: =6
+
+            Label9_11 As label:
+                Height: =68
+                Size: =18
+                Text: ="Claridad en el alcance de los trabajos"
+                Width: =748
+                X: =39
+                Y: =27
+                ZIndex: =1
+
+            Label9_18 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =982
+                Y: =27
+                ZIndex: =2
+
+        resumen2_card04_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =2
+            ZIndex: =7
+
+            Label9_9 As label:
+                Height: =68
+                Size: =18
+                Text: ="Estimación del coste de nuestros servicios"
+                Width: =748
+                X: =45
+                Y: =24
+                ZIndex: =1
+
+            Label9_19 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =978
+                Y: =24
+                ZIndex: =2
+
+        resumen2_card05_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(250, 250, 250, 1)
+            Height: =84
+            Width: =1272
+            X: =0
+            Y: =3
+            ZIndex: =8
+
+            Label9_10 As label:
+                Height: =68
+                Size: =18
+                Text: ="Trabajo deslocalizado"
+                Width: =748
+                X: =40
+                Y: =16
+                ZIndex: =1
+
+            Label9_20 As label:
+                Height: =68
+                Size: =18
+                Text: ='RT-01_risk'.Selected.Value
+                Width: =258
+                X: =978
+                Y: =16
+                ZIndex: =2
+
+        DataCard3 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =4
+            ZIndex: =9
+
+            Label9_12 As label:
+                Height: =68
+                Size: =18
+                Text: ="Disponibilidad del equipo técnico"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+        DataCard4 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =5
+            ZIndex: =10
+
+            Label9_13 As label:
+                Height: =68
+                Size: =18
+                Text: ="Capacidad y experiencia del equipo de trabajo"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+        DataCard15 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =6
+            ZIndex: =11
+
+            Label9_14 As label:
+                Height: =68
+                Size: =18
+                Text: ="Seguridad"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+        DataCard16 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1272
+            X: =0
+            Y: =7
+            ZIndex: =12
+
+            Label9_15 As label:
+                Height: =68
+                Size: =18
+                Text: ="Recursos técnicos"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
