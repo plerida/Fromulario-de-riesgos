@@ -2443,7 +2443,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard14",
-      "ParentIndex": 21,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8602,7 +8602,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "navigation_buttons_F6_5",
-      "ParentIndex": 20,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16313,7 +16313,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "title-F6_5",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16733,7 +16733,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "typsa_logo_F6_5",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

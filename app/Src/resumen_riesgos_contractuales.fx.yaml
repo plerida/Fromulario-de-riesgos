@@ -1,0 +1,329 @@
+resumen_riesgos_contractuales As screen:
+
+    "'HeaderContainer-F6_11' As groupContainer.horizontalAutoLayoutContainer":
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =78
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingRight: =30
+        Width: =1366
+        ZIndex: =1
+
+        "'title-F6_11' As label":
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            PaddingLeft: =15
+            Size: =24
+            Text: ="RESUMEN DE RIESGOS CONTRACTUALES (TPG01-F6)"
+            Width: =900
+            ZIndex: =1
+
+        typsa_logo_F6_9 As image:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =1
+            Height: =65
+            Image: =logotypsa
+            Width: =65
+            ZIndex: =2
+
+    "'FooterContainer-F6_8' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =50
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        Y: =718
+        ZIndex: =2
+
+        footer_F6_8 As footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+    Container2_2 As groupContainer.manualLayoutContainer:
+        Height: =640
+        Width: =1294
+        X: =36
+        Y: =78
+        ZIndex: =3
+
+        "'HeaderContainer-F6_12' As groupContainer.horizontalAutoLayoutContainer":
+            BorderColor: =RGBA(191, 21, 37, 1)
+            BorderThickness: =2
+            Height: =60
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =30
+            Width: =1240
+            X: =12
+            Y: =21
+            ZIndex: =1
+
+            "'title-F6_12' As label":
+                BorderColor: =RGBA(151, 0, 0, 1)
+                Color: =RGBA(23, 23, 23, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                DisabledFill: =RGBA(0, 0, 0, 1)
+                Font: =Font.'Segoe UI'
+                PaddingLeft: =15
+                Size: =22
+                Text: ="Resumen de riesgos contractuales"
+                Width: =900
+                ZIndex: =1
+
+    canvas_F6_7 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =548
+        Width: =1272
+        X: =24
+        Y: =170
+        ZIndex: =4
+
+        resumen2_card03_2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(250, 250, 250, 1)
+            Height: =100
+            Visible: |
+                =Not('RM-01_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =1
+            ZIndex: =6
+
+            Label9_35 As label:
+                Height: =68
+                Size: =18
+                Text: ="Equipo de gestión"
+                Width: =748
+                X: =39
+                Y: =27
+                ZIndex: =1
+
+            Label9_36 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-01_risk'.Selected.Value
+                Width: =258
+                X: =982
+                Y: =27
+                ZIndex: =2
+
+        resumen2_card04_2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: |
+                =Not('RM-02_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =2
+            ZIndex: =7
+
+            Label9_37 As label:
+                Height: =68
+                Size: =18
+                Text: ="Clausulas contractuales"
+                Width: =748
+                X: =45
+                Y: =24
+                ZIndex: =1
+
+            Label9_38 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-02_risk'.Selected.Value
+                Width: =258
+                X: =978
+                Y: =24
+                ZIndex: =2
+
+        resumen2_card05_2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(250, 250, 250, 1)
+            Height: =84
+            Visible: |
+                =Not('RM-03_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =3
+            ZIndex: =8
+
+            Label9_39 As label:
+                Height: =68
+                Size: =18
+                Text: ="Socios"
+                Width: =748
+                X: =40
+                Y: =16
+                ZIndex: =1
+
+            Label9_40 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-03_risk'.Selected.Value
+                Width: =258
+                X: =980
+                Y: =16
+                ZIndex: =2
+
+        DataCard3_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: |
+                =Not('RM-04_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =4
+            ZIndex: =9
+
+            Label9_41 As label:
+                Height: =68
+                Size: =18
+                Text: ="Aprobaciones"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_42 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-04_risk'.Selected.Value
+                Width: =258
+                X: =982
+                Y: =32
+                ZIndex: =2
+
+        DataCard4_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: |
+                =Not('RM-05_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =5
+            ZIndex: =10
+
+            Label9_43 As label:
+                Height: =68
+                Size: =18
+                Text: ="Financieros"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_44 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-05_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
+
+        DataCard15_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: |
+                =Not('RM-06_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =6
+            ZIndex: =11
+
+            Label9_45 As label:
+                Height: =68
+                Size: =18
+                Text: ="Pagos"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_46 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-06_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
+
+        DataCard16_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: |
+                =Not('RM-07_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =7
+            ZIndex: =12
+
+            Label9_47 As label:
+                Height: =68
+                Size: =18
+                Text: ="CashFlow"
+                Width: =748
+                X: =40
+                Y: =32
+                ZIndex: =1
+
+            Label9_48 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-07_risk'.Selected.Value
+                Width: =258
+                X: =988
+                Y: =32
+                ZIndex: =2
+
+        DataCard17_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Visible: =Not('RM-08_risk'.Selected.Value = "Bajo")
+            Width: =1272
+            X: =0
+            Y: =8
+            ZIndex: =13
+
+            Label9_29 As label:
+                Height: =85
+                Size: =18
+                Text: ="Riesgos fiscales o fluctuación de la moneda"
+                Width: =682
+                X: =39
+                Y: =15
+                ZIndex: =1
+
+            Label9_30 As label:
+                Height: =68
+                Size: =18
+                Text: ='RM-08_risk'.Selected.Value
+                Width: =258
+                X: =984
+                Y: =32
+                ZIndex: =2
+

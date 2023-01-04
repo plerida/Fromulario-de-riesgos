@@ -248,7 +248,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard15",
-      "ParentIndex": 8,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -336,7 +336,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard16",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -424,7 +424,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard17",
-      "ParentIndex": 0,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -512,7 +512,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard18",
-      "ParentIndex": 1,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -600,7 +600,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard19",
-      "ParentIndex": 2,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -688,7 +688,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard3",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -776,7 +776,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard4",
-      "ParentIndex": 7,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6936,7 +6936,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen2_card03_1",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7031,7 +7031,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen2_card04_1",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7133,7 +7133,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen2_card05_1",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
