@@ -1,4 +1,4 @@
-opinion_oferta As screen:
+"'Info_TPG01-FX' As screen":
 
     "'HeaderContainer-F6_13' As groupContainer.horizontalAutoLayoutContainer":
         Fill: =RGBA(191, 21, 37, 1)
@@ -17,7 +17,7 @@ opinion_oferta As screen:
             FontWeight: =FontWeight.Bold
             PaddingLeft: =15
             Size: =24
-            Text: =""
+            Text: ="INFO TPG-01-F5 Y F6"
             Width: =900
             ZIndex: =1
 
@@ -41,23 +41,53 @@ opinion_oferta As screen:
             LayoutMinWidth: =640
 
     Container2_3 As groupContainer.manualLayoutContainer:
-        Height: =640
+        Height: =259
         Width: =1294
         X: =36
-        Y: =78
+        Y: =157
         ZIndex: =3
 
-        back_button_F6_10 As arrow.backArrow:
-            Fill: =RGBA(191, 21, 37, 1)
-            OnSelect: =Navigate(resumen_riesgos_contractuales)
-            X: =12
-            Y: =570
+        Label11 As label:
+            Color: =RGBA(191, 21, 37, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            Size: =26
+            Text: =idLabel
+            Width: =166
+            X: =96
+            Y: =25
+            ZIndex: =1
+
+        Label11_1 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =48
+            Size: =26
+            Text: =nameLabel
+            Width: =534
+            X: =234
+            Y: =25
             ZIndex: =2
+
+        Label12 As label:
+            Height: =222
+            Size: =20
+            Text: =infoVar
+            Width: =938
+            X: =96
+            Y: =37
+            ZIndex: =3
 
     next_button_F6_9 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
         OnSelect: =Navigate(Enviar_formulario)
-        X: =1264
-        Y: =646
+        X: =1229
+        Y: =630
         ZIndex: =5
+
+    back_button_F6_10 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(resumen_riesgos_contractuales)
+        X: =63
+        Y: =630
+        ZIndex: =6
 

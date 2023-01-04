@@ -340,7 +340,7 @@ resumen_riesgos_contractuales As screen:
 
     next_button_F6_8 As arrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(opinion_oferta)
+        OnSelect: =Navigate('Info_TPG01-FX')
         X: =1264
         Y: =646
         ZIndex: =5
