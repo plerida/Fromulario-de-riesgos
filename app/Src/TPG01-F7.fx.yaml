@@ -129,15 +129,26 @@
                         X: =697
                         ZIndex: =7
 
-                    input_text_18 As input_text:
-                        datoSP: ="hola"
-                        X: =307
-                        Y: =11
-                        ZIndex: =9
+                    money_resumen As label:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =2
+                        Height: =56
+                        Size: =18
+                        Text: =money.Text
+                        Width: =242
+                        X: =312
+                        Y: =16
+                        ZIndex: =11
 
-                    input_text_20 As input_text:
-                        X: =1064
-                        ZIndex: =10
+                    fecha_oferta As datepicker:
+                        BorderColor: =RGBA(0, 94, 146, 1)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 0, 0, 1)
+                        Size: =18
+                        Width: =253
+                        X: =1078
+                        Y: =16
+                        ZIndex: =12
 
                 resumen1_card03 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -177,15 +188,37 @@
                         X: =704
                         ZIndex: =6
 
-                    input_text_19 As input_text:
-                        X: =307
-                        Y: =11
-                        ZIndex: =7
+                    moneda As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["€", "$", "£", "¥"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =242
+                        X: =310
+                        Y: =19
+                        ZIndex: =9
 
-                    input_text_22 As input_text:
-                        X: =1064
-                        Y: =11
-                        ZIndex: =8
+                    idioma As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["Español", "Inglés", "Francés", "Alemán", "Chino"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =242
+                        X: =1056
+                        Y: =15
+                        ZIndex: =10
 
                 resumen1_card04 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -224,16 +257,31 @@
                         X: =701
                         ZIndex: =7
 
-                    input_text_1 As input_text:
-                        datoSP: =First(project.SelectedItems).País
-                        X: =307
-                        Y: =11
-                        ZIndex: =8
+                    plazo_ejecucion As datepicker:
+                        BorderColor: =RGBA(0, 94, 146, 1)
+                        BorderThickness: =0
+                        DisabledBorderColor: =RGBA(255, 0, 0, 1)
+                        Size: =18
+                        Width: =253
+                        X: =300
+                        Y: =21
+                        ZIndex: =10
 
-                    input_text_21 As input_text:
-                        X: =1064
-                        Y: =11
-                        ZIndex: =9
+                    moneda_1 As dropdown:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        ChevronBackground: =RGBA(191, 21, 37, 1)
+                        Default: ="Bajo"
+                        Height: =42
+                        Items: =["UTE", "JV", "Ninguno"]
+                        SelectionFill: =RGBA(191, 21, 37, 1)
+                        Size: =18
+                        Tooltip: |
+                            =
+                        Width: =242
+                        X: =1053
+                        Y: =15
+                        ZIndex: =11
 
                 resumen1_card05 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -271,7 +319,7 @@
                         Size: =18
                         Text: ="% Participación de TYPSA"
                         Width: =352
-                        X: =698
+                        X: =677
                         ZIndex: =7
 
                     input_text_23 As input_text:

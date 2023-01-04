@@ -172,10 +172,12 @@ resumen_riesgos_contractuales As screen:
                 ZIndex: =1
 
             Label9_40 As label:
+                Align: =Align.Center
+                Color: =
                 Height: =68
                 Size: =18
                 Text: ='RM-03_risk'.Selected.Value
-                Width: =258
+                Width: =88
                 X: =980
                 Y: =16
                 ZIndex: =2
@@ -296,10 +298,11 @@ resumen_riesgos_contractuales As screen:
                 ZIndex: =1
 
             Label9_48 As label:
+                Align: =Align.Center
                 Height: =68
                 Size: =18
                 Text: ='RM-07_risk'.Selected.Value
-                Width: =258
+                Width: =78
                 X: =988
                 Y: =32
                 ZIndex: =2
@@ -326,10 +329,11 @@ resumen_riesgos_contractuales As screen:
                 ZIndex: =1
 
             Label9_30 As label:
+                Align: =Align.Center
                 Height: =68
                 Size: =18
                 Text: ='RM-08_risk'.Selected.Value
-                Width: =258
+                Width: =88
                 X: =984
                 Y: =32
                 ZIndex: =2
