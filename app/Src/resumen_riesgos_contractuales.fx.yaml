@@ -72,9 +72,16 @@ resumen_riesgos_contractuales As screen:
                 Width: =900
                 ZIndex: =1
 
+        back_button_F6_9 As arrow.backArrow:
+            Fill: =RGBA(191, 21, 37, 1)
+            OnSelect: =Navigate(resumen_riesgos_tecnicos)
+            X: =12
+            Y: =570
+            ZIndex: =2
+
     canvas_F6_7 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =548
+        Height: =460
         Width: =1272
         X: =24
         Y: =170
@@ -326,4 +333,11 @@ resumen_riesgos_contractuales As screen:
                 X: =984
                 Y: =32
                 ZIndex: =2
+
+    next_button_F6_8 As arrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(Enviar_formulario)
+        X: =1264
+        Y: =646
+        ZIndex: =5
 

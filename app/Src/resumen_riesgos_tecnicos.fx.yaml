@@ -74,7 +74,7 @@ resumen_riesgos_tecnicos As screen:
 
     canvas_F6_4 As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
-        Height: =548
+        Height: =490
         Width: =1272
         X: =24
         Y: =170
@@ -386,4 +386,18 @@ resumen_riesgos_tecnicos As screen:
                 X: =978
                 Y: =32
                 ZIndex: =2
+
+    next_button_F6_7 As arrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(resumen_riesgos_contractuales)
+        X: =1264
+        Y: =646
+        ZIndex: =5
+
+    back_button_F6_8 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('TPG01-F7_3')
+        X: =36
+        Y: =646
+        ZIndex: =6
 
