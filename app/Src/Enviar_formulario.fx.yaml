@@ -82,8 +82,8 @@ Enviar_formulario As screen:
         Text: |-
             ="Enviar
             "
-        X: =595
-        Y: =537
+        X: =609
+        Y: =653
         ZIndex: =2
 
     logo_adt_2 As image:
@@ -107,14 +107,14 @@ Enviar_formulario As screen:
         Size: =26
         Text: ="Generación del TPG-01-FX para Análisis de Riesgos"
         Width: =477
-        X: =437
-        Y: =63
+        X: =451
+        Y: =16
         ZIndex: =5
 
     send_paragraph As label:
         Align: =Align.Center
         DisabledBorderColor: =RGBA(118, 0, 0, 1)
-        Height: =291
+        Height: =299
         Size: =20
         Text: |-
             ="Al pulsar el botón de enviar, se enviará un correo al Director General que ha indicado con el documento de Análisis de Riesgos para su verificación. También se enviará a su correo personal una copia del mismo.
@@ -122,19 +122,20 @@ Enviar_formulario As screen:
             
             Muchas gracias y cualquier duda puedes consultar a "
         Width: =727
-        X: =312
-        Y: =197
+        X: =326
+        Y: =295
         ZIndex: =6
 
     adt_mail As label:
         Align: =Align.Center
         Color: =RGBA(151, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =57
         Size: =20
         Text: ="adt@typsa.es"
         Width: =285
-        X: =534
-        Y: =443
+        X: =547
+        Y: =551
         ZIndex: =7
 
     back_button_F6_7 As arrow.backArrow:
@@ -143,4 +144,30 @@ Enviar_formulario As screen:
         X: =70
         Y: =30
         ZIndex: =8
+
+    Label10 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =18
+        Text: ="Opinión del riesgo del responsable de la oferta"
+        Width: =574
+        X: =402
+        Y: =173
+        ZIndex: =9
+
+    riesgo_total As dropdown:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        BorderThickness: =1
+        ChevronBackground: =RGBA(191, 21, 37, 1)
+        Default: ="Bajo"
+        Height: =42
+        Items: =["Bajo", "Medio", "Alto"]
+        SelectionFill: =RGBA(191, 21, 37, 1)
+        Size: =18
+        Tooltip: |
+            =
+        Width: =220
+        X: =579
+        Y: =253
+        ZIndex: =10
 

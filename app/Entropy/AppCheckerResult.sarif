@@ -8966,6 +8966,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Enviar_formulario.riesgo_total.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Enviar_formulario.riesgo_total.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Enviar_formulario",
+                "type": "Enviar_formulario.riesgo_total"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.actualInfo"
                 }
               ],
