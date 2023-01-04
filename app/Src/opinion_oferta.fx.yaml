@@ -1,4 +1,4 @@
-resumen_riesgos_contractuales_1 As screen:
+opinion_oferta As screen:
 
     "'HeaderContainer-F6_13' As groupContainer.horizontalAutoLayoutContainer":
         Fill: =RGBA(191, 21, 37, 1)
@@ -49,7 +49,7 @@ resumen_riesgos_contractuales_1 As screen:
 
         back_button_F6_10 As arrow.backArrow:
             Fill: =RGBA(191, 21, 37, 1)
-            OnSelect: =Navigate(resumen_riesgos_tecnicos)
+            OnSelect: =Navigate(resumen_riesgos_contractuales)
             X: =12
             Y: =570
             ZIndex: =2
@@ -108,6 +108,72 @@ resumen_riesgos_contractuales_1 As screen:
             X: =34
             Y: =269
             ZIndex: =7
+
+        Rectangle1_4 As rectangle:
+            BorderColor: =RGBA(191, 21, 37, 1)
+            BorderThickness: =2
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =348
+            Width: =0.5
+            X: =301
+            Y: =158
+            ZIndex: =8
+
+        Rectangle1_5 As rectangle:
+            BorderColor: =RGBA(191, 21, 37, 1)
+            BorderThickness: =2
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =348
+            Width: =0.5
+            X: =997
+            Y: =158
+            ZIndex: =9
+
+        Label10 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =24
+            Text: ="DGI"
+            X: =84
+            Y: =90
+            ZIndex: =10
+
+        Label10_1 As label:
+            FontWeight: =FontWeight.Bold
+            Size: =24
+            Text: ="DGA"
+            X: =1060
+            Y: =90
+            ZIndex: =11
+
+        Label11 As label:
+            Align: =Align.Center
+            Height: =76
+            Size: =22
+            Text: ="Alto riesgo"
+            Width: =358
+            X: =470
+            Y: =175
+            ZIndex: =12
+
+        Label11_1 As label:
+            Align: =Align.Center
+            Height: =76
+            Size: =22
+            Text: ="Riesgo medio"
+            Width: =358
+            X: =470
+            Y: =287
+            ZIndex: =13
+
+        Label11_2 As label:
+            Align: =Align.Center
+            Height: =76
+            Size: =22
+            Text: ="Bajo riesgo"
+            Width: =358
+            X: =470
+            Y: =407
+            ZIndex: =14
 
     next_button_F6_9 As arrow:
         Fill: =RGBA(191, 21, 37, 1)

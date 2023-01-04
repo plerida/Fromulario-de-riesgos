@@ -10316,19 +10316,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10.AccessibleLabel"
+                  "fullyQualifiedName": "opinion_oferta.Container2_3.back_button_F6_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10.AccessibleLabel",
+                  "fullyQualifiedName": "opinion_oferta.Container2_3.back_button_F6_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "resumen_riesgos_contractuales_1",
-                "type": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10"
+                "module": "opinion_oferta",
+                "type": "opinion_oferta.Container2_3.back_button_F6_10"
               }
             }
           ],
@@ -10346,19 +10346,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10.TabIndex"
+                  "fullyQualifiedName": "opinion_oferta.Container2_3.back_button_F6_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10.TabIndex",
+                  "fullyQualifiedName": "opinion_oferta.Container2_3.back_button_F6_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "resumen_riesgos_contractuales_1",
-                "type": "resumen_riesgos_contractuales_1.Container2_3.back_button_F6_10"
+                "module": "opinion_oferta",
+                "type": "opinion_oferta.Container2_3.back_button_F6_10"
               }
             }
           ],
@@ -10376,19 +10376,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.next_button_F6_9.AccessibleLabel"
+                  "fullyQualifiedName": "opinion_oferta.next_button_F6_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.next_button_F6_9.AccessibleLabel",
+                  "fullyQualifiedName": "opinion_oferta.next_button_F6_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "resumen_riesgos_contractuales_1",
-                "type": "resumen_riesgos_contractuales_1.next_button_F6_9"
+                "module": "opinion_oferta",
+                "type": "opinion_oferta.next_button_F6_9"
               }
             }
           ],
@@ -10406,19 +10406,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.next_button_F6_9.TabIndex"
+                  "fullyQualifiedName": "opinion_oferta.next_button_F6_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "resumen_riesgos_contractuales_1.next_button_F6_9.TabIndex",
+                  "fullyQualifiedName": "opinion_oferta.next_button_F6_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "resumen_riesgos_contractuales_1",
-                "type": "resumen_riesgos_contractuales_1.next_button_F6_9"
+                "module": "opinion_oferta",
+                "type": "opinion_oferta.next_button_F6_9"
               }
             }
           ],
