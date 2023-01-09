@@ -216,7 +216,7 @@
                         Tooltip: |
                             =
                         Width: =250
-                        X: =1052
+                        X: =1056
                         Y: =12
                         ZIndex: =10
 
@@ -279,7 +279,7 @@
                         Size: =18
                         Tooltip: |
                             =
-                        Width: =242
+                        Width: =250
                         X: =1056
                         Y: =12
                         ZIndex: =11

@@ -66,7 +66,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =105
+                    Height: =47
                     Width: =1366
                     X: =0
                     Y: =0
@@ -301,7 +301,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =19
+                    Y: =17
                     ZIndex: =11
 
                     next_button_F6_6 As arrow:

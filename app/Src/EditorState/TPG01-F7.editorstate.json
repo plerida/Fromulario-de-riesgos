@@ -4253,7 +4253,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Width",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Width",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -5905,7 +5912,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card02",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5994,7 +6001,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card03",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6076,7 +6083,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card04",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6165,7 +6172,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card05",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6247,7 +6254,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card06",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6351,7 +6358,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resumen1_card07",
-      "ParentIndex": 2,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9209,7 +9216,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "RM-04_label_9",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12083,7 +12090,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
