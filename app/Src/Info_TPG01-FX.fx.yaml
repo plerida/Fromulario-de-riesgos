@@ -40,54 +40,69 @@
             LayoutMinHeight: =640
             LayoutMinWidth: =640
 
-    Container2_3 As groupContainer.manualLayoutContainer:
-        Height: =259
-        Width: =1294
-        X: =36
-        Y: =157
-        ZIndex: =3
-
-        Label11 As label:
-            Color: =RGBA(191, 21, 37, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =48
-            Size: =26
-            Text: =idLabel
-            Width: =166
-            X: =96
-            Y: =25
-            ZIndex: =1
-
-        Label11_1 As label:
-            FontWeight: =FontWeight.Semibold
-            Height: =48
-            Size: =26
-            Text: =nameLabel
-            Width: =534
-            X: =234
-            Y: =25
-            ZIndex: =2
-
-        Label12 As label:
-            Height: =222
-            Size: =20
-            Text: =infoVar
-            Width: =938
-            X: =96
-            Y: =37
-            ZIndex: =3
-
-    next_button_F6_9 As arrow:
-        Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(Enviar_formulario)
-        X: =1229
-        Y: =630
-        ZIndex: =5
-
     back_button_F6_10 As arrow.backArrow:
         Fill: =RGBA(191, 21, 37, 1)
-        OnSelect: =Navigate(resumen_riesgos_contractuales)
+        OnSelect: =Navigate('TPG01-F5')
         X: =63
         Y: =630
         ZIndex: =6
+
+    identificador_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="ID"
+        X: =51
+        Y: =89
+        ZIndex: =7
+
+    riesgo_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =24
+        Text: ="Riesgo"
+        X: =552
+        Y: =89
+        ZIndex: =8
+
+    info_label As label:
+        Color: =RGBA(33, 32, 32, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =20
+        Text: |-
+            ="Consideraciones (Aspectos a considerar a titulo orientativo)
+            "
+        Width: =1210
+        X: =51
+        Y: =193
+        ZIndex: =9
+
+    risk_label As label:
+        Height: =68
+        Size: =24
+        Text: =nameLabel
+        Width: =814
+        X: =552
+        Y: =130
+        ZIndex: =10
+
+    id_label As label:
+        Height: =68
+        Size: =24
+        Text: =idLabel
+        X: =51
+        Y: =130
+        ZIndex: =11
+
+    considerations_label As label:
+        AutoHeight: =true
+        Height: =298
+        LineHeight: =1.6
+        Size: =18
+        Text: =infoVar
+        Width: =1262
+        X: =51
+        Y: =263
+        ZIndex: =12
 

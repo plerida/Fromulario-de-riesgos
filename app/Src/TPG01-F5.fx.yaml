@@ -296,7 +296,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =637
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -372,7 +372,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =641
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -384,7 +384,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =7
                     ZIndex: =7
 
                     "'RT-05_label' As label":
@@ -451,7 +451,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =642
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -463,7 +463,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =8
+                    Y: =9
                     ZIndex: =8
 
                     "'RT-06_label' As label":
@@ -529,7 +529,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =645
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -541,7 +541,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =12
                     ZIndex: =9
 
                     "'RT-07_label' As label":
@@ -608,7 +608,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =640
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -621,7 +621,7 @@
                     Height: =72
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =13
                     ZIndex: =10
 
                     "'RT-08_label' As label":
@@ -692,7 +692,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =640
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -704,7 +704,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =16
+                    Y: =14
                     ZIndex: =11
 
                     "'RT-09_label' As label":
@@ -769,7 +769,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =632
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -782,7 +782,7 @@
                     Visible: =true
                     Width: =1366
                     X: =0
-                    Y: =18
+                    Y: =17
                     ZIndex: =12
 
                     "'RT-10_label' As label":
@@ -849,7 +849,7 @@
                         PressedFill: =
                         Text: ="Añadir comentarios y acciones"
                         Width: =352
-                        X: =635
+                        X: =639
                         Y: =15
                         ZIndex: =5
 
@@ -861,7 +861,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =20
+                    Y: =19
                     ZIndex: =13
 
                     next_button_F5 As arrow:
@@ -1041,7 +1041,7 @@
                     Visible: =card3
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =6
                     ZIndex: =16
 
                     Label1_54 As label:
@@ -1118,7 +1118,7 @@
                     Visible: =card21
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =10
                     ZIndex: =17
 
                     Label1_56 As label:
@@ -1195,7 +1195,7 @@
                     Visible: =card20
                     Width: =1366
                     X: =0
-                    Y: =12
+                    Y: =8
                     ZIndex: =18
 
                     Label1_58 As label:
@@ -1272,7 +1272,7 @@
                     Visible: =card22
                     Width: =1366
                     X: =0
-                    Y: =13
+                    Y: =11
                     ZIndex: =19
 
                     Label1_60 As label:
@@ -1349,7 +1349,7 @@
                     Visible: =card7
                     Width: =1366
                     X: =0
-                    Y: =14
+                    Y: =15
                     ZIndex: =20
 
                     Label1_62 As label:
@@ -1426,7 +1426,7 @@
                     Visible: =card8
                     Width: =1366
                     X: =0
-                    Y: =15
+                    Y: =16
                     ZIndex: =21
 
                     Label1_64 As label:
@@ -1503,7 +1503,7 @@
                     Visible: =card9
                     Width: =1366
                     X: =0
-                    Y: =17
+                    Y: =18
                     ZIndex: =22
 
                     Label1_66 As label:
@@ -1580,7 +1580,7 @@
                     Visible: =card10
                     Width: =1366
                     X: =0
-                    Y: =19
+                    Y: =20
                     ZIndex: =23
 
                     Label1_68 As label:
