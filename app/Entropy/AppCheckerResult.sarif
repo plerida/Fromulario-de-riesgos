@@ -10736,6 +10736,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.comments_28.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.comments_28.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.comments_28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.actions_28.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.actions_28.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm7.actions_28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.comments_29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.comments_29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.comments_29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.actions_29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.actions_29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm8.actions_29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.actualInfo"
                 }
               ],
