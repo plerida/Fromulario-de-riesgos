@@ -123,6 +123,25 @@
                         Y: =72
                         ZIndex: =4
 
+                    Button2_10 As button:
+                        BorderColor: =RGBA(184, 0, 0, 1)
+                        Color: =RGBA(184, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =42
+                        HoverColor: =RGBA(184, 0, 0, 1)
+                        HoverFill: =
+                        OnSelect: |
+                            =If('RM-01_risk'.Selected.Value = "Medio", UpdateContext({card1_1:!card1_1}));
+                            If('RM-01_risk'.Selected.Value = "Bajo", UpdateContext({card1_1:!card1_1}))
+                        PressedBorderColor: =RGBA(238, 204, 204, 1)
+                        PressedColor: =RGBA(184, 0, 0, 1)
+                        PressedFill: =
+                        Text: ="Añadir comentarios y acciones"
+                        Width: =352
+                        X: =635
+                        Y: =15
+                        ZIndex: =5
+
                 "'RM-02_card' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -131,7 +150,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =1
+                    Y: =2
                     ZIndex: =3
 
                     "'RM-02_label' As label":
@@ -192,7 +211,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =2
+                    Y: =3
                     ZIndex: =5
 
                     "'RM-03_label' As label":
@@ -252,7 +271,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =3
+                    Y: =4
                     ZIndex: =6
 
                     "'RM-04_label' As label":
@@ -311,7 +330,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =4
+                    Y: =5
                     ZIndex: =7
 
                     "'RM-05_label' As label":
@@ -371,7 +390,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =5
+                    Y: =6
                     ZIndex: =8
 
                     "'RM-06_label' As label":
@@ -432,7 +451,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =7
                     ZIndex: =9
 
                     "'RM-07_label' As label":
@@ -491,7 +510,7 @@
                     Height: =72
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =8
                     ZIndex: =10
 
                     "'RM-08_label' As label":
@@ -551,7 +570,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =8
+                    Y: =9
                     ZIndex: =11
 
                     next_button_F6 As arrow:
@@ -567,6 +586,83 @@
                         X: =612
                         Y: =32
                         ZIndex: =2
+
+                DataCard28 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =175
+                    Visible: =card1_1
+                    Width: =1366
+                    X: =0
+                    Y: =1
+                    ZIndex: =12
+
+                    Label1_70 As label:
+                        Color: =RGBA(33, 32, 32, 1)
+                        FontWeight: =FontWeight.Bold
+                        Height: =29
+                        Size: =14
+                        Text: ="Comentarios"
+                        Width: =182
+                        X: =38
+                        Y: =8
+                        ZIndex: =1
+
+                    Rectangle2_43 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =109
+                        Width: =561
+                        X: =38
+                        Y: =37
+                        ZIndex: =2
+
+                    Label1_71 As label:
+                        Color: =RGBA(33, 32, 32, 1)
+                        FontWeight: =FontWeight.Bold
+                        Height: =29
+                        Size: =14
+                        Text: ="Acciones de mitigación a trasladar al equipo de gestión"
+                        Width: =658
+                        X: =695
+                        Y: =8
+                        ZIndex: =3
+
+                    Rectangle2_44 As rectangle:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        BorderThickness: =1
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =109
+                        Width: =561
+                        X: =695
+                        Y: =37
+                        ZIndex: =4
+
+                    comments_21 As text:
+                        BorderColor: =RGBA(255, 255, 255, 1)
+                        BorderThickness: =0
+                        Default: =""
+                        Height: =85
+                        HoverBorderColor: =RGBA(255, 255, 255, 1)
+                        HoverFill: =RGBA(255, 255, 255, 1)
+                        Width: =541
+                        X: =49
+                        Y: =46
+                        ZIndex: =5
+
+                    actions_21 As text:
+                        BorderColor: =RGBA(255, 255, 255, 1)
+                        BorderThickness: =0
+                        Default: =""
+                        Height: =85
+                        HoverFill: =RGBA(255, 255, 255, 1)
+                        Width: =541
+                        X: =706
+                        Y: =48
+                        ZIndex: =6
 
         "'FooterContainer-F6' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
