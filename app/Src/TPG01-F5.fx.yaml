@@ -178,8 +178,8 @@
                         Tooltip: |
                             =
                         Width: =220
-                        X: =1102
-                        Y: =15
+                        X: =1114
+                        Y: =30
                         ZIndex: =2
 
                     "'RT-02_info' As icon.Information":
@@ -251,6 +251,8 @@
                         Default: ="Bajo"
                         Height: =42
                         Items: =["Bajo", "Medio", "Alto"]
+                        OnChange: |-
+                            =If('RT-03_risk'.Selected.Value = "Alto",UpdateContext({card3:false});)
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Tooltip: |
                             =
@@ -365,8 +367,8 @@
                         HoverColor: =RGBA(184, 0, 0, 1)
                         HoverFill: =
                         OnSelect: |-
-                            =If('RT-04_risk'.Selected.Value = "Medio", UpdateContext({card20:!card20}));
-                            If('RT-04_risk'.Selected.Value = "Bajo", UpdateContext({card20:!card20}))
+                            =If('RT-04_risk'.Selected.Value = "Medio", UpdateContext({cardRT4:!cardRT4}));
+                            If('RT-04_risk'.Selected.Value = "Bajo", UpdateContext({cardRT4:!cardRT4}))
                         PressedBorderColor: =RGBA(238, 204, 204, 1)
                         PressedColor: =RGBA(184, 0, 0, 1)
                         PressedFill: =
@@ -878,7 +880,7 @@
                         Y: =32
                         ZIndex: =2
 
-                DataCard1 As dataCard.blankCard:
+                DataCard_rt1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -955,7 +957,7 @@
                         Y: =51
                         ZIndex: =6
 
-                DataCard2 As dataCard.blankCard:
+                DataCard_rt2 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -1032,7 +1034,7 @@
                         Y: =50
                         ZIndex: =6
 
-                card3 As dataCard.blankCard:
+                DataCard_rt3 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -1648,12 +1650,13 @@
                         Y: =58
                         ZIndex: =6
 
-                DataCard29 As dataCard.blankCard:
+                DataCard_rt4 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =175
+                    Visible: =!cardRT4
                     Width: =1366
                     X: =0
                     Y: =8
