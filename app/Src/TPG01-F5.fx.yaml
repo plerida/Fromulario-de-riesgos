@@ -178,8 +178,8 @@
                         Tooltip: |
                             =
                         Width: =220
-                        X: =1114
-                        Y: =30
+                        X: =1100
+                        Y: =15
                         ZIndex: =2
 
                     "'RT-02_info' As icon.Information":
@@ -1040,7 +1040,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =171
-                    Visible: =card3
+                    Visible: =!card3
                     Width: =1366
                     X: =0
                     Y: =5
