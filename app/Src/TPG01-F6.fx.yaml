@@ -497,6 +497,8 @@
                         Default: ="Bajo"
                         Height: =42
                         Items: =["Bajo", "Medio", "Alto"]
+                        OnChange: |-
+                            =If('RM-06_risk'.Selected.Value = "Alto",UpdateContext({cardRM6:false});)
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Tooltip: |
                             =
@@ -531,6 +533,25 @@
                         Y: =72
                         ZIndex: =4
 
+                    Button2_15 As button:
+                        BorderColor: =RGBA(184, 0, 0, 1)
+                        Color: =RGBA(184, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =42
+                        HoverColor: =RGBA(184, 0, 0, 1)
+                        HoverFill: =
+                        OnSelect: |
+                            =If('RM-06_risk'.Selected.Value = "Medio", UpdateContext({cardRM6:!cardRM6}));
+                            If('RM-06_risk'.Selected.Value = "Bajo", UpdateContext({cardRM6:!cardRM6}))
+                        PressedBorderColor: =RGBA(238, 204, 204, 1)
+                        PressedColor: =RGBA(184, 0, 0, 1)
+                        PressedFill: =
+                        Text: ="Añadir comentarios y acciones"
+                        Width: =352
+                        X: =639
+                        Y: =15
+                        ZIndex: =5
+
                 "'RM-07_card' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -558,6 +579,8 @@
                         Default: ="Bajo"
                         Height: =42
                         Items: =["Bajo", "Medio", "Alto"]
+                        OnChange: |-
+                            =If('RM-07_risk'.Selected.Value = "Alto",UpdateContext({cardRM7:false});)
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Tooltip: |
                             =
@@ -588,6 +611,25 @@
                         Width: =1366
                         Y: =72
                         ZIndex: =4
+
+                    Button2_16 As button:
+                        BorderColor: =RGBA(184, 0, 0, 1)
+                        Color: =RGBA(184, 0, 0, 1)
+                        Fill: =RGBA(255, 255, 255, 1)
+                        Height: =42
+                        HoverColor: =RGBA(184, 0, 0, 1)
+                        HoverFill: =
+                        OnSelect: |
+                            =If('RM-07_risk'.Selected.Value = "Medio", UpdateContext({cardRM7:!cardRM7}));
+                            If('RM-07_risk'.Selected.Value = "Bajo", UpdateContext({cardRM7:!cardRM7}))
+                        PressedBorderColor: =RGBA(238, 204, 204, 1)
+                        PressedColor: =RGBA(184, 0, 0, 1)
+                        PressedFill: =
+                        Text: ="Añadir comentarios y acciones"
+                        Width: =352
+                        X: =639
+                        Y: =15
+                        ZIndex: =5
 
                 "'RM-08_card' As dataCard.blankCard":
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -1066,6 +1108,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =175
+                    Visible: =!cardRM6
                     Width: =1366
                     X: =0
                     Y: =11
