@@ -7616,19 +7616,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.actions_21.AccessibleLabel"
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.actions_21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.actions_21.AccessibleLabel",
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.actions_21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TPG01-F6",
-                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.actions_21"
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.actions_21"
               }
             }
           ],
@@ -7646,19 +7646,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.comments_21.AccessibleLabel"
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.comments_21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.comments_21.AccessibleLabel",
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.comments_21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TPG01-F6",
-                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard28.comments_21"
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm1.comments_21"
               }
             }
           ],
@@ -10419,6 +10419,66 @@
                 "member": "AccessibleLabel",
                 "module": "TPG01-F5",
                 "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard29.actions_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.comments_23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.comments_23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.comments_23"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.actions_23.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.actions_23.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TPG01-F6",
+                "type": "'TPG01-F6'.'ScreenContainer-F6'.'MainSectionContainer-F6'.canvas_F6.DataCard_rm2.actions_23"
               }
             }
           ],
