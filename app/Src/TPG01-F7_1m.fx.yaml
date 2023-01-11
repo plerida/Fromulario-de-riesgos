@@ -67,7 +67,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =53
                     Width: =1366
                     X: =0
                     Y: =0
@@ -90,8 +90,8 @@
                         ZIndex: =4
 
                     resumen_01 As input_text:
-                        X: =345
-                        Y: =22
+                        X: =355
+                        Y: =11
                         ZIndex: =5
 
                 criterio_valoracion_oferta As dataCard.blankCard:
@@ -159,7 +159,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =104
                     Width: =1366
                     X: =0
                     Y: =3
@@ -184,7 +184,7 @@
 
                     resumen_03 As input_text:
                         X: =352
-                        Y: =23
+                        Y: =11
                         ZIndex: =5
 
                 avales As dataCard.blankCard:
@@ -256,7 +256,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =13
+                    Y: =9
                     ZIndex: =11
 
                     next_button_F6_3 As arrow:
@@ -282,7 +282,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =10
                     ZIndex: =15
 
                     "'RM-02_label_5' As label":
@@ -311,7 +311,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =11
                     ZIndex: =16
 
                     "'RM-02_label_6' As label":
@@ -396,7 +396,7 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =13
                     ZIndex: =19
 
                     "'RM-02_label_9' As label":
