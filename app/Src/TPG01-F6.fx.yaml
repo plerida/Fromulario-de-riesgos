@@ -89,6 +89,8 @@
                         Default: ="Bajo"
                         Height: =42
                         Items: =["Bajo", "Medio", "Alto"]
+                        OnSelect: |-
+                            =If('RM-01_risk'.Selected.Value = "Alto",UpdateContext({cardRM1:false});)
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Tooltip: |
                             =
@@ -131,8 +133,8 @@
                         HoverColor: =RGBA(184, 0, 0, 1)
                         HoverFill: =
                         OnSelect: |
-                            =If('RM-01_risk'.Selected.Value = "Medio", UpdateContext({card1_1:!card1_1}));
-                            If('RM-01_risk'.Selected.Value = "Bajo", UpdateContext({card1_1:!card1_1}))
+                            =If('RM-01_risk'.Selected.Value = "Medio", UpdateContext({cardRM1:!cardRM1}));
+                            If('RM-01_risk'.Selected.Value = "Bajo", UpdateContext({cardRM1:!cardRM1}))
                         PressedBorderColor: =RGBA(238, 204, 204, 1)
                         PressedColor: =RGBA(184, 0, 0, 1)
                         PressedFill: =
@@ -593,7 +595,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =175
-                    Visible: =card1_1
+                    Visible: =!cardRM1
                     Width: =1366
                     X: =0
                     Y: =1

@@ -308,7 +308,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =5
+                    Y: =6
                     ZIndex: =6
 
                     "'RT-04_label' As label":
@@ -384,7 +384,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =7
                     ZIndex: =7
 
                     "'RT-05_label' As label":
@@ -1041,7 +1041,7 @@
                     Visible: =card3
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =5
                     ZIndex: =16
 
                     Label1_54 As label:
@@ -1118,7 +1118,7 @@
                     Visible: =card21
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =10
                     ZIndex: =17
 
                     Label1_56 As label:
@@ -1195,7 +1195,7 @@
                     Visible: =card20
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =11
                     ZIndex: =18
 
                     Label1_58 As label:
