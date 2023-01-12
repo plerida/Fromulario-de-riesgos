@@ -67,19 +67,19 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =53
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =0
                     ZIndex: =2
 
                     "'RM-01_label_3' As label":
-                        Height: =73
+                        Height: =72
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="Carga de trabajo TYPSA (persona/mes)"
-                        Width: =400
+                        Width: =347
                         ZIndex: =1
 
                     "'RM-01_separator_3' As rectangle":
@@ -89,24 +89,29 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_01 As input_text:
-                        X: =355
-                        Y: =11
-                        ZIndex: =5
+                    TextInput2 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =352
+                        Y: =14
+                        ZIndex: =6
 
                 criterio_valoracion_oferta As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =73
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =1
                     ZIndex: =3
 
                     "'RM-02_label_1' As label":
-                        FontWeight: =FontWeight.Semibold
+                        FontWeight: =FontWeight.Bold
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -127,7 +132,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =2
@@ -149,9 +154,14 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_02 As input_text:
+                    TextInput2_1 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =5
 
                 resumen3_card03 As dataCard.blankCard:
@@ -159,7 +169,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =104
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =3
@@ -182,9 +192,14 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_03 As input_text:
+                    TextInput2_2 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =5
 
                 avales As dataCard.blankCard:
@@ -192,14 +207,14 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =75
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =4
                     ZIndex: =9
 
                     "'RM-07_label_5' As label":
-                        FontWeight: =FontWeight.Semibold
+                        FontWeight: =FontWeight.Bold
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -221,7 +236,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =72
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =5
@@ -243,9 +258,14 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_04 As input_text:
+                    TextInput2_3 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =5
 
                 navigation_buttons_F6_3 As dataCard.blankCard:
@@ -256,7 +276,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =13
                     ZIndex: =11
 
                     next_button_F6_3 As arrow:
@@ -396,11 +416,11 @@
                     Visible: =If(Value(money.Text)>=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =13
+                    Y: =9
                     ZIndex: =19
 
                     "'RM-02_label_9' As label":
-                        FontWeight: =FontWeight.Semibold
+                        FontWeight: =FontWeight.Bold
                         Height: =95
                         PaddingLeft: |
                             =20
@@ -417,7 +437,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =75
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =7
@@ -432,9 +452,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_06 As input_text:
+                    TextInput2_4 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =2
 
                 resumen3_card07 As dataCard.blankCard:
@@ -442,7 +467,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =76
                     Width: =1366
                     X: =0
                     Y: =8
@@ -457,9 +482,14 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_07 As input_text:
+                    TextInput2_5 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =2
 
         "'FooterContainer-F6_3' As groupContainer.horizontalAutoLayoutContainer":
