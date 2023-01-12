@@ -89,7 +89,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    TextInput2 As text:
+                    resumen_input9 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
@@ -154,7 +154,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    TextInput2_1 As text:
+                    resumen_input2 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
@@ -192,7 +192,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    TextInput2_2 As text:
+                    resumen_input3 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
@@ -258,7 +258,7 @@
                         Y: =72
                         ZIndex: =4
 
-                    TextInput2_3 As text:
+                    resumen_input4 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
@@ -314,7 +314,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    checkbox_card10 As checkbox:
+                    resumen_checkbox1 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Text: =""
@@ -343,7 +343,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    checkbox_card09 As checkbox:
+                    resumen_checkbox2 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Text: =""
@@ -372,7 +372,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    checkbox_card11 As checkbox:
+                    resumen_checkbox3 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Text: =""
@@ -399,12 +399,17 @@
                         Size: =18
                         Text: ="Ley aplicable al contrato"
                         Width: =392
-                        X: =13
+                        Y: =1
                         ZIndex: =1
 
-                    resumen_05 As input_text:
+                    resumen_input6 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
                         X: =352
-                        Y: =11
+                        Y: =14
                         ZIndex: =2
 
                 resolucion_disputas As dataCard.blankCard:
@@ -452,7 +457,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    TextInput2_4 As text:
+                    resumen_input7 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
@@ -482,7 +487,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    TextInput2_5 As text:
+                    resumen_input8 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45

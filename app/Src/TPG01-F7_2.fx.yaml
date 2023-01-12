@@ -94,7 +94,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =50
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =1
@@ -116,23 +116,29 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_7 As input_text:
-                        X: =532
-                        ZIndex: =5
-
                     Label3_4 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =782
-                        Y: =5
+                        Y: =19
                         ZIndex: =6
+
+                    TextInput2_3 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =7
 
                 analisis_ec_card02 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =63
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =2
@@ -154,17 +160,22 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_2 As input_text:
-                        X: =534
-                        Y: =11
-                        ZIndex: =5
-
                     Label3 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =784
                         Y: =16
                         ZIndex: =6
+
+                    TextInput2_4 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =7
 
                 analisis_ec_card03 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -183,7 +194,7 @@
                             =20
                         Size: =18
                         Text: ="C. Costes reperccusión gastos Generales"
-                        Width: =352
+                        Width: =396
                         ZIndex: =1
 
                     "'RM-05_separator_6' As rectangle":
@@ -193,11 +204,6 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_3 As input_text:
-                        X: =532
-                        Y: =11
-                        ZIndex: =5
-
                     Label3_1 As label:
                         Size: =18
                         Text: ="Euro"
@@ -205,12 +211,22 @@
                         Y: =16
                         ZIndex: =6
 
+                    TextInput2_5 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =7
+
                 analisis_ec_card04 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =92
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =4
@@ -232,11 +248,6 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_4 As input_text:
-                        X: =532
-                        Y: =11
-                        ZIndex: =5
-
                     Label3_2 As label:
                         Size: =18
                         Text: ="Euro"
@@ -244,13 +255,23 @@
                         Y: =16
                         ZIndex: =6
 
+                    TextInput2_6 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =7
+
                 analisis_ec_card05 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =72
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =5
@@ -272,17 +293,22 @@
                         Y: =72
                         ZIndex: =4
 
-                    input_text_5 As input_text:
-                        X: =532
-                        Y: =11
-                        ZIndex: =5
-
                     Label3_3 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =782
                         Y: =16
                         ZIndex: =6
+
+                    TextInput2_7 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =7
 
                 navigation_buttons_F6_5 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -292,7 +318,7 @@
                     Height: =100
                     Width: =1366
                     X: =0
-                    Y: =20
+                    Y: =21
                     ZIndex: =11
 
                     next_button_F6_5 As arrow:
@@ -316,7 +342,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =82
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =6
@@ -332,9 +358,14 @@
                         Y: =2
                         ZIndex: =1
 
-                    input_text_6 As input_text:
-                        X: =532
-                        Y: =11
+                    TextInput2_8 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
                         ZIndex: =2
 
                 analisis_ec_card08 As dataCard.blankCard:
@@ -441,7 +472,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =140
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =7
@@ -455,12 +486,16 @@
                         Size: =18
                         Text: ="Coste total"
                         Width: =352
-                        Y: =35
                         ZIndex: =1
 
-                    input_text_8 As input_text:
-                        X: =532
-                        Y: =46
+                    TextInput2_9 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
                         ZIndex: =2
 
                 DataCard5 As dataCard.blankCard:
@@ -532,7 +567,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =140
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =13
@@ -565,7 +600,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =100
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =14
@@ -597,7 +632,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =120
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =15
@@ -632,7 +667,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =68
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =16
@@ -653,7 +688,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =17
@@ -681,7 +716,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =19
@@ -709,7 +744,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
+                    Height: =90
                     Width: =1366
                     X: =0
                     Y: =18
@@ -737,11 +772,11 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =105
+                    Height: =90
                     Visible: =If(Value(money.Text) >=2000000, true)
                     Width: =1366
                     X: =0
-                    Y: =21
+                    Y: =20
                     ZIndex: =30
 
                     "'RM-02_label_27' As label":
