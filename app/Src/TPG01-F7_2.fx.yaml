@@ -765,7 +765,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    Checkbox2_1 As checkbox:
+                    analisis_checkbox3 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Text: =""
@@ -784,7 +784,7 @@
                     Y: =18
                     ZIndex: =29
 
-                    Checkbox2_2 As checkbox:
+                    analisis_checkbox2 As checkbox:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         CheckboxBorderColor: =RGBA(191, 21, 37, 1)
                         Text: =""
@@ -823,17 +823,22 @@
                         Y: =16
                         ZIndex: =1
 
-                    input_text_16 As input_text:
-                        X: =511
-                        Y: =23
-                        ZIndex: =2
-
                     Label3_12 As label:
                         Size: =18
                         Text: ="Euro"
-                        X: =761
-                        Y: =33
+                        X: =800
+                        Y: =16
                         ZIndex: =3
+
+                    TextInput2_6 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =16
+                        ZIndex: =4
 
         "'FooterContainer-F6_4' As groupContainer.horizontalAutoLayoutContainer":
             AlignInContainer: =AlignInContainer.SetByContainer
