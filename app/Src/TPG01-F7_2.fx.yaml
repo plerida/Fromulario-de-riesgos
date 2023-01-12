@@ -125,7 +125,7 @@
 
                     analisis_1 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: ="12"
                         Height: =45
                         Size: =18
                         Width: =260
@@ -169,7 +169,7 @@
 
                     analisis_2 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: ="23"
                         Height: =45
                         Size: =18
                         Width: =260
@@ -213,7 +213,7 @@
 
                     analisis_3 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: ="12"
                         Height: =45
                         Size: =18
                         Width: =260
@@ -257,10 +257,12 @@
 
                     analisis_4 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
-                        Height: =45
+                        BorderThickness: =3
+                        Default: =Sum(Value(analisis_1.Text) + Value(analisis_2.Text) + Value(analisis_3.Text))
+                        FontWeight: =FontWeight.Bold
+                        Height: =42
                         Size: =18
-                        Width: =260
+                        Width: =262
                         X: =522
                         Y: =14
                         ZIndex: =7
@@ -302,7 +304,7 @@
 
                     analisis_5 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: ="5"
                         Height: =45
                         Size: =18
                         Width: =260
@@ -360,7 +362,7 @@
 
                     analisis_6 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: ="234"
                         Height: =45
                         Size: =18
                         Width: =260
@@ -505,7 +507,9 @@
 
                     analisis_10 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        BorderThickness: =3
+                        Default: =Sum(Value(analisis_4.Text) + Value(analisis_5.Text) + Value(analisis_6.Text))
+                        FontWeight: =FontWeight.Bold
                         Height: =45
                         Size: =18
                         Width: =260

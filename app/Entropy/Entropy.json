@@ -739,7 +739,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/12/2023 09:24:23",
+  "HeaderLastSavedDateTimeUTC": "01/12/2023 10:20:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0c07a5b4-d0a2-47f2-b9d6-d55d38055230": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/6cd06c08b2084536815b78529c061e5c\"",
@@ -2204,7 +2204,7 @@
     "send_paragraph": 672,
     "separador": 0,
     "TextInput1": 322,
-    "TextInput2_6": 395,
+    "TextInput2_6": 506,
     "TextInput4": 687,
     "TextInput4_1": 691,
     "title_F5": 16,
