@@ -304,7 +304,8 @@
 
                     analisis_5 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="5"
+                        Default: ="1"
+                        DisplayMode: =
                         Height: =45
                         Size: =18
                         Width: =260
@@ -351,24 +352,34 @@
                     ZIndex: =12
 
                     "'RM-08_label_6' As label":
-                        Height: =73
+                        Height: =88
                         PaddingLeft: |
                             =20
                         Size: =18
-                        Text: ="Contingencias"
-                        Width: =366
+                        Text: ="Contingencias (recomendable, no inferior al 10%; justificar, en caso de ser menor)"
+                        Width: =401
                         Y: =2
                         ZIndex: =1
 
                     analisis_6 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
+                        Color: =
                         Default: ="234"
                         Height: =45
+                        OnChange: =If(Value(analisis_6.Text) <= 10, RGBA(191, 21, 37, 100))
                         Size: =18
                         Width: =260
                         X: =522
                         Y: =14
                         ZIndex: =2
+
+                    Label3_13 As label:
+                        FontWeight: =FontWeight.Semibold
+                        Size: =18
+                        Text: ="%"
+                        X: =800
+                        Y: =16
+                        ZIndex: =3
 
                 analisis_ec_card08 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -508,7 +519,7 @@
                     analisis_10 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =3
-                        Default: =Sum(Value(analisis_4.Text) + Value(analisis_5.Text) + Value(analisis_6.Text))
+                        Default: =Sum(Value(analisis_4.Text) + Value(analisis_5.Text)) * Sum(1+ Value(analisis_6.Text))
                         FontWeight: =FontWeight.Bold
                         Height: =45
                         Size: =18

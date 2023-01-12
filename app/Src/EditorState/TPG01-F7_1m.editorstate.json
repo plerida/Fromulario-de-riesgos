@@ -1147,7 +1147,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "navigation_buttons_F6_3",
-      "ParentIndex": 13,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1374,7 +1374,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "resolucion_disputas",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
