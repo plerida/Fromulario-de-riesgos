@@ -389,17 +389,22 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_9 As input_text:
-                        X: =532
-                        Y: =11
-                        ZIndex: =2
-
                     Label3_5 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =782
                         Y: =16
                         ZIndex: =3
+
+                    TextInput2_10 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 analisis_ec_card09 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -422,17 +427,22 @@
                         Width: =392
                         ZIndex: =1
 
-                    input_text_10 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
                     Label3_6 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =779
                         Y: =15
                         ZIndex: =3
+
+                    TextInput2_11 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 analisis_ec_card10 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -455,17 +465,22 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_11 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
                     Label3_7 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =779
                         Y: =16
                         ZIndex: =3
+
+                    TextInput2_12 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 coste_total As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -518,17 +533,22 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_12 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
                     Label3_8 As label:
                         Size: =18
                         Text: ="Euro"
-                        X: =779
+                        X: =800
                         Y: =16
                         ZIndex: =3
+
+                    TextInput2_13 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 DataCard6 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -550,17 +570,22 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_13 As input_text:
-                        X: =529
-                        Y: =10
-                        ZIndex: =2
-
                     Label3_9 As label:
                         Size: =18
                         Text: ="Euro"
-                        X: =779
+                        X: =800
                         Y: =16
                         ZIndex: =3
+
+                    TextInput2_14 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 DataCard7 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -580,20 +605,24 @@
                         Size: =18
                         Text: ="Beneficio neto esperado"
                         Width: =352
-                        Y: =38
                         ZIndex: =1
-
-                    input_text_14 As input_text:
-                        X: =529
-                        Y: =49
-                        ZIndex: =2
 
                     Label3_10 As label:
                         Size: =18
                         Text: ="Euro"
-                        X: =779
-                        Y: =54
+                        X: =800
+                        Y: =16
                         ZIndex: =3
+
+                    TextInput2_15 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 DataCard8 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -615,17 +644,22 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_15 As input_text:
-                        X: =524
-                        Y: =11
-                        ZIndex: =2
-
                     Label3_11 As label:
                         Size: =18
                         Text: ="Euro"
-                        X: =774
+                        X: =800
                         Y: =16
                         ZIndex: =3
+
+                    TextInput2_16 As text:
+                        BorderColor: =RGBA(191, 21, 37, 1)
+                        Default: ="Entrada de texto"
+                        Height: =45
+                        Size: =18
+                        Width: =260
+                        X: =522
+                        Y: =14
+                        ZIndex: =4
 
                 DataCard9 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -657,7 +691,7 @@
                         Size: =18
                         Tooltip: |
                             =
-                        Width: =250
+                        Width: =262
                         X: =524
                         Y: =23
                         ZIndex: =2
