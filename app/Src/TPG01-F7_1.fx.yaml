@@ -132,7 +132,6 @@
                         Text: =""
                         Width: =46
                         X: =857
-                        Y: =6
                         ZIndex: =7
 
                     "'RM-04_label_11' As label":
@@ -274,7 +273,6 @@
                         Text: =""
                         Width: =46
                         X: =352
-                        Y: =12
                         ZIndex: =9
 
                     cb_7 As checkbox:
@@ -330,7 +328,6 @@
                         Text: =""
                         Width: =46
                         X: =352
-                        Y: =12
                         ZIndex: =9
 
                     cb_8 As checkbox:
