@@ -8300,7 +8300,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "title-F6_3",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8720,7 +8720,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "typsa_logo_F6_3",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

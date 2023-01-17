@@ -68,7 +68,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =73
+                    Height: =117
                     Width: =1366
                     X: =0
                     Y: =0
@@ -76,13 +76,12 @@
 
                     titulo As label:
                         FontWeight: =FontWeight.Bold
-                        Height: =84
+                        Height: =106
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: =First(project.SelectedItems).'Título de la oferta'
                         Width: =1366
-                        Y: =22
                         ZIndex: =1
 
                     "'RM-01_separator_1' As rectangle":
@@ -104,17 +103,18 @@
                     ZIndex: =5
 
                     "'RM-04_label_2' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="Precio"
                         Width: =352
-                        X: =38
+                        X: =43
                         ZIndex: =5
 
                     Label8_1 As label:
-                        FontWeight: =FontWeight.Semibold
                         Height: =50
                         Size: =18
                         Text: =money.Text
@@ -124,6 +124,8 @@
                         ZIndex: =13
 
                     "'RM-04_label_1' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
@@ -140,8 +142,8 @@
                         Size: =18
                         Text: ="$"
                         Width: =352
-                        X: =476
-                        Y: =50
+                        X: =454
+                        Y: =61
                         ZIndex: =15
 
                 resumen1_card03 As dataCard.blankCard:
@@ -149,86 +151,68 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =100
+                    Height: =120
                     Width: =1366
                     X: =0
                     Y: =2
                     ZIndex: =6
 
-                    "'RM-04_separator_1' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =4
-
-                    "'RM-04_label_6' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="UTE/JV"
-                        Width: =352
-                        X: =705
-                        ZIndex: =10
-
-                    moneda_1 As dropdown:
-                        BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =1
-                        ChevronBackground: =RGBA(191, 21, 37, 1)
-                        Default: ="Bajo"
-                        Height: =50
-                        Items: =["UTE", "JV", "Ninguno"]
-                        SelectionFill: =RGBA(191, 21, 37, 1)
-                        Size: =18
-                        Tooltip: |
-                            =
-                        Width: =250
-                        X: =1057
-                        Y: =12
-                        ZIndex: =11
-
                     "'RM-04_label_4' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="Fecha de presentación de la oferta"
                         Width: =304
-                        X: =40
-                        Y: =61
+                        X: =34
                         ZIndex: =12
 
-                    fecha_oferta As datepicker:
-                        BorderColor: =RGBA(0, 94, 146, 1)
-                        BorderThickness: =0
-                        DisabledBorderColor: =RGBA(255, 0, 0, 1)
-                        Height: =50
+                    "'RM-04_label_7' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
                         Size: =18
-                        Width: =250
-                        X: =67
-                        Y: =12
+                        Text: ="17/01/2022"
+                        Width: =304
+                        X: =34
+                        Y: =61
                         ZIndex: =13
 
-                resumen1_card04 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =43
-                    Width: =1366
-                    X: =0
-                    Y: =3
-                    ZIndex: =7
-
                     "'RM-05_label_1' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
                         Height: =73
                         PaddingLeft: |
                             =20
                         Size: =18
                         Text: ="Plazo de ejecución"
                         Width: =352
-                        ZIndex: =1
+                        X: =452
+                        ZIndex: =14
+
+                    "'RM-05_label_3' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="19/01/2022"
+                        Width: =352
+                        X: =452
+                        Y: =61
+                        ZIndex: =15
+
+                resumen1_card04 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =133
+                    Width: =1366
+                    X: =0
+                    Y: =3
+                    ZIndex: =7
 
                     "'RM-05_separator_1' As rectangle":
                         Fill: =RGBA(237, 237, 237, 1)
@@ -237,15 +221,73 @@
                         Y: =72
                         ZIndex: =4
 
-                    plazo_ejecucion As datepicker:
-                        BorderColor: =RGBA(0, 94, 146, 1)
-                        BorderThickness: =0
-                        DisabledBorderColor: =RGBA(255, 0, 0, 1)
-                        Height: =50
+                    "'RM-04_label_6' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
                         Size: =18
-                        Width: =250
-                        X: =317
-                        Y: =12
+                        Text: ="UTE/JV"
+                        Width: =352
+                        X: =38
+                        ZIndex: =5
+
+                    "'RM-04_label_8' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="UTE"
+                        Width: =304
+                        X: =38
+                        Y: =52
+                        ZIndex: =6
+
+                    "'RM-04_label_17' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Paticipación de tipsa"
+                        Width: =304
+                        X: =454
+                        ZIndex: =7
+
+                    "'RM-04_label_18' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="12%"
+                        Width: =304
+                        X: =470
+                        Y: =52
+                        ZIndex: =8
+
+                    "'RM-04_label_22' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="¿Somos líderes?"
+                        Width: =304
+                        X: =862
+                        ZIndex: =9
+
+                    "'RM-04_label_23' As label":
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Sí"
+                        Width: =304
+                        X: =876
+                        Y: =52
                         ZIndex: =10
 
                 resumen1_card05 As dataCard.blankCard:
@@ -305,7 +347,6 @@
 
                     Label6 As label:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        BorderThickness: =2
                         FocusedBorderThickness: =5
                         Height: =50
                         Size: =18
