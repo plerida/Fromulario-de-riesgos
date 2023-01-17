@@ -96,7 +96,7 @@
         "Name": "footer-label",
         "Parent": "footer",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 670,
+        "PublishOrderIndex": 676,
         "Rules": [
           {
             "Category": "Data",
@@ -372,7 +372,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638095450056692238",
+    "LastModifiedTimestamp": "638095472272198782",
     "Name": "footer",
     "Rules": [
       {
@@ -431,7 +431,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638095450056692238",
+  "LastModifiedTimestamp": "638095472272198782",
   "Name": "9a2cdb3fc7a544989aee29638c960d8a",
   "OverridableProperties": {},
   "Version": "638063789434853941"

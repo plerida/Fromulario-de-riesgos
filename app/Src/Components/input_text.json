@@ -58,7 +58,7 @@
         "Name": "Rectangle3",
         "Parent": "input_text",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 676,
+        "PublishOrderIndex": 682,
         "Rules": [
           {
             "Category": "Design",
@@ -259,7 +259,7 @@
         "Name": "Label5",
         "Parent": "input_text",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 677,
+        "PublishOrderIndex": 683,
         "Rules": [
           {
             "Category": "Data",

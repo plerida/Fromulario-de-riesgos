@@ -1,0 +1,80 @@
+descripcion_proyecto As screen:
+
+    "'HeaderContainer-F6_14' As groupContainer.horizontalAutoLayoutContainer":
+        Fill: =RGBA(191, 21, 37, 1)
+        Height: =78
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+        LayoutMode: =LayoutMode.Auto
+        PaddingRight: =30
+        Width: =1366
+        ZIndex: =1
+
+        "'title-F6_14' As label":
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            PaddingLeft: =15
+            Size: =24
+            Text: ="DESCRIPCIÓN DEL PROYECTO"
+            Width: =900
+            ZIndex: =1
+
+        typsa_logo_F6_11 As image:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderThickness: =1
+            Height: =65
+            Image: =logotypsa
+            Width: =65
+            ZIndex: =2
+
+    "'FooterContainer-F6_10' As groupContainer.horizontalAutoLayoutContainer":
+        Height: =50
+        LayoutMode: =LayoutMode.Auto
+        Width: =1366
+        Y: =718
+        ZIndex: =2
+
+        footer_F6_10 As footer:
+            LayoutMinHeight: =640
+            LayoutMinWidth: =640
+
+    back_button_F6_11 As arrow.backArrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate(Datos_generales)
+        X: =63
+        Y: =630
+        ZIndex: =6
+
+    TextInput1 As text:
+        BorderColor: =RGBA(191, 21, 37, 1)
+        Color: =RGBA(110, 110, 110, 0.71)
+        Default: ="Introduce una descripción para el proyecto"
+        Height: =272
+        Mode: =TextMode.MultiLine
+        Size: =18
+        Width: =1118
+        X: =82
+        Y: =248
+        ZIndex: =7
+
+    "'RM-04_label_9' As label":
+        FontWeight: =FontWeight.Semibold
+        Height: =100
+        PaddingLeft: |
+            =20
+        Size: =24
+        Text: ="Descripción del proyecto"
+        Width: =585
+        X: =63
+        Y: =120
+        ZIndex: =8
+
+    next_button_F5_1 As arrow:
+        Fill: =RGBA(191, 21, 37, 1)
+        OnSelect: =Navigate('TPG01-F5')
+        X: =1219
+        Y: =630
+        ZIndex: =9
+
