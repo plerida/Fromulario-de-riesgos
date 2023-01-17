@@ -321,7 +321,7 @@
                     BorderThickness: =0
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =59
+                    Height: =130
                     Width: =1366
                     X: =0
                     Y: =7
@@ -447,6 +447,7 @@
                         Size: =18
                         Text: ="Socio"
                         Width: =352
+                        X: =292
                         ZIndex: =1
 
                     resumen_socio As dropdown:
@@ -454,27 +455,16 @@
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
                         Default: ="Bajo"
-                        Height: =50
+                        Height: =47
                         Items: =["no vamos con socio", "vamos con socio internacional con sistema de gestión de la integridad o de reconocido prestigio", "vamos con socio local con sistema de gestión de la integridad", "vamos con socio sin gestión de sistemas de la integridad"]
                         SelectionFill: =RGBA(191, 21, 37, 1)
                         Size: =18
                         Tooltip: |
                             =
-                        Width: =993
-                        X: =317
-                        Y: =12
+                        Width: =655
+                        X: =564
+                        Y: =13
                         ZIndex: =2
-
-                resumen1_card09 As dataCard.blankCard:
-                    BorderColor: =RGBA(0, 0, 0, 1)
-                    BorderStyle: =BorderStyle.Solid
-                    DisplayMode: =DisplayMode.Edit
-                    Fill: =RGBA(0, 0, 0, 0)
-                    Height: =234
-                    Width: =1366
-                    X: =0
-                    Y: =9
-                    ZIndex: =13
 
                 DataCard1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
