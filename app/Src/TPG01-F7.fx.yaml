@@ -140,6 +140,16 @@
                         Y: =12
                         ZIndex: =12
 
+                    Label8_1 As label:
+                        FontWeight: =FontWeight.Semibold
+                        Height: =50
+                        Size: =18
+                        Text: =money.Text
+                        Width: =250
+                        X: =265
+                        Y: =11
+                        ZIndex: =13
+
                 resumen1_card03 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
