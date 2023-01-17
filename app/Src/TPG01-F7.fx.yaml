@@ -84,13 +84,6 @@
                         Width: =1366
                         ZIndex: =1
 
-                    "'RM-01_separator_1' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =106
-                        ZIndex: =4
-
                 resumen1_card02 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
@@ -111,7 +104,7 @@
                         Size: =18
                         Text: ="Precio"
                         Width: =352
-                        X: =336
+                        X: =206
                         Y: =16
                         ZIndex: =5
 
@@ -120,7 +113,7 @@
                         Size: =18
                         Text: =money.Text
                         Width: =250
-                        X: =350
+                        X: =220
                         Y: =89
                         ZIndex: =13
 
@@ -133,7 +126,7 @@
                         Size: =18
                         Text: ="Moneda"
                         Width: =352
-                        X: =747
+                        X: =804
                         Y: =16
                         ZIndex: =14
 
@@ -144,7 +137,7 @@
                         Size: =18
                         Text: ="$"
                         Width: =352
-                        X: =747
+                        X: =804
                         Y: =77
                         ZIndex: =15
 
@@ -153,7 +146,7 @@
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =120
+                    Height: =149
                     Width: =1366
                     X: =0
                     Y: =2
@@ -168,7 +161,7 @@
                         Size: =18
                         Text: ="Fecha de presentación de la oferta"
                         Width: =304
-                        X: =332
+                        X: =202
                         ZIndex: =12
 
                     "'RM-04_label_7' As label":
@@ -178,7 +171,7 @@
                         Size: =18
                         Text: ="17/01/2022"
                         Width: =304
-                        X: =332
+                        X: =202
                         Y: =61
                         ZIndex: =13
 
@@ -191,7 +184,7 @@
                         Size: =18
                         Text: ="Plazo de ejecución"
                         Width: =352
-                        X: =750
+                        X: =812
                         ZIndex: =14
 
                     "'RM-05_label_3' As label":
@@ -201,7 +194,7 @@
                         Size: =18
                         Text: ="19/01/2022"
                         Width: =352
-                        X: =750
+                        X: =812
                         Y: =61
                         ZIndex: =15
 
@@ -225,7 +218,7 @@
                         Size: =18
                         Text: ="UTE/JV"
                         Width: =352
-                        X: =38
+                        X: =216
                         ZIndex: =5
 
                     "'RM-04_label_8' As label":
@@ -235,7 +228,7 @@
                         Size: =18
                         Text: ="UTE"
                         Width: =304
-                        X: =38
+                        X: =216
                         Y: =52
                         ZIndex: =6
 
@@ -248,7 +241,7 @@
                         Size: =18
                         Text: ="Paticipación de tipsa"
                         Width: =304
-                        X: =454
+                        X: =814
                         ZIndex: =7
 
                     "'RM-04_label_18' As label":
@@ -258,50 +251,20 @@
                         Size: =18
                         Text: ="12%"
                         Width: =304
-                        X: =470
+                        X: =830
                         Y: =52
                         ZIndex: =8
-
-                    "'RM-04_label_22' As label":
-                        Color: =RGBA(191, 21, 37, 1)
-                        FontWeight: =FontWeight.Semibold
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="¿Somos líderes?"
-                        Width: =304
-                        X: =862
-                        ZIndex: =9
-
-                    "'RM-04_label_23' As label":
-                        Height: =73
-                        PaddingLeft: |
-                            =20
-                        Size: =18
-                        Text: ="Sí"
-                        Width: =304
-                        X: =876
-                        Y: =52
-                        ZIndex: =10
 
                 resumen1_card05 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(250, 250, 250, 1)
-                    Height: =71
+                    Height: =150
                     Width: =1366
                     X: =0
-                    Y: =4
+                    Y: =5
                     ZIndex: =8
-
-                    "'RM-06_separator_1' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =4
 
                     "'RM-04_label_3' As label":
                         FontWeight: =FontWeight.Bold
@@ -321,7 +284,7 @@
                     Height: =65
                     Width: =1366
                     X: =0
-                    Y: =5
+                    Y: =6
                     ZIndex: =9
 
                     "'RM-07_label_1' As label":
@@ -332,13 +295,6 @@
                         Text: ="País del cliente"
                         Width: =352
                         ZIndex: =1
-
-                    "'RM-07_separator_1' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =2
 
                     Label6 As label:
                         BorderColor: =RGBA(191, 21, 37, 1)
@@ -360,7 +316,7 @@
                     Height: =59
                     Width: =1366
                     X: =0
-                    Y: =6
+                    Y: =7
                     ZIndex: =10
 
                     "'RM-08_label_1' As label":
@@ -371,13 +327,6 @@
                         Text: ="Índice percepción corrupción"
                         Width: =280
                         ZIndex: =1
-
-                    "'RM-08_separator_1' As rectangle":
-                        Fill: =RGBA(237, 237, 237, 1)
-                        Height: =1
-                        Width: =1366
-                        Y: =72
-                        ZIndex: =4
 
                     Label1 As label:
                         FontWeight: =FontWeight.Semibold
@@ -450,7 +399,7 @@
                     Height: =107
                     Width: =1366
                     X: =0
-                    Y: =9
+                    Y: =10
                     ZIndex: =11
 
                     next_button_F6_1 As arrow:
@@ -475,7 +424,7 @@
                     Height: =46
                     Width: =1366
                     X: =0
-                    Y: =7
+                    Y: =8
                     ZIndex: =12
 
                     "'RM-07_label_2' As label":
@@ -511,7 +460,7 @@
                     Height: =234
                     Width: =1366
                     X: =0
-                    Y: =8
+                    Y: =9
                     ZIndex: =13
 
                     TextInput1 As text:
@@ -532,6 +481,40 @@
                         Text: ="Descripción del proyecto"
                         Width: =352
                         Y: =1
+                        ZIndex: =2
+
+                DataCard1 As dataCard.blankCard:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderStyle: =BorderStyle.Solid
+                    DisplayMode: =DisplayMode.Edit
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =168
+                    Width: =1366
+                    X: =0
+                    Y: =4
+                    ZIndex: =14
+
+                    "'RM-04_label_22' As label":
+                        Color: =RGBA(191, 21, 37, 1)
+                        FontWeight: =FontWeight.Semibold
+                        Height: =73
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="¿Somos líderes?"
+                        Width: =304
+                        X: =212
+                        ZIndex: =1
+
+                    "'RM-04_label_23' As label":
+                        Height: =64
+                        PaddingLeft: |
+                            =20
+                        Size: =18
+                        Text: ="Sí"
+                        Width: =304
+                        X: =212
+                        Y: =52
                         ZIndex: =2
 
         "'FooterContainer-F6_1' As groupContainer.horizontalAutoLayoutContainer":
