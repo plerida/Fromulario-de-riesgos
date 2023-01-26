@@ -1348,7 +1348,7 @@
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =175
-                    Visible: =card7
+                    Visible: =card8
                     Width: =1366
                     X: =0
                     Y: =15
