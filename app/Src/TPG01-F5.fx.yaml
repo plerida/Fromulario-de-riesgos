@@ -1188,7 +1188,7 @@
                         Y: =61
                         ZIndex: =6
 
-                DataCard_rt77 As dataCard.blankCard:
+                DataCard_rt7 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit

@@ -8126,19 +8126,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.comments_15.AccessibleLabel"
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.comments_15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.comments_15.AccessibleLabel",
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.comments_15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TPG01-F5",
-                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.comments_15"
+                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.comments_15"
               }
             }
           ],
@@ -8156,19 +8156,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.actions_15.AccessibleLabel"
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.actions_15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.actions_15.AccessibleLabel",
+                  "fullyQualifiedName": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.actions_15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "TPG01-F5",
-                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt77.actions_15"
+                "type": "'TPG01-F5'.'ScreenContainer-F5'.'MainSectionContainer-F5'.canvas_F5.DataCard_rt7.actions_15"
               }
             }
           ],
