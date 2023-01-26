@@ -158,3 +158,12 @@ Datos_generales As screen:
         Y: =249
         ZIndex: =15
 
+    Rectangle1 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =127
+        Width: =483
+        X: =94
+        Y: =468
+        ZIndex: =16
+
