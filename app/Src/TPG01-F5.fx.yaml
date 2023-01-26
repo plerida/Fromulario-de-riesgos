@@ -465,7 +465,7 @@
                     Height: =73
                     Width: =1366
                     X: =0
-                    Y: =11
+                    Y: =10
                     ZIndex: =8
 
                     "'RT-06_label' As label":
@@ -1188,16 +1188,16 @@
                         Y: =61
                         ZIndex: =6
 
-                DataCard_rt6 As dataCard.blankCard:
+                DataCard_rt77 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
                     Fill: =RGBA(0, 0, 0, 0)
                     Height: =175
-                    Visible: =
+                    Visible: =card7
                     Width: =1366
                     X: =0
-                    Y: =10
+                    Y: =13
                     ZIndex: =18
 
                     Label1_58 As label:
@@ -1265,7 +1265,7 @@
                         Y: =61
                         ZIndex: =6
 
-                DataCard_rt7 As dataCard.blankCard:
+                DataCard_rt6 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
                     BorderStyle: =BorderStyle.Solid
                     DisplayMode: =DisplayMode.Edit
@@ -1274,7 +1274,7 @@
                     Visible: =card22
                     Width: =1366
                     X: =0
-                    Y: =13
+                    Y: =11
                     ZIndex: =19
 
                     Label1_60 As label:

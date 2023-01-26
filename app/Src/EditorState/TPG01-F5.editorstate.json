@@ -9843,7 +9843,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCard_rt6",
-      "ParentIndex": 11,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9900,7 +9900,7 @@
       "StyleName": "",
       "Type": "ControlInfo"
     },
-    "DataCard_rt7": {
+    "DataCard_rt77": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "BorderColor",
@@ -9922,7 +9922,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Visible",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -9937,8 +9937,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "DataCard_rt7",
-      "ParentIndex": 14,
+      "Name": "DataCard_rt77",
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25146,7 +25146,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "RT-06_card",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -27325,7 +27325,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "RT-08_card",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
