@@ -404,7 +404,7 @@
 
                     resumen_input6 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260

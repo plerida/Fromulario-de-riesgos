@@ -79,7 +79,7 @@ Datos_generales As screen:
 
     money As text:
         BorderColor: =RGBA(191, 21, 37, 1)
-        Default: =""
+        Default: ="10000000000000"
         Format: =TextFormat.Number
         HoverBorderColor: =RGBA(184, 0, 0, 1)
         HoverFill: =RGBA(255, 255, 255, 1)

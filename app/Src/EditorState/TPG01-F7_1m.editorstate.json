@@ -3369,7 +3369,14 @@
     "resumen_input6": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Default",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"Entrada de texto\"",
+          "InvariantPropertyName": "Default",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Mode",
         "Format",
         "VirtualKeyboardMode",
@@ -9968,7 +9975,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "title-F6_4",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10388,7 +10395,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "typsa_logo_F6_4",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

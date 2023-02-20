@@ -843,7 +843,7 @@
                         Y: =16
                         ZIndex: =3
 
-                    TextInput2_6 As text:
+                    analisis_18 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         Default: ="Entrada de texto"
                         Height: =45
