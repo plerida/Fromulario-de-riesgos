@@ -374,17 +374,19 @@
                         Width: =352
                         ZIndex: =1
 
-                    input_text_31 As input_text:
-                        X: =454
-                        Y: =11
-                        ZIndex: =2
-
                     Label3_18 As label:
                         Size: =18
                         Text: ="Euro"
                         X: =704
                         Y: =16
                         ZIndex: =3
+
+                    campo_12 As text:
+                        Default: ="Entrada de texto"
+                        Width: =252
+                        X: =451
+                        Y: =16
+                        ZIndex: =4
 
                 analisis_ec_card09_1 As dataCard.blankCard:
                     BorderColor: =RGBA(0, 0, 0, 1)
@@ -444,7 +446,7 @@
                         Width: =352
                         ZIndex: =1
 
-                    resumen_socio_5 As dropdown:
+                    campo_11 As dropdown:
                         BorderColor: =RGBA(191, 21, 37, 1)
                         BorderThickness: =1
                         ChevronBackground: =RGBA(191, 21, 37, 1)
