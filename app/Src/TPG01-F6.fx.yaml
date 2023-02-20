@@ -932,8 +932,8 @@
                         Size: =14
                         Text: ="Acciones de mitigación a trasladar al equipo de gestión"
                         Width: =658
-                        X: =702
-                        Y: =18
+                        X: =708
+                        Y: =40
                         ZIndex: =3
 
                     Rectangle2_50 As rectangle:

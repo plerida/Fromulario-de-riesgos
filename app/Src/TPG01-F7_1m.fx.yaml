@@ -89,9 +89,9 @@
                         Y: =72
                         ZIndex: =4
 
-                    resumen_input9 As text:
+                    resumen_input1 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
@@ -156,7 +156,7 @@
 
                     resumen_input2 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
@@ -194,7 +194,7 @@
 
                     resumen_input3 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
@@ -260,7 +260,7 @@
 
                     resumen_input4 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
@@ -459,7 +459,7 @@
 
                     resumen_input7 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
@@ -489,7 +489,7 @@
 
                     resumen_input8 As text:
                         BorderColor: =RGBA(191, 21, 37, 1)
-                        Default: ="Entrada de texto"
+                        Default: =""
                         Height: =45
                         Size: =18
                         Width: =260
