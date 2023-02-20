@@ -934,7 +934,7 @@
                         Y: =39
                         ZIndex: =4
 
-                    comments_11 As text:
+                    comments_risk_1 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -946,7 +946,7 @@
                         Y: =51
                         ZIndex: =5
 
-                    actions_11 As text:
+                    actions_risk_1 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1011,7 +1011,7 @@
                         Y: =39
                         ZIndex: =4
 
-                    comments_12 As text:
+                    comments__risk_2 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1023,7 +1023,7 @@
                         Y: =48
                         ZIndex: =5
 
-                    actions_12 As text:
+                    actions_risk_2 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1088,7 +1088,7 @@
                         Y: =51
                         ZIndex: =4
 
-                    comments_13 As text:
+                    comments_risk_3 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1100,7 +1100,7 @@
                         Y: =63
                         ZIndex: =5
 
-                    actions_13 As text:
+                    actions_risk_3 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1165,7 +1165,7 @@
                         Y: =50
                         ZIndex: =4
 
-                    comments_14 As text:
+                    comments__risk_5 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1177,7 +1177,7 @@
                         Y: =59
                         ZIndex: =5
 
-                    actions_14 As text:
+                    actions_risk_5 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1242,7 +1242,7 @@
                         Y: =49
                         ZIndex: =4
 
-                    comments_15 As text:
+                    comments_risk_7 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1254,7 +1254,7 @@
                         Y: =61
                         ZIndex: =5
 
-                    actions_15 As text:
+                    actions_risk_7 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1319,7 +1319,7 @@
                         Y: =51
                         ZIndex: =4
 
-                    comments_16 As text:
+                    comments__risk_6 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1331,7 +1331,7 @@
                         Y: =60
                         ZIndex: =5
 
-                    actions_16 As text:
+                    actions_risk6 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1396,7 +1396,7 @@
                         Y: =49
                         ZIndex: =4
 
-                    comments_17 As text:
+                    comments_risk_8 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1408,7 +1408,7 @@
                         Y: =58
                         ZIndex: =5
 
-                    actions_17 As text:
+                    actions_risk_8 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1473,7 +1473,7 @@
                         Y: =41
                         ZIndex: =4
 
-                    comments_18 As text:
+                    comments_risk_9 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1485,7 +1485,7 @@
                         Y: =50
                         ZIndex: =5
 
-                    actions_18 As text:
+                    actions_risk_9 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1550,7 +1550,7 @@
                         Y: =47
                         ZIndex: =4
 
-                    comments_19 As text:
+                    comments_risk_10 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1562,7 +1562,7 @@
                         Y: =56
                         ZIndex: =5
 
-                    actions_19 As text:
+                    actions_risk_10 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1627,7 +1627,7 @@
                         Y: =43
                         ZIndex: =4
 
-                    comments_22 As text:
+                    comments_risk_4 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""
@@ -1639,7 +1639,7 @@
                         Y: =52
                         ZIndex: =5
 
-                    actions_22 As text:
+                    actions_risk_4 As text:
                         BorderColor: =RGBA(255, 255, 255, 1)
                         BorderThickness: =0
                         Default: =""

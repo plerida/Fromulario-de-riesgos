@@ -47,7 +47,7 @@ descripcion_proyecto As screen:
         Y: =630
         ZIndex: =6
 
-    TextInput1 As text:
+    description_project As text:
         BorderColor: =RGBA(191, 21, 37, 1)
         Color: =RGBA(110, 110, 110, 0.71)
         Default: ="Introduce una descripción para el proyecto"
